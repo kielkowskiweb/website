@@ -47,3 +47,27 @@ fields:
       source:
         type: pages
     label: Link
+- type: field_group
+  name: daniela_kielkowski
+  label: Daniela Kielkowski
+  fields:
+  - type: file
+    name: bild_links
+    label: Bild links
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: file
+    name: unterschrift
+    label: Unterschrift
+  - type: textarea
+    name: unterschrift_text
+    label: Unterschrift Text
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks

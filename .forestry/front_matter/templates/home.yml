@@ -1,0 +1,21 @@
+---
+label: Home
+hide_body: true
+is_partial: false
+fields:
+- type: field_group_list
+  name: slider
+  label: Slider
+  config:
+    min: '1'
+  fields:
+  - type: file
+    name: bild
+    label: Bild
+  - type: textarea
+    name: titel
+    label: Titel
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks

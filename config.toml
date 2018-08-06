@@ -1,0 +1,4 @@
+baseURL = "https://"
+languageCode = "de-de"
+theme = "koerperkonzepte"
+title = "Koerperkonzepte"

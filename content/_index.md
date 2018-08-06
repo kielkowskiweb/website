@@ -49,10 +49,13 @@ daniela_kielkowski:
   unterschrift: "/uploads/2018/08/06/signatur_Kielkowski.png"
   unterschrift_text: "<p>Daniela Kielkowski</p><p>Ernährungsmedizinerin</p>"
 termin:
-  titel: ''
-  content: ''
-  buttonbeschriftung: ''
+  titel: Termin vereinbaren
+  content: "<p>Vereinbaren Sie Ihren Termin einfach online! Im Jameda Portal können
+    Sie bequem und einfach einen </p><p>Termin vereinbaren. Und so funktionierts:
+    Folgen sie dem Link &gt;&gt; Suchen Sie sich einen passenden Termin &gt;&gt; Anfrage
+    senden &gt;&gt; Terminbestätigung abwarten - FERTIG!</p>"
+  buttonbeschriftung: In Kürze für SIE!
   link: ''
-  hintergrundbild: ''
+  hintergrundbild: "/uploads/2018/08/06/termin_bild.png"
 
 ---

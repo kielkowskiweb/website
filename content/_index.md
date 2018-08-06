@@ -26,6 +26,8 @@ content_oben: "<p>Wir sind eine Arztpraxis mit dem Tätigkeitsschwerpunkt Ernäh
   und allein eine langfristige, Konsequente Verhaltensumstellung. Alles andere führt
   zu weiterem, immer schwerer beherrschbarem Übergewicht.</p>"
 bereiche:
+- titel: Ernährungsmedizin
+  icon: "/uploads/2018/08/06/icon_ernaehrungsmedizin.png"
 - titel: Präventivmedizin
   icon: "/uploads/2018/08/06/icon_praeventivmedizin.png"
 - titel: Ernährungsberatung
@@ -36,13 +38,16 @@ bereiche:
   icon: "/uploads/2018/08/06/icon_infothek.png"
 - titel: Videosprechstunde
   icon: "/uploads/2018/08/06/icon_videosprechstunde.png"
-- titel: Ernährungsmedizin
-  icon: "/uploads/2018/08/06/icon_ernaehrungsmedizin.png"
 daniela_kielkowski:
-  bild_links: ''
-  content: ''
-  unterschrift: ''
-  unterschrift_text: ''
+  bild_links: "/uploads/2018/08/06/Daniela-Kielkowski.png"
+  content: "<p>Gesundheit ist unser allerhöchstes Gut, erst wenn sie uns nicht mehr
+    selbstverständlich gegeben ist, erkennen wir ihren Wert. Lassen Sie es nicht so
+    weit kommen. Ernährung ist so individuell wie jeder einzelne Mensch. Der Stoffwechsel
+    ein Spiegelbild des Alltages. Ernährung muss sich dem Alltag anpassen, nicht umgekehrt.
+    Das können Sie mit uns erlernen und verwirklichen.</p><p>Wir begleiten Sie gern
+    auf diesem Weg.</p>"
+  unterschrift: "/uploads/2018/08/06/signatur_Kielkowski.png"
+  unterschrift_text: "<p>Daniela Kielkowski</p><p>Ernährungsmedizinerin</p>"
 termin:
   titel: ''
   content: ''

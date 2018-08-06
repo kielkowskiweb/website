@@ -94,3 +94,20 @@ fields:
   - type: file
     name: hintergrundbild
     label: Hintergrundbild
+- type: field_group
+  name: kontakt
+  label: Kontakt
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: text
+    name: karte
+    label: Karte

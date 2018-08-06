@@ -19,3 +19,31 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+- type: text
+  name: titel_content_oben
+  label: Titel Content oben
+- type: textarea
+  name: content_oben
+  label: Content oben
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: field_group_list
+  name: bereiche
+  label: Bereiche
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+    config:
+      required: true
+  - type: file
+    name: icon
+    label: Icon
+  - type: select
+    name: link
+    config:
+      source:
+        type: pages
+    label: Link

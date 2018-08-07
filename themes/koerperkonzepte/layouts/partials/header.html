@@ -1,4 +1,4 @@
-{{ $t := .Site.GetPage "page" "global" "header.md" }} {{ $currentPage := . }}
+{{ $t := .Site.GetPage "header.md" }} {{ $currentPage := . }}
 <headers>
   <a href="/" id="logolink">
     <img class="logo" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "c_scale,h_200,f_auto" )}}" />

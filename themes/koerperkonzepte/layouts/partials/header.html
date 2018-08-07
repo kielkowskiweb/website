@@ -10,12 +10,3 @@
     {{ end }}
   </div>
   </header>
-  <button class="ui basic button" id="menutoggle">
-    <i class="big fitted icon bars"></i>
-  </button>
-  <div id="headermenumobile">
-    {{ range .Site.Menus.main }}
-    <a class="headermenuitem {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}"
-      href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-    {{ end }}
-  </div>

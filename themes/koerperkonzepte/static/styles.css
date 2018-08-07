@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #414141;
+  background: white;
+}
+body *:not(i) {
+  font-family: Arial, Helvetica, sans-serif important;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: #b2232b;
+}
+blockquote {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.8rem;
+}

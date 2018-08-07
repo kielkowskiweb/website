@@ -24,50 +24,6 @@
   <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/semantic.min.js"></script>
   <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/slippry.min.js"></script>
   <link rel="stylesheet" href="{{ $.Site.BaseURL }}/lib/slippry.min.css">
-  <script type="text/javascript">
-    $(function () {
-      $('.imggal img').click(function (el) {
-        var mid = el.currentTarget.dataset.modal;
-        var idx = el.currentTarget.dataset.idx;
-        $('#modal_' + mid).modal({ inverted: true }).modal('show');
-        $('#gal_' + mid).slippry({
-          // general elements & wrapper
-          slippryWrapper: '<div class="sy-box portfolio-slider" />', // wrapper to wrap everything, including pager
-
-          // options
-          adaptiveHeight: true, // height of the sliders adapts to current slide
-          start: idx + 1, // num (starting from 1), random
-          loop: true, // first -> last & last -> first arrows
-          captionsSrc: 'li',
-          captions: 'custom', // Position: overlay, below, custom, false
-          captionsEl: '.external-captions',
-
-          // transitions
-          transition: 'fade', // fade, horizontal, kenburns, false
-          easing: 'linear', // easing to use in the animation [(see... [jquery www])]
-          continuous: true,
-
-          // slideshow
-          auto: true,
-          pager: false,
-        });
-      });
-    });
-    $('.blbutton').click(function (el) {
-      $('#' + el.currentTarget.dataset.target).hide();
-    });
-    $('#menutoggle').click(function (el) {
-      console.log('----', el);
-      var t = $('#headermenumobile');
-      if (t.hasClass('vis')) {
-        t.removeClass('vis');
-        $('#menutoggle i').removeClass('times').addClass('bars');
-      } else {
-        t.addClass('vis');
-        $('#menutoggle i').addClass('times').removeClass('bars');
-      }
-    });
-  </script>
 </body>
 
 </html>

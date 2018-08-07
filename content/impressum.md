@@ -10,6 +10,5 @@ untertitel_header = ""
 weight = 2
 
 +++
-
 Design / Konzept  
 [elvira.beck | design](https://elvirabeck-design.de)

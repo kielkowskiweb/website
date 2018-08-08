@@ -1,8 +1,0 @@
-{{ define "main" }}
-<div class="subpage">
-  {{ partial "headerSub.html" . }} {{ range .Params.contentblocks }} {{ partial "blockImageContent.html" . }} {{end}}
-  <div class="footertxt">
-    {{.Params.footertext | safeHTML}}
-  </div>
-</div>
-{{end}}

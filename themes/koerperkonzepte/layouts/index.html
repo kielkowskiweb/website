@@ -1,8 +1,49 @@
 {{ define "main" }}
 <div id="home">
-  <div id="slogan">
-    <h1>{{.Title}}</h1>
+  <ul id="slider">
+    {{ range $x,$img := .Params.slider }}
+    <li>
+      <img src="{{partial "imgUrl" (dict "img" .bild "params" "f_auto" )}} " />
+    </li>
+    {{end}}
+  </ul>
+  <div class="decoWrapper">
+    <div class="dleft"></div>
+    <div class="dright"></div>
   </div>
+  <div class="ui container">
+    <h1>{{.Params.titel_content_oben}}</h1>
+    <div class="topcontent">
+      {{.Params.content_oben | safeHTML}}
+    </div>
+    <div class="ui three column grid">
+      {{ range $x,$img := .Params.bereiche }}
+      <div class="ui column icons">
+        <img class="ui image centered" src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_300,f_auto" )}} " />
+        <h2>{{.titel}}</h2>
+      </div>
+      {{end}}
+    </div>
+    <div class="kk">
 
+    </div>
+  </div>
+  <div class="ui container kki fluid">
+    <div class="ui container kk">
+      <div class="ui grid">
+        <div class="ui six wide column" style="background:url({{partial "imgUrl" (dict "img" .Params.daniela_kielkowski.bild_links "params" "c_scale,f_auto,w_300" )}}) center bottom no-repeat; background-size:contain;">
+
+        </div>
+        <div class="ui ten wide column content">
+          {{.Params.daniela_kielkowski.content | safeHTML}}
+          <img src="{{partial "imgUrl" (dict "img" .Params.daniela_kielkowski.unterschrift "params" "c_scale,w_200,f_auto" )}} " />
+          <div class="us">
+            {{.Params.daniela_kielkowski.unterschrift_text | safeHTML}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="deco"></div>
+  </div>
 </div>
 {{ end }}

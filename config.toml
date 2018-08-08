@@ -1,4 +1,4 @@
-baseURL = "https://localhost"
+baseURL = "https://localhost:1313"
 languageCode = "de-de"
 theme = "koerperkonzepte"
 title = "Koerperkonzepte"

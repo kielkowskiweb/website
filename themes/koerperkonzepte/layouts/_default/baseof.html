@@ -24,6 +24,30 @@
   <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/semantic.min.js"></script>
   <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/slippry.min.js"></script>
   <link rel="stylesheet" href="{{ $.Site.BaseURL }}/lib/slippry.min.css">
+  <script type="text/javascript">
+    $(function () {
+      $('#slider').slippry({
+        // general elements & wrapper
+        slippryWrapper: '<div class="sy-box topslider" />', // wrapper to wrap everything, including pager
+        elements: 'li', // elments cointaining slide content
+
+        // options
+        adaptiveHeight: false, // height of the sliders adapts to current 
+        captions: false,
+        loop: true,
+        // pager
+        pager: false,
+        start: 2,
+        // transitions
+        slideMargin: 0, // spacing between slides (in %)
+        useCSS: true,
+        transition: 'horizontal',
+
+        // slideshow
+        autoDirection: 'next'
+      });
+    });
+  </script>
 </body>
 
 </html>

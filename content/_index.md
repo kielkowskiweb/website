@@ -11,6 +11,7 @@ kontakt:
     \    \t8.00-15.00</p><p>Di/Do   \t11.00-18.00</p><p>Mi   \t\tnach Vereinbarung</p>"
   titel: Kontakt
 slider:
+- bild: "/uploads/2018/08/06/termin_bild.png"
 - bild: "/uploads/2018/08/06/slide1.png"
   titel: "<p>Mit Leichtigkeit </p><p>die SCHWERE los</p>"
 - bild: "/uploads/2018/08/06/slide2.png"

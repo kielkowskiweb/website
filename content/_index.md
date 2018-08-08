@@ -42,14 +42,14 @@ bereiche:
   icon: "/uploads/2018/08/06/icon_videosprechstunde.png"
 daniela_kielkowski:
   bild_links: "/uploads/2018/08/06/Daniela-Kielkowski.png"
-  content: "<p>Gesundheit ist unser allerhöchstes Gut, erst wenn sie uns nicht mehr
-    selbstverständlich gegeben ist, erkennen wir ihren Wert. Lassen Sie es nicht so
-    weit kommen. Ernährung ist so individuell wie jeder einzelne Mensch. Der Stoffwechsel
-    ein Spiegelbild des Alltages. Ernährung muss sich dem Alltag anpassen, nicht umgekehrt.
-    Das können Sie mit uns erlernen und verwirklichen.</p><p>Wir begleiten Sie gern
-    auf diesem Weg.</p>"
+  content: "<blockquote><p>Gesundheit ist unser allerhöchstes Gut, erst wenn sie uns
+    nicht mehr selbstverständlich gegeben ist, erkennen wir ihren Wert. Lassen Sie
+    es nicht so weit kommen. Ernährung ist so individuell wie jeder einzelne Mensch.
+    Der Stoffwechsel ein Spiegelbild des Alltages. </p><p>Ernährung muss sich dem
+    Alltag anpassen, nicht umgekehrt. </p><p>Das können Sie mit uns erlernen und verwirklichen.</p><p>Wir
+    begleiten Sie gern auf diesem Weg.</p></blockquote>"
   unterschrift: "/uploads/2018/08/06/signatur_Kielkowski.png"
-  unterschrift_text: "<p>Daniela Kielkowski</p><p>Ernährungsmedizinerin</p>"
+  unterschrift_text: "<p><strong>Daniela Kielkowski</strong><br><em>Ernährungsmedizinerin</em></p>"
 termin:
   titel: Termin vereinbaren
   content: "<p>Vereinbaren Sie Ihren Termin einfach online! Im Jameda Portal können

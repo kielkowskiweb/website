@@ -4,7 +4,7 @@ date: 2018-07-06 18:19:54 +0000
 type: page
 seo_description: ''
 kontakt:
-  karte: https://www.openstreetmap.de/karte.html?zoom=14&lat=52.50138&lon=13.31328&layers=000BTF
+  karte: https://www.openstreetmap.org/export/embed.html?bbox=13.28976631164551%2C52.48967943654932%2C13.336114883422853%2C52.51316523643532&amp;layer=mapnik&amp;marker=52.50142390483136%2C13.31294059753418
   content: "<p>Körperkonzepte  | Praxis für Ernährungsmedizin</p><p>Leibnizstraße
     56</p><p>10629 Berlin</p><p>Tel  030 - 88 92 20 - 55</p><p>Fax 030 - 88 92 20
     - 65</p><p>info@koerperkonzepte.com</p><p>www.koerperkonzepte.com</p><p>Sprechzeiten:</p><p>Mo/Fr

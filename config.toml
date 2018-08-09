@@ -1,4 +1,4 @@
-baseURL = "https://localhost:1313"
+baseURL = "https://kielkowskiweb.github.io"
 languageCode = "de-de"
 theme = "koerperkonzepte"
 title = "Koerperkonzepte"

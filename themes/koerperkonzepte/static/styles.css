@@ -28,6 +28,35 @@ header {
 header .logo {
   max-height: 11vh;
 }
+footer {
+  display: block;
+  background: #b2232b;
+}
+footer.ui.container {
+  margin: 1rem 0 0 0!important;
+}
+footer .footermenu {
+  display: flex!important;
+  justify-content: center;
+}
+footer .footermenu a {
+  color: white!important;
+  padding: 1rem;
+}
+@media (max-width: 767px) {
+  footer .footermenu a {
+    padding: 1rem 0.5rem;
+  }
+}
+#home .intro {
+  background: #e7e7e7;
+  text-align: center;
+  margin: -20px 0 0 0 !important;
+  padding: 2rem 0;
+}
+#home .intro strong {
+  color: #b2232b;
+}
 #home .topslider {
   border-bottom: 1px solid #b2232b;
 }
@@ -39,10 +68,21 @@ header .logo {
   margin: 2rem 0;
   letter-spacing: 0.2rem;
 }
+@media (max-width: 767px) {
+  #home h1 {
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+  }
+}
 #home .topcontent {
   columns: 2;
   column-gap: 2rem;
   margin-bottom: 4rem;
+}
+@media (max-width: 767px) {
+  #home .topcontent {
+    columns: 1;
+  }
 }
 #home .icons img {
   width: 50%;
@@ -54,16 +94,108 @@ header .logo {
   font-weight: normal;
   font-size: 1.5rem;
 }
+@media (max-width: 767px) {
+  #home .icons h2 {
+    font-size: 1rem;
+  }
+}
+#home .ui.container.kontakt {
+  background: #e7e7e7 !important;
+}
+#home .ui.column.map {
+  padding: 0 1rem;
+}
+#home .ui.column.map i.zoom.in.icon {
+  font-weight: 200!important;
+}
+#home .kontakt {
+  margin: 0!important;
+}
+#home .kontakt h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: 0.2rem;
+  line-height: 3rem;
+  border-bottom: 1px solid #b2232b;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+#home .kontakt .ui.column.content {
+  padding: 2rem;
+}
+@media (max-width: 767px) {
+  #home .kontakt .ui.column.content {
+    padding: 1rem !important;
+  }
+}
+#home .kontakt .ui.column.content .kcontent {
+  padding-left: 50px;
+  position: relative;
+  font-size: 1.1rem;
+}
+#home .kontakt .ui.column.content .kcontent p {
+  margin-bottom: 1.5rem;
+}
+#home .kontakt .ui.column.content .kcontent .decoWrapperR {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+@media (max-width: 767px) {
+  #home .term {
+    background: none!important;
+  }
+}
+#home .term .contentcol {
+  min-height: 400px;
+  padding-top: 5rem;
+}
+@media (max-width: 767px) {
+  #home .term .contentcol {
+    padding-top: 1rem;
+  }
+}
+#home .term .contentcol h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: 0.2rem;
+}
+#home .term .contentcol .content {
+  margin: 3rem 0;
+}
+@media (max-width: 767px) {
+  #home .term .contentcol .content {
+    margin: 1rem 0;
+  }
+}
+#home .term .contentcol .tbutton {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  background: #b2232b;
+  color: white;
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+@media (max-width: 767px) {
+  #home .term .contentcol .tbutton {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    padding: 0.5rem 1rem;
+  }
+}
 #home .kki {
   position: relative;
+  margin: 0!important;
 }
 #home .kki .kk {
-  background: #c8c8c8;
+  background: #e7e7e7;
   margin: 4rem 0 2rem 0;
 }
 #home .kki .kk .content {
   font-size: 1.5rem;
-  padding: 2rem 4rem 2rem 2rem;
+  padding: 2rem 4rem 2rem 2rem!important;
 }
 #home .kki .kk .content img {
   margin-top: 2rem;
@@ -72,11 +204,30 @@ header .logo {
   margin-top: 1rem;
   font-size: 1.2rem;
 }
+@media (max-width: 767px) {
+  #home .kki .kk .content {
+    font-size: 1rem;
+    padding: 1rem !important;
+  }
+  #home .kki .kk .content .us {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+  #home .kki .kk .content img {
+    margin-top: 1rem;
+  }
+}
 #home .kki .kk blockquote {
   font-size: 1.5rem;
   text-align: left;
   padding: 0;
   margin: 0;
+}
+@media (max-width: 767px) {
+  #home .kki .kk blockquote {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
 }
 #home .kki .kk blockquote p {
   margin-bottom: 0.5rem;
@@ -86,6 +237,13 @@ header .logo {
   font-size: 3rem;
   line-height: 3rem;
   margin-top: -1rem;
+}
+@media (max-width: 767px) {
+  #home .kki .kk blockquote p:first-child:first-letter {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: -0.71rem;
+  }
 }
 #home .kki .kk em {
   font-size: 1rem;
@@ -112,6 +270,7 @@ header .logo {
   position: absolute;
   left: 50%;
   margin-left: -20px;
+  z-index: 5;
 }
 .decoWrapper .dright {
   width: 0px;
@@ -120,6 +279,14 @@ header .logo {
   border-right: 20px solid transparent;
   position: absolute;
   left: 50%;
+  z-index: 5;
+}
+.decoWrapperR {
+  width: 0px;
+  height: 0px;
+  border-left: 20px solid #b2232b;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
 }
 @media only screen and (min-width: 401px) {
   .sy-box .sy-slides-wrap {

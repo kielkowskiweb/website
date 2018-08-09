@@ -18,3 +18,4 @@ fields:
   label: SEO Description
 pages:
 - content/impressum.md
+- content/datenschutz.md

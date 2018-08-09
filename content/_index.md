@@ -10,6 +10,7 @@ kontakt:
     - 65</p><p>info@koerperkonzepte.com</p><p>www.koerperkonzepte.com</p><p>Sprechzeiten:</p><p>Mo/Fr
     \    \t8.00-15.00</p><p>Di/Do   \t11.00-18.00</p><p>Mi   \t\tnach Vereinbarung</p>"
   titel: Kontakt
+  karte_bild: "/uploads/2018/08/09/map.png"
 slider:
 - bild: "/uploads/2018/08/08/slide4.png"
 - bild: "/uploads/2018/08/08/slide3.png"

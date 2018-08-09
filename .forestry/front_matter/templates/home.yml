@@ -19,6 +19,13 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+- type: textarea
+  name: intro
+  label: Intro
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
 - type: text
   name: titel_content_oben
   label: Titel Content oben

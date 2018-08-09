@@ -41,7 +41,7 @@ bereiche:
 - titel: Videosprechstunde
   icon: "/uploads/2018/08/06/icon_videosprechstunde.png"
 daniela_kielkowski:
-  bild_links: "/uploads/2018/08/06/Daniela-Kielkowski.png"
+  bild_links: "/uploads/2018/08/09/kielkowski.png"
   content: "<blockquote><p>Gesundheit ist unser allerhöchstes Gut, erst wenn sie uns
     nicht mehr selbstverständlich gegeben ist, erkennen wir ihren Wert. Lassen Sie
     es nicht so weit kommen. Ernährung ist so individuell wie jeder einzelne Mensch.

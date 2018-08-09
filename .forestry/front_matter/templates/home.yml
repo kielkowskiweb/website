@@ -111,5 +111,8 @@ fields:
   - type: text
     name: karte
     label: Karte
+  - type: file
+    name: karte_bild
+    label: Karte Bild
 pages:
 - content/_index.md

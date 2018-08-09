@@ -59,6 +59,5 @@ termin:
   buttonbeschriftung: In Kürze für SIE!
   link: ''
   hintergrundbild: "/uploads/2018/08/06/termin_bild.png"
-draft: true
 
 ---

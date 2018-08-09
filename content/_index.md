@@ -59,5 +59,11 @@ termin:
   buttonbeschriftung: In Kürze für SIE!
   link: ''
   hintergrundbild: "/uploads/2018/08/06/termin_bild.png"
+intro: "<p>Sie essen zu viel oder zu wenig? Sie haben zu viele und zu lange Diäten
+  gemacht? Sie bewegen sich zu wenig oder zu wenig? Sie haben zu viel Stress? Schlaflosig-
+  keit? Seelischer Kummer? Sie sind krank? All diese Gründe können einzeln und in
+  Kombination Übergewicht und Stoffwechselprobleme auslösen.</p><p><strong>Wir helfen
+  Ihnen bei der Ursachenforschung und suchen gemeinsam mit Ihnen alltagstaugliche
+  Therapiekonzepte</strong></p>"
 
 ---

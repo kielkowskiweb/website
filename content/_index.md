@@ -51,7 +51,7 @@ daniela_kielkowski:
     Unsicherheit, dauerhaft falschem Essverhalten und Ängste führen können. Und damit
     zu immer schlimmeren Übergewicht! Gesundheit ist unser allerhöchstes Gut, erst
     wenn sie uns nicht mehr selbstverständlich gegeben ist, erkennen wir ihren Wert.
-    Der Stoffwechsel ist ein</p><p>Spiegelbild des Alltages. Die Ernährung so individuell
+    Der Stoffwechsel ist ein Spiegelbild des Alltages. Die Ernährung so individuell
     wie jeder einzelne Mensch. Lernen Sie Ihren Stoffwechsel bei uns kennen und verstehen.</p><p></p><p>Wir
     begleiten Sie gern auf diesem Weg.</p><p></p><p>Ihre</p></blockquote>"
   unterschrift: "/uploads/2018/08/06/signatur_Kielkowski.png"

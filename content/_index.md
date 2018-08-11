@@ -18,15 +18,18 @@ slider:
 - bild: "/uploads/2018/08/06/slide2.png"
 titel_content_oben: Körperkonzepte
 content_oben: "<p>Wir sind eine Arztpraxis mit dem Tätigkeitsschwerpunkt Ernährungsmedizin
-  und Präventivmedizin. Seit vielen Jahren behandlen wir Menschen mit Übergewicht
-  und Stoffwechsel-Erkrankungen/Störungen. Unsere Ernährung ist das einzige wirksame
-  Anti-Anging, was es gibt. Unsere Ernährungs- und Lebensweise ist die Grundvoraussetzung
-  eines gesunden Lebens. Schon in jungen Jahren legen wir den Grundstein dafür wie
-  sich unser Körpergewicht mit 30, 40, 50 Jahren entwickeln wird und wie gesund wir
-  im Alter sein werden. Übergewicht schadet nicht nur den Gelenken, sondern ist der
-  Risikofaktor für Herzkreislauf- und Krebserkrankungen. Bei Übergewicht hilft einzig
-  und allein eine langfristige, konsequente Verhaltensumstellung. Alles andere führt
-  zu weiterem, immer schwerer beherrschbarem Übergewicht.</p>"
+  und Präventivmedizin. Seit vielen Jahren behandeln wir Menschen mit Gewichtsproblemen,
+  Soffwechsel-Erkrankungen, Stoffwechsel-Störungen unterschiedlichster Ursachen und
+  nach Adipositas- Operationen. Die Behauptung, das alle übergewichtigen Menschen
+  zu viel essen oder sich zu wenig bewegen ist nicht nur zu einfach, sondern auch
+  schlichtweg falsch.</p><p>Übergewicht hat viele Ursachen, die es für jeden einzelnen
+  Betroffenen gilt zu erforschen, um dann die individuellen Möglichkeiten der Therapie
+  zu definieren. Es lohnt sich immer, denn Übergewicht schadet nicht nur den Gelenken,
+  sondern ist ein grosser Risikofaktor für Herz-Kreislauf- und Krebserkrankungen.
+  Übergewicht verkürzt die Lebenszeit. Schon in jungen Lebensjahren legt unser Essverhalten
+  den Grundstein dafür, wie unser Stoffwechsel als erwachsener Mensch funktioniert.
+  Und als Erwachsener entscheidet unsere Lebensweise massgeblich über unsere Lebensqualität
+  im Alter. Wir behandeln Erwachsene, Kinder und Jugendliche.</p>"
 bereiche:
 - titel: Ernährungsmedizin
   icon: "/uploads/2018/08/06/icon_ernaehrungsmedizin.png"

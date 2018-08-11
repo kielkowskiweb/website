@@ -44,7 +44,7 @@ bereiche:
 - titel: Videosprechstunde
   icon: "/uploads/2018/08/06/icon_videosprechstunde.png"
 daniela_kielkowski:
-  bild_links: "/uploads/2018/08/09/kielkowski.png"
+  bild_links: "/uploads/2018/08/11/portrait_neu.png"
   content: "<blockquote><p>Diäten, Fastenkuren bei Übergewicht, Kalorienzählen werden
     schon seit Jahrzehnten als Lösung für Übergewicht gepredigt. Durch</p><p>meine
     jahrelange Praxistätigkeit weiss ich, das diese „ Lösungsansätze“ vielfach zu

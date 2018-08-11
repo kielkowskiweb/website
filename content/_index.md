@@ -49,10 +49,10 @@ daniela_kielkowski:
     seit Jahrzehnten als Lösung für Übergewicht gepredigt. Durch meine jahrelange
     Praxistätigkeit weiss ich, das diese „ Lösungsansätze“ vielfach zu Unsicherheit,
     dauerhaft falschem Essverhalten und Ängsten führen können. Und damit zu immer
-    schlimmerem Übergewicht! Gesundheit ist unser allerhöchstes Gut, erst wenn sie
-    uns nicht mehr selbstverständlich gegeben ist, erkennen wir ihren Wert. Der Stoffwechsel
-    ist ein Spiegelbild des Alltages. Die Ernährung so individuell wie jeder einzelne
-    Mensch. Lernen Sie Ihren Stoffwechsel bei uns kennen und verstehen.</p><p>Wir
+    schlimmerem Übergewicht! <br>Gesundheit ist unser allerhöchstes Gut, erst wenn
+    sie uns nicht mehr selbstverständlich gegeben ist, erkennen wir ihren Wert. Der
+    Stoffwechsel ist ein Spiegelbild des Alltages. Die Ernährung so individuell wie
+    jeder einzelne Mensch. Lernen Sie Ihren Stoffwechsel bei uns kennen und verstehen.</p><p>Wir
     begleiten Sie gern auf diesem Weg.</p><p>Ihre</p>"
   unterschrift: "/uploads/2018/08/06/signatur_Kielkowski.png"
   unterschrift_text: "<p><strong>Daniela Kielkowski</strong><br><em>Ernährungsmedizinerin</em></p>"

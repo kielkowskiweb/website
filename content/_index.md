@@ -13,7 +13,7 @@ kontakt:
 slider:
 - bild: "/uploads/2018/08/11/slide_kk_1.jpg"
 - bild: "/uploads/2018/08/11/slide_kk_2.jpg"
-- bild: "/uploads/2018/08/06/slide1.png"
+- bild: "/uploads/2018/08/11/slide_kk_3.jpg"
   titel: "<p>Mit Leichtigkeit </p><p>die SCHWERE los</p>"
 - bild: "/uploads/2018/08/06/slide2.png"
 titel_content_oben: Körperkonzepte

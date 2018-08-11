@@ -37,7 +37,7 @@ bereiche:
   icon: "/uploads/2018/08/06/icon_praeventivmedizin.png"
 - titel: Ernährungsberatung
   icon: "/uploads/2018/08/06/icon_ernaehrungsberung.png"
-- titel: Akupunktur
+- titel: Akkupunktur
   icon: "/uploads/2018/08/06/icon_akkupunktur.png"
 - titel: Infothek
   icon: "/uploads/2018/08/06/icon_infothek.png"

@@ -59,7 +59,7 @@ daniela_kielkowski:
 termin:
   titel: Termin vereinbaren
   content: "<p>Vereinbaren Sie Ihren Termin einfach online! Im Jameda Portal können
-    Sie bequem und einfach einen </p><p>Termin vereinbaren. Und so funktionierts:
+    Sie bequem und einfach einen Termin vereinbaren. </p><p>Und so funktionierts:
     Folgen sie dem Link &gt;&gt; Suchen Sie sich einen passenden Termin &gt;&gt; Anfrage
     senden &gt;&gt; Terminbestätigung abwarten - FERTIG!</p>"
   buttonbeschriftung: In Kürze für SIE!

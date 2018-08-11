@@ -218,7 +218,7 @@ footer .footermenu a {
   }
 }
 #home .kki .kk blockquote {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: left;
   padding: 0;
   margin: 0;
@@ -236,7 +236,7 @@ footer .footermenu a {
   float: left;
   font-size: 3rem;
   line-height: 3rem;
-  margin-top: -1rem;
+  margin-top: -1.4rem;
 }
 @media (max-width: 767px) {
   #home .kki .kk blockquote p:first-child:first-letter {
@@ -298,7 +298,7 @@ footer .footermenu a {
   }
 }
 .sy-box .sy-slides-crop {
-  overflow: visible;
+  overflow: hidden;
 }
 @media only screen and (max-width: 500px) {
   .sy-box .sy-controls li {

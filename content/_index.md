@@ -42,12 +42,15 @@ bereiche:
   icon: "/uploads/2018/08/06/icon_videosprechstunde.png"
 daniela_kielkowski:
   bild_links: "/uploads/2018/08/09/kielkowski.png"
-  content: "<blockquote><p>Gesundheit ist unser allerhöchstes Gut, erst wenn sie uns
-    nicht mehr selbstverständlich gegeben ist, erkennen wir ihren Wert. Lassen Sie
-    es nicht so weit kommen. Ernährung ist so individuell wie jeder einzelne Mensch.
-    Der Stoffwechsel ein Spiegelbild des Alltages. </p><p>Ernährung muss sich dem
-    Alltag anpassen, nicht umgekehrt. </p><p>Das können Sie mit uns erlernen und verwirklichen.</p><p>Wir
-    begleiten Sie gern auf diesem Weg.</p></blockquote>"
+  content: "<blockquote><p>Diäten, Fastenkuren bei Übergewicht, Kalorienzählen werden
+    schon seit Jahrzehnten als Lösung für Übergewicht gepredigt. Durch</p><p>meine
+    jahrelange Praxistätigkeit weiss ich, das diese „ Lösungsansätze“ vielfach zu
+    Unsicherheit, dauerhaft falschem Essverhalten und Ängste führen können. Und damit
+    zu immer schlimmeren Übergewicht! Gesundheit ist unser allerhöchstes Gut, erst
+    wenn sie uns nicht mehr selbstverständlich gegeben ist, erkennen wir ihren Wert.
+    Der Stoffwechsel ist ein</p><p>Spiegelbild des Alltages. Die Ernährung so individuell
+    wie jeder einzelne Mensch. Lernen Sie Ihren Stoffwechsel bei uns kennen und verstehen.</p><p></p><p>Wir
+    begleiten Sie gern auf diesem Weg.</p><p></p><p>Ihre</p></blockquote>"
   unterschrift: "/uploads/2018/08/06/signatur_Kielkowski.png"
   unterschrift_text: "<p><strong>Daniela Kielkowski</strong><br><em>Ernährungsmedizinerin</em></p>"
 termin:

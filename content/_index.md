@@ -19,13 +19,13 @@ slider:
 titel_content_oben: Körperkonzepte
 content_oben: "<p>Wir sind eine Arztpraxis mit dem Tätigkeitsschwerpunkt Ernährungsmedizin
   und Präventivmedizin. Seit vielen Jahren behandlen wir Menschen mit Übergewicht
-  und Stoffwechsel- Erkrankungen/Störungen. Unsere Ernährung ist das einzige wirksame
-  Anti-Anging, was es gibt.  Unsere Ernährungs- und Lebensweise ist die Grundvoraussetzung
+  und Stoffwechsel-Erkrankungen/Störungen. Unsere Ernährung ist das einzige wirksame
+  Anti-Anging, was es gibt. Unsere Ernährungs- und Lebensweise ist die Grundvoraussetzung
   eines gesunden Lebens. Schon in jungen Jahren legen wir den Grundstein dafür wie
-  sich unser Körpergewicht mit 30,40,50 Jahren entwickeln wird und wie gesund wir
+  sich unser Körpergewicht mit 30, 40, 50 Jahren entwickeln wird und wie gesund wir
   im Alter sein werden. Übergewicht schadet nicht nur den Gelenken, sondern ist der
   Risikofaktor für Herzkreislauf- und Krebserkrankungen. Bei Übergewicht hilft einzig
-  und allein eine langfristige, Konsequente Verhaltensumstellung. Alles andere führt
+  und allein eine langfristige, konsequente Verhaltensumstellung. Alles andere führt
   zu weiterem, immer schwerer beherrschbarem Übergewicht.</p>"
 bereiche:
 - titel: Ernährungsmedizin
@@ -59,11 +59,11 @@ termin:
   buttonbeschriftung: In Kürze für SIE!
   link: ''
   hintergrundbild: "/uploads/2018/08/06/termin_bild.png"
-intro: "<p>Sie essen zu viel oder zu wenig? Sie haben zu viele und zu lange Diäten
-  gemacht? Sie bewegen sich zu wenig oder zu wenig? Sie haben zu viel Stress? Schlaflosig-
-  keit? Seelischer Kummer? Sie sind krank? All diese Gründe können einzeln und in
-  Kombination Übergewicht und Stoffwechselprobleme auslösen.</p><p><strong>Wir helfen
-  Ihnen bei der Ursachenforschung und suchen gemeinsam mit Ihnen alltagstaugliche
+intro: "<p>Sie essen zu viel oder zu wenig? Sie haben zu viele und zu lange Diäten
+  gemacht? Sie bewegen sich zu wenig oder zu viel? Sie haben zu viel Stress? Sie leiden
+  unter Schlafstörungen? Seelischer Kummer? Sie sind krank? All diese Gründe können
+  einzeln und in Kombination Übergewicht und Stoffwechselprobleme auslösen.</p><p><strong>Wir
+  helfen Ihnen bei der Ursachenforschung und suchen gemeinsam mit Ihnen alltagstaugliche
   Therapiekonzepte</strong></p>"
 
 ---

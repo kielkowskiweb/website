@@ -11,7 +11,7 @@ kontakt:
   titel: Kontakt
   karte_bild: "/uploads/2018/08/09/map.png"
 slider:
-- bild: "/uploads/2018/08/08/slide4.png"
+- bild: "/uploads/2018/08/11/slide_kk_1.jpg"
 - bild: "/uploads/2018/08/08/slide3.png"
 - bild: "/uploads/2018/08/06/slide1.png"
   titel: "<p>Mit Leichtigkeit </p><p>die SCHWERE los</p>"

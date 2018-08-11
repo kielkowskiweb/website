@@ -48,8 +48,8 @@ daniela_kielkowski:
   content: "<blockquote><p>Diäten, Fastenkuren bei Übergewicht, Kalorienzählen werden
     schon seit Jahrzehnten als Lösung für Übergewicht gepredigt. Durch</p><p>meine
     jahrelange Praxistätigkeit weiss ich, das diese „ Lösungsansätze“ vielfach zu
-    Unsicherheit, dauerhaft falschem Essverhalten und Ängste führen können. Und damit
-    zu immer schlimmeren Übergewicht! Gesundheit ist unser allerhöchstes Gut, erst
+    Unsicherheit, dauerhaft falschem Essverhalten und Ängsten führen können. Und damit
+    zu immer schlimmerem Übergewicht! Gesundheit ist unser allerhöchstes Gut, erst
     wenn sie uns nicht mehr selbstverständlich gegeben ist, erkennen wir ihren Wert.
     Der Stoffwechsel ist ein Spiegelbild des Alltages. Die Ernährung so individuell
     wie jeder einzelne Mensch. Lernen Sie Ihren Stoffwechsel bei uns kennen und verstehen.</p><p></p><p>Wir

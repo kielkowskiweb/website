@@ -22,7 +22,7 @@ content_oben: "<p>Wir sind eine Arztpraxis mit dem Tätigkeitsschwerpunkt Ernäh
   Soffwechsel-Erkrankungen, Stoffwechsel-Störungen unterschiedlichster Ursachen und
   nach Adipositas- Operationen. Die Behauptung, das alle übergewichtigen Menschen
   zu viel essen oder sich zu wenig bewegen ist nicht nur zu einfach, sondern auch
-  schlichtweg falsch.</p><p>Übergewicht hat viele Ursachen, die es für jeden einzelnen
+  schlichtweg falsch.<br>Übergewicht hat viele Ursachen, die es für jeden einzelnen
   Betroffenen gilt zu erforschen, um dann die individuellen Möglichkeiten der Therapie
   zu definieren. Es lohnt sich immer, denn Übergewicht schadet nicht nur den Gelenken,
   sondern ist ein grosser Risikofaktor für Herz-Kreislauf- und Krebserkrankungen.

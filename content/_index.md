@@ -22,15 +22,15 @@ titel_content_oben: Körperkonzepte
 content_oben: "<p>Wir sind eine Arztpraxis mit dem Tätigkeitsschwerpunkt Ernährungsmedizin
   und Präventivmedizin. Seit vielen Jahren behandeln wir Menschen mit Gewichtsproblemen,
   Soffwechsel-Erkrankungen, Stoffwechsel-Störungen unterschiedlichster Ursachen und
-  nach Adipositas- Operationen. Die Behauptung, das alle übergewichtigen Menschen
-  zu viel essen oder sich zu wenig bewegen ist nicht nur zu einfach, sondern auch
-  schlichtweg falsch.<br>Übergewicht hat viele Ursachen, die es für jeden einzelnen
-  Betroffenen gilt zu erforschen, um dann die individuellen Möglichkeiten der Therapie
-  zu definieren. Es lohnt sich immer, denn Übergewicht schadet nicht nur den Gelenken,
-  sondern ist ein grosser Risikofaktor für Herz-Kreislauf- und Krebserkrankungen.
-  Übergewicht verkürzt die Lebenszeit. Schon in jungen Lebensjahren legt unser Essverhalten
-  den Grundstein dafür, wie unser Stoffwechsel als erwachsener Mensch funktioniert.
-  Und als Erwachsener entscheidet unsere Lebensweise massgeblich über unsere Lebensqualität
+  nach Adipositas-Operationen. Die Behauptung, das alle übergewichtigen Menschen zu
+  viel essen oder sich zu wenig bewegen ist nicht nur zu einfach, sondern auch schlichtweg
+  falsch.<br>Übergewicht hat viele Ursachen, die es für jeden einzelnen Betroffenen
+  gilt zu erforschen, um dann die individuellen Möglichkeiten der Therapie zu definieren.
+  Es lohnt sich immer, denn Übergewicht schadet nicht nur den Gelenken, sondern ist
+  ein grosser Risikofaktor für Herz-Kreislauf- und Krebserkrankungen. Übergewicht
+  verkürzt die Lebenszeit. Schon in jungen Lebensjahren legt unser Essverhalten den
+  Grundstein dafür, wie unser Stoffwechsel als erwachsener Mensch funktioniert. Und
+  als Erwachsener entscheidet unsere Lebensweise massgeblich über unsere Lebensqualität
   im Alter. Wir behandeln Erwachsene, Kinder und Jugendliche.</p>"
 bereiche:
 - titel: Ernährungsmedizin
@@ -72,6 +72,6 @@ intro: "<p>Sie essen zu viel oder zu wenig? Sie haben zu viele und zu lange Diä
   unter Schlafstörungen? Seelischer Kummer? Sie sind krank? All diese Gründe können
   einzeln und in Kombination Übergewicht und Stoffwechselprobleme auslösen.</p><p><strong>Wir
   helfen Ihnen bei der Ursachenforschung und suchen gemeinsam mit Ihnen alltagstaugliche
-  Therapiekonzepte</strong></p>"
+  Therapiekonzepte.</strong></p>"
 
 ---

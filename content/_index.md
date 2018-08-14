@@ -49,7 +49,7 @@ daniela_kielkowski:
   bild_links: "/uploads/2018/08/11/portrait_neu.png"
   content: "<blockquote><p>Diäten, Fastenkuren bei Übergewicht und Kalorien zählen
     werden schon seit Jahrzehnten als Lösung für Übergewicht gepredigt. Durch meine
-    jahrelange Praxistätigkeit weiss ich, das diese „ Lösungsansätze“ vielfach zu
+    jahrelange Praxistätigkeit weiss ich, dass diese „ Lösungsansätze“ vielfach zu
     Unsicherheit, dauerhaft falschem Essverhalten und Ängsten führen können. Und damit
     zu immer schlimmerem Übergewicht! <br>Gesundheit ist unser allerhöchstes Gut,
     erst wenn sie uns nicht mehr selbstverständlich gegeben ist, erkennen wir ihren

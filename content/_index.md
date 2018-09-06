@@ -19,19 +19,20 @@ slider:
 - bild: "/uploads/2018/08/11/slide_kk_3.jpg"
   titel: "<p>Mit Leichtigkeit </p><p>die SCHWERE los</p>"
 titel_content_oben: Körperkonzepte
-content_oben: "<p>Wir sind eine Arztpraxis mit dem Tätigkeitsschwerpunkt Ernährungsmedizin
+content_oben: "<p>Wir sind eine Arztpraxis mit dem Tätigkeitsschwerpunkt Ernährungs-
   und Präventivmedizin. Seit vielen Jahren behandeln wir Menschen mit Gewichtsproblemen,
-  Soffwechsel-Erkrankungen, Stoffwechsel-Störungen unterschiedlichster Ursachen und
-  nach Adipositas-Operationen. Die Behauptung, das alle übergewichtigen Menschen zu
-  viel essen oder sich zu wenig bewegen ist nicht nur zu einfach, sondern auch schlichtweg
-  falsch.<br>Übergewicht hat viele Ursachen, die es für jeden einzelnen Betroffenen
-  gilt zu erforschen, um dann die individuellen Möglichkeiten der Therapie zu definieren.
-  Es lohnt sich immer, denn Übergewicht schadet nicht nur den Gelenken, sondern ist
-  ein grosser Risikofaktor für Herz-Kreislauf- und Krebserkrankungen. Übergewicht
-  verkürzt die Lebenszeit. Schon in jungen Lebensjahren legt unser Essverhalten den
-  Grundstein dafür, wie unser Stoffwechsel als erwachsener Mensch funktioniert. Und
-  als Erwachsener entscheidet unsere Lebensweise massgeblich über unsere Lebensqualität
-  im Alter. Wir behandeln Erwachsene, Kinder und Jugendliche.</p>"
+  Soffwechsel-Erkrankungen, Stoffwechsel-Störungen mit unterschiedlichsten Ursachen.
+  Wir beraten ebenfalls Patienten nach Adipositas-Operationen z. B. nach einem Magenbypass,
+  Magenballon und Magenverkleinerung. Die Behauptung, dass alle übergewichtigen Menschen
+  zu viel essen oder sich zu wenig bewegen, ist nicht nur zu einfach, sondern auch
+  schlichtweg falsch.</p><p>Übergewicht hat viele Ursachen, die es für jeden einzelnen
+  Betroffenen zu erforschen gilt, um dann die individuellen Möglichkeiten der Therapie
+  zu definieren. Es lohnt sich immer, denn Übergewicht schadet nicht nur den Gelenken,
+  sondern ist ein grosser Risikofaktor für Herz-Kreislauf- und Krebserkrankungen.
+  Übergewicht verkürzt die Lebenszeit. Schon in jungen Lebensjahren legt unser Essverhalten
+  den Grundstein dafür, wie unser Stoffwechsel lebenslang funktioniert. Und als Erwachsener
+  entscheidet unsere Lebensweise massgeblich über unsere Lebensqualität im Alter.
+  Wir behandeln Erwachsene, Kinder und Jugendliche.</p>"
 bereiche:
 - titel: Ernährungsmedizin
   icon: "/uploads/2018/08/06/icon_ernaehrungsmedizin.png"
@@ -47,15 +48,15 @@ bereiche:
   icon: "/uploads/2018/08/06/icon_videosprechstunde.png"
 daniela_kielkowski:
   bild_links: "/uploads/2018/08/11/portrait_neu.png"
-  content: "<blockquote><p>Diäten, Fastenkuren bei Übergewicht und Kalorien zählen
+  content: "<blockquote><p>Diäten, Fastenkuren bei Übergewicht und Kalorienzählen
     werden schon seit Jahrzehnten als Lösung für Übergewicht gepredigt. Durch meine
-    jahrelange Praxistätigkeit weiss ich, dass diese „ Lösungsansätze“ vielfach zu
+    jahrelange Praxistätigkeit weiss ich, dass diese „Lösungsansätze“ vielfach zu
     Unsicherheit, dauerhaft falschem Essverhalten und Ängsten führen können. Und damit
-    zu immer schlimmerem Übergewicht! <br>Gesundheit ist unser allerhöchstes Gut,
-    erst wenn sie uns nicht mehr selbstverständlich gegeben ist, erkennen wir ihren
-    Wert. Der Stoffwechsel ist ein Spiegelbild des Alltages. Die Ernährung so individuell
-    wie jeder einzelne Mensch. Lernen Sie Ihren Stoffwechsel bei uns kennen und verstehen.</p><p>Wir
-    begleiten Sie gern auf diesem Weg.</p><p>Ihre</p></blockquote>"
+    zu immer schlimmerem Übergewicht!&nbsp;</p><p>Gesundheit ist unser allerhöchstes
+    Gut, erst wenn sie uns nicht mehr selbstverständlich gegeben ist, erkennen wir
+    ihren Wert. Der Stoffwechsel ist ein Spiegelbild des Alltags. Die Ernährung ist
+    so individuell wie jeder einzelne Mensch. Lernen Sie Ihren Stoffwechsel bei uns
+    kennen und verstehen.</p><p>Wir begleiten Sie gern auf diesem Weg.</p><p>Ihre</p></blockquote>"
   unterschrift: "/uploads/2018/08/06/signatur_Kielkowski.png"
   unterschrift_text: "<p><strong>Daniela Kielkowski</strong><br><em>Ernährungsmedizinerin</em></p>"
 termin:

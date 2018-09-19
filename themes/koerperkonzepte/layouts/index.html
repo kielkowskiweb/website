@@ -26,7 +26,7 @@
       <div class="ui column icons">
         <img class="ui image centered" src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_300,f_auto" )}} " />
         <h2>{{.titel}}</h2>
-        <div class="soon">(ab September online)</div>
+        <div class="soon">(ab Oktober online)</div>
       </div>
       {{end}}
     </div>
@@ -41,8 +41,7 @@
 
         </div>
         <div class="ui six wide mobile only column">
-          <img class="ui image fluid" src="{{partial "imgUrl" (dict "img" .Params.daniela_kielkowski.bild_links "params" "c_scale,f_auto,w_600" )}}"
-          />
+          <img class="ui image fluid" src="{{partial "imgUrl" (dict "img" .Params.daniela_kielkowski.bild_links "params" "c_scale,f_auto,w_600" )}}" />
         </div>
         <div class="ui ten wide column content">
           {{.Params.daniela_kielkowski.content | safeHTML}}

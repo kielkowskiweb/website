@@ -1,6 +1,7 @@
 +++
 bild_header = ""
 date = "2018-05-25T09:47:15+02:00"
+seo_description = ""
 titel_header = "Datenschutz"
 title = "Datenschutz"
 type = "page"
@@ -237,3 +238,9 @@ Wir klären Sie darüber auf, dass die Bereitstellung personenbezogener Daten zu
 Als verantwortungsbewusstes Unternehmen verzichten wir auf eine automatische Entscheidungsfindung oder ein Profiling.
 
 Diese Datenschutzerklärung wurde durch den Datenschutzerklärungs-Generator der DGD Deutsche Gesellschaft für Datenschutz GmbH, die als Externer Datenschutzbeauftragter Rosenheim tätig ist, in Kooperation mit dem Anwalt für IT- und Datenschutzrecht Christian Solmecke erstellt.
+
+13. Patientus Widget und Siegel
+
+    In diesem Abschnitt beschreiben wir, wie die personenbezogenen Daten von Patientus Widgets / Siegel verarbeitet werden. Ein Widget ist ein kleines Fenster, das veränderliche Informationen anzeigt. Auch unser Siegel funktioniert in ähnlicher Weise, d.h. es sieht nicht immer gleich aus, sondern die Anzeige ändert sich. Dabei wird der entsprechende Inhalt zwar auf der Homepage des Behandlers dargestellt, er wird aber in diesem Moment von unseren Servern abgerufen. Nur so kann immer der aktuelle Inhalt gezeigt werden, vor allem die jeweils aktuelle Bewertung. Dafür muss eine Datenverbindung von der aufgerufenen Seite (Homepage des Behandlers) zu uns aufgebaut werden und wir erhalten gewisse technische Daten (Zugriffsdaten), die nötig sind, damit der Inhalt ausgeliefert werden kann. Diese Daten werden aber nur für die Bereitstellung des Inhalts verwendet und nicht gespeichert oder anderweitig genutzt. Beim Anklicken des Siegels werden Sie gegebenenfalls auf unsere Webseite weitergeleitet.
+
+    Der Behandler verfolgt mit der Einbindung den Zweck und das berechtigte Interesse, aktuelle und korrekte Inhalte auf seiner Homepage darzustellen. Rechtsgrundlage ist Art 6 Abs. 1 f) DSGVO. Eine Speicherung von Zugriffsdaten erfolgt durch den Verantwortlichen der Behandlerhomepage aufgrund dieser Einbindung nicht. Bezüglich der sonstigen Datenverarbeitung durch die Behandlerhomepage können Sie sich über die dort abrufbare Datenschutzerklärung informieren. Aufgrund der Einbindung erfolgt, wie oben beschrieben, eine Datenübermittlung von Zugriffsdaten an Patientus sowie in der Folge an unsere Hostingdiensleister. Die Daten werden jedoch ausschließlich zur Bereitstellung der Inhalte genutzt und danach sofort wieder gelöscht. Weitere Informationen siehe [Patientus Datenschutz](https://www.patientus.de/datenschutz/#_Toc519156925)

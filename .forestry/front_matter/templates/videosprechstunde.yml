@@ -47,6 +47,6 @@ fields:
       format: html-blocks
 - type: textarea
   label: Patientus-Snippet
-  name: patientus-snippet
+  name: patientus_snippet
 pages:
 - content/Videosprechstunde.md

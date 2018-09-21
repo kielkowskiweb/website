@@ -4,7 +4,7 @@ hide_body: true
 is_partial: false
 fields:
 - type: file
-  name: titel-icon
+  name: titel_icon
   label: Titel-Icon
 - type: file
   name: bild_links

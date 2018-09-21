@@ -1,6 +1,7 @@
 @red:rgb(178,35,43);
 @grey:rgb(92,92,92);
 @grey_light:rgb(231,231,231 );
+@grey_light237:rgb(237,237,237 );
 @fontcolor:rgb(65,65,65);
 
 body{
@@ -44,6 +45,56 @@ footer{
       padding:1rem;
       @media (max-width: 767px){
         padding:1rem 0.5rem;
+      }
+    }
+  }
+}
+.subpage{
+  h2{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:2rem;
+    font-weight:normal;
+    letter-spacing: 0.2rem;
+  }
+  &.video{
+    .steps{
+      padding-top:3rem;
+      strong{
+        color:@red;
+      }
+      .step{
+        display:flex;
+        justify-content: flex-start;
+        h3{
+          color:@red;
+        }
+        img{
+          margin-right:4rem;
+        }
+        margin-bottom:2rem;
+      }
+    }
+    #topteaser{
+      background:@grey_light237;
+      border-bottom:1px solid @red;
+      > .ui.container{
+        >.ui.grid{
+          margin:0 -1rem!important;
+        }
+      }
+      .cr{
+        padding:2rem 0;
+        ul{
+          padding:0;
+          margin:0;
+          li{
+            list-style-type: disc;
+            list-style-position: outside;
+            margin-left:1em;
+            margin-bottom:1rem;
+          }
+        }
       }
     }
   }

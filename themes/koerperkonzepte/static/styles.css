@@ -48,6 +48,50 @@ footer .footermenu a {
     padding: 1rem 0.5rem;
   }
 }
+.subpage h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: 0.2rem;
+}
+.subpage.video .steps {
+  padding-top: 3rem;
+}
+.subpage.video .steps strong {
+  color: #b2232b;
+}
+.subpage.video .steps .step {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+.subpage.video .steps .step h3 {
+  color: #b2232b;
+}
+.subpage.video .steps .step img {
+  margin-right: 4rem;
+}
+.subpage.video #topteaser {
+  background: #ededed;
+  border-bottom: 1px solid #b2232b;
+}
+.subpage.video #topteaser > .ui.container > .ui.grid {
+  margin: 0 -1rem !important;
+}
+.subpage.video #topteaser .cr {
+  padding: 2rem 0;
+}
+.subpage.video #topteaser .cr ul {
+  padding: 0;
+  margin: 0;
+}
+.subpage.video #topteaser .cr ul li {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 1em;
+  margin-bottom: 1rem;
+}
 .subheader_service {
   background: #b2232b;
 }

@@ -5,7 +5,7 @@ date = "2018-09-21T20:00:30+02:00"
 draft = true
 erlaeuterung_nach_schritten = "<p><strong>FERTIG</strong></p><p>Und schon können Sie mich online in der Videosprechstunde besuchen — fast genauso wie in der Praxis!</p>"
 layout = "videosprechstunde"
-patientus-snippet = "<script type=\"text/javascript\" src=\"https://secure.patientus.de/public/scripts/calendar-snippet2.js.php\"></script>\n<script id=\"patientus-snippet\" type=\"text/javascript\">\nPATIENTUS_SNIPPET.init(535, 600);\nPATIENTUS_SNIPPET.addCounselor(\"64e42a17\");\nPATIENTUS_SNIPPET.render();\n</script>"
+patientus_snippet = "<script type=\"text/javascript\" src=\"https://secure.patientus.de/public/scripts/calendar-snippet2.js.php\"></script>\n<script id=\"patientus-snippet\" type=\"text/javascript\">\nPATIENTUS_SNIPPET.init(535, 600);\nPATIENTUS_SNIPPET.addCounselor(\"64e42a17\");\nPATIENTUS_SNIPPET.render();\n</script>"
 titel_icon = "/uploads/2018/09/21/icon_videosprechstunde_header.png"
 titel_unten = "Und so funktioniert`s ..."
 title = "Videosprechstunde"

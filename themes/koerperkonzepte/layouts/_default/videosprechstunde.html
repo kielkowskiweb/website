@@ -1,39 +1,44 @@
 {{ define "main" }}
-<div class="subpage about">
+<div class="subpage video">
   {{ partial "headerSubService.html" . }}
-  <div class="teaseroben ui container">
-    <div class="doubling stackable ui grid">
-      <div class="six wide column leftimgblock">
-        {{ range $x,$img := .Params.bilder_links }} {{if eq $x 0}}
-        <img class="bimg ui image fluid" src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,w_800,f_auto/c_fill,h_300,w_400" )}}" />
-        {{end}}{{end}}
-        <div class="smallimages ui three column stackable grid">
-          {{ range $x,$img := .Params.bilder_links }} {{if gt $x 0}}
-          <div class="column">
-            <img class="simg ui image fluid" src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,w_800,f_auto/c_fill,h_150,w_200" )}}" />
-          </div>
-          {{end}}{{end}}
+  <div id="topteaser">
+    <div class="ui container">
+      <div class=" stackable two column ui grid">
+        <div class="ui column" style="background:url({{partial "imgUrl" (dict "img" .Params.bild_links "params" "" )}}) right center no-repeat; background-size:cover;">
+        </div>
+        <div class="ui column cr">
+          {{.Params.content_rechts | safeHTML}}
         </div>
       </div>
-      <div class="ten wide column rightcontent">
-        {{.Params.content_rechts | safeHTML}}
-      </div>
     </div>
   </div>
-  <div class="galslogan">
-    {{.Params.slogan | safeHTML}}
+  <div class="decoWrapper">
+    <div class="dleft"></div>
+    <div class="dright"></div>
   </div>
+  <h2>{{.Params.titel_unten}}</h2>
   <div class="ui container">
-    <h4>{{.Params.titel_logos | safeHTML}}</h4>
-  </div>
-  <div class="ui container four column grid doubling logos">
-    {{ range $x,$img := .Params.logos }}
-    <div class="column">
-      <div class="imgw">
-        <img class="ui image fluid" src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,w_400,f_auto" )}}" />
+    <div class="ui stackable two column grid">
+      <div class="ui column">
+        <div class="steps">
+          {{range .Params.schritte}}
+          <div class="step">
+            <img src="{{partial "imgUrl" (dict "img" .icon "params" "" )}}" />
+            <div class="content">
+              <h3>{{.titel}}</h3>
+              {{.content | safeHTML}}
+            </div>
+          </div>
+          {{end}}
+          <div>
+            {{.Params.erlaeuterung_nach_schritten|safeHTML}}
+          </div>
+        </div>
+      </div>
+      <div class="ui column">
+        {{.Params.patientus_snippet|safeHTML}}
       </div>
     </div>
-    {{end}}
   </div>
 </div>
 {{end}}

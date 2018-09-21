@@ -48,6 +48,18 @@ footer .footermenu a {
     padding: 1rem 0.5rem;
   }
 }
+.subheader_service {
+  background: #b2232b;
+}
+.subheader_service .ui.container {
+  text-align: center;
+  padding: 2rem 0;
+}
+.subheader_service .ui.container h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
 #home .intro {
   background: #e7e7e7;
   text-align: center;

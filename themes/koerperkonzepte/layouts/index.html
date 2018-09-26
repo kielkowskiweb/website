@@ -22,12 +22,16 @@
       {{.Params.content_oben | safeHTML}}
     </div>
     <div class="ui three column grid doubling">
+      {{$p:=.}}
       {{ range $x,$img := .Params.bereiche }}
       <div class="ui column icons">
-        <img class="ui image centered" src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_300,f_auto" )}} " />
-        <h2>{{.titel}}</h2>
-        <div class="soon">(ab Oktober online)</div>
+        <a href="{{with .link}}{{relref $p $img.link }}{{end}}">
+          <img class="ui image centered" src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_300,f_auto" )}} " />
+          <h2>{{.titel}}</h2>
+          <div class="soon">{{.untertitel}}</div>
+        </a>
       </div>
+
       {{end}}
     </div>
     <div class="kk">

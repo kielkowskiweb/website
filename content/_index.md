@@ -49,10 +49,10 @@ bereiche:
 - titel: Infothek
   icon: "/uploads/2018/08/06/icon_infothek.png"
   untertitel: "(ab Oktober online)"
-- titel: Videosprechstunde NEU!!
+- titel: Videosprechstunde
   icon: "/uploads/2018/08/06/icon_videosprechstunde.png"
   link: Videosprechstunde.md
-  untertitel: NEU
+  untertitel: NEU !!
 daniela_kielkowski:
   bild_links: "/uploads/2018/08/11/portrait_neu.png"
   content: "<blockquote><p>Diäten, Fastenkuren bei Übergewicht und Kalorienzählen

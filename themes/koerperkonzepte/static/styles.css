@@ -55,6 +55,15 @@ footer .footermenu a {
   font-weight: normal;
   letter-spacing: 0.2rem;
 }
+@media (max-width: 767px) {
+  .subpage.video #patentius {
+    margin: 0 -1rem;
+  }
+  .subpage.video #patentius > div {
+    max-width: 100%!important;
+    max-height: 300px!important;
+  }
+}
 .subpage.video .steps {
   padding-top: 3rem;
 }
@@ -72,12 +81,20 @@ footer .footermenu a {
 .subpage.video .steps .step img {
   margin-right: 4rem;
 }
+@media (max-width: 767px) {
+  .subpage.video .steps .step img {
+    margin-right: 1rem!important;
+  }
+}
 .subpage.video #topteaser {
   background: #ededed;
   border-bottom: 1px solid #b2232b;
 }
 .subpage.video #topteaser > .ui.container > .ui.grid {
   margin: 0 -1rem !important;
+}
+.subpage.video #topteaser #imgcol {
+  min-height: 100px!important;
 }
 .subpage.video #topteaser .cr {
   padding: 2rem 0;
@@ -92,6 +109,11 @@ footer .footermenu a {
   margin-left: 1em;
   margin-bottom: 1rem;
 }
+@media (max-width: 767px) {
+  .subpage.video #topteaser .cr {
+    padding: 2rem 1rem!important;
+  }
+}
 .subheader_service {
   background: #b2232b;
 }
@@ -103,6 +125,17 @@ footer .footermenu a {
   text-align: center;
   color: white;
   text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  .subheader_service .ui.container {
+    text-align: left;
+    padding: 1rem 0;
+    background-size: auto 80%!important;
+  }
+  .subheader_service .ui.container h1 {
+    text-align: left;
+    font-size: 1.2rem;
+  }
 }
 #home .intro {
   background: #e7e7e7;

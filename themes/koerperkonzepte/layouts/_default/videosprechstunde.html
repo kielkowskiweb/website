@@ -4,7 +4,7 @@
   <div id="topteaser">
     <div class="ui container">
       <div class=" stackable two column ui grid">
-        <div class="ui column" style="background:url({{partial "imgUrl" (dict "img" .Params.bild_links "params" "" )}}) right center no-repeat; background-size:cover;">
+        <div id="imgcol" class="ui column" style="background:url({{partial "imgUrl" (dict "img" .Params.bild_links "params" "" )}}) right center no-repeat; background-size:cover;">
         </div>
         <div class="ui column cr">
           {{.Params.content_rechts | safeHTML}}
@@ -23,7 +23,9 @@
         <div class="steps">
           {{range .Params.schritte}}
           <div class="step">
-            <img src="{{partial "imgUrl" (dict "img" .icon "params" "" )}}" />
+            <div>
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "" )}}" />
+            </div>
             <div class="content">
               <h3>{{.titel}}</h3>
               {{.content | safeHTML}}
@@ -36,7 +38,9 @@
         </div>
       </div>
       <div class="ui column">
-        {{.Params.patientus_snippet|safeHTML}}
+        <div id="patentius">
+          {{.Params.patientus_snippet|safeHTML}}
+        </div>
       </div>
     </div>
   </div>

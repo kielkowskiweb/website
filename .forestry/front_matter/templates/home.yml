@@ -54,6 +54,9 @@ fields:
       source:
         type: pages
     label: Link
+  - type: text
+    name: untertitel
+    label: Untertitel
 - type: field_group
   name: daniela_kielkowski
   label: Daniela Kielkowski

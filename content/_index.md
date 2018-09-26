@@ -36,17 +36,23 @@ content_oben: "<p>Wir sind eine Arztpraxis mit dem Tätigkeitsschwerpunkt Ernäh
 bereiche:
 - titel: Ernährungsmedizin
   icon: "/uploads/2018/08/06/icon_ernaehrungsmedizin.png"
+  untertitel: "(ab Oktober online)"
 - titel: Präventivmedizin
   icon: "/uploads/2018/08/06/icon_praeventivmedizin.png"
+  untertitel: "(ab Oktober online)"
 - titel: Ernährungsberatung
   icon: "/uploads/2018/08/06/icon_ernaehrungsberung.png"
+  untertitel: "(ab Oktober online)"
 - titel: Akkupunktur
   icon: "/uploads/2018/08/06/icon_akkupunktur.png"
+  untertitel: "(ab Oktober online)"
 - titel: Infothek
   icon: "/uploads/2018/08/06/icon_infothek.png"
-- titel: Videosprechstunde
+  untertitel: "(ab Oktober online)"
+- titel: Videosprechstunde NEU!!
   icon: "/uploads/2018/08/06/icon_videosprechstunde.png"
   link: Videosprechstunde.md
+  untertitel: NEU
 daniela_kielkowski:
   bild_links: "/uploads/2018/08/11/portrait_neu.png"
   content: "<blockquote><p>Diäten, Fastenkuren bei Übergewicht und Kalorienzählen

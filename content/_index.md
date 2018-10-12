@@ -80,6 +80,6 @@ intro: "<p>Sie essen zu viel oder zu wenig? Sie haben zu viele und zu lange Diä
   unter Schlafstörungen? Seelischer Kummer? Sie sind krank? All diese Gründe können
   einzeln und in Kombination Übergewicht und Stoffwechselprobleme auslösen..</p><p><strong>Wir
   helfen Ihnen bei der Ursachenforschung und suchen gemeinsam mit Ihnen alltagstaugliche
-  Therapiekonzepte.</strong></p>"
+  Therapiekonzepte. </strong></p>"
 
 ---

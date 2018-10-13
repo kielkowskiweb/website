@@ -1,0 +1,15 @@
+---
+label: Akupunktur
+hide_body: true
+is_partial: false
+fields:
+- type: textarea
+  name: content_links
+  label: Content links
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: image_gallery
+  name: slider_rechts
+  label: Slider rechts

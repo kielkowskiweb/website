@@ -23,3 +23,27 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
+- type: textarea
+  name: content_rechts
+  label: Content rechts
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: bild_unter_content
+  label: Bild unter Content
+- type: textarea
+  name: content_unten_1
+  label: Content unten 1
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: textarea
+  name: content_unten_2
+  label: Content unten 2
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks

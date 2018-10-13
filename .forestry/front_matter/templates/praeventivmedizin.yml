@@ -47,3 +47,6 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
+- type: file
+  name: termin_hintergrund
+  label: Termin Hintergrund

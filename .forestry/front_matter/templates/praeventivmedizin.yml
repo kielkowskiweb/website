@@ -50,3 +50,5 @@ fields:
 - type: file
   name: termin_hintergrund
   label: Termin Hintergrund
+pages:
+- content/präventivmedizin.md

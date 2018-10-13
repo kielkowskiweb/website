@@ -55,6 +55,59 @@ footer .footermenu a {
   font-weight: normal;
   letter-spacing: 0.2rem;
 }
+.subpage.pm #intro {
+  margin-top: 1rem;
+  border-bottom: 1px solid #b2232b;
+  background: #ededed;
+}
+.subpage.pm .cr {
+  padding: 2rem 1rem!important;
+}
+.subpage.pm .cr h3 {
+  color: #b2232b;
+}
+.subpage.pm .cblock3 {
+  text-align: center;
+  padding: 2rem 0;
+  border-bottom: 1px solid #b2232b;
+}
+.subpage.pm .cblock3 strong {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #b2232b;
+  padding: 0 0.25rem;
+}
+.subpage.pm .cblock2 {
+  text-align: center;
+  background: #ededed;
+  padding: 2rem 0;
+  border-bottom: 1px solid #b2232b;
+}
+.subpage.pm .cblock2 h2 {
+  color: #b2232b;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.subpage.pm .cblock2 strong {
+  color: #b2232b;
+}
+.subpage.pm .cblock1 {
+  padding: 2rem 0 10rem 0;
+  border-bottom: 1px solid #b2232b;
+}
+.subpage.pm .cblock1 h3 {
+  font-size: 1.2rem;
+  color: #b2232b;
+}
+.subpage.pm .cblock1 ul {
+  padding: 0;
+}
+.subpage.pm .cblock1 ul li {
+  margin-left: 1em;
+}
 .subpage.akp .content {
   padding: 2rem;
 }

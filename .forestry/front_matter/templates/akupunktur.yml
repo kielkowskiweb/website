@@ -13,3 +13,5 @@ fields:
 - type: image_gallery
   name: slider_rechts
   label: Slider rechts
+pages:
+- content/akupunktur.md

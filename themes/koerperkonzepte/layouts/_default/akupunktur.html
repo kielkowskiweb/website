@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="subpage akp">
+  {{ partial "headerSubService.html" . }}
+  <div class="content">
+    <div class="ui container">
+      <div class="ui stackable two column grid">
+        <div class="ui column">
+          {{.Params.content_links | safeHTML}}
+        </div>
+        <div class="ui column">
+          <ul id="slider">
+            {{ range $x,$img := .Params.slider_rechts }}
+            <li>
+              <img src="{{partial "imgUrl" (dict "img" . "params" "f_auto" )}} " />
+            </li>
+            {{end}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{end}}

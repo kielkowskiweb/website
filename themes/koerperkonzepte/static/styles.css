@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif, serif;
   color: #414141;
   background: white;
 }
@@ -54,6 +54,12 @@ footer .footermenu a {
   font-size: 2rem;
   font-weight: normal;
   letter-spacing: 0.2rem;
+}
+.subpage.akp .content {
+  padding: 2rem;
+}
+.subpage.akp strong {
+  color: #b2232b;
 }
 @media (max-width: 767px) {
   .subpage.video #patentius {

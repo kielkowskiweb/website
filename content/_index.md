@@ -39,7 +39,8 @@ bereiche:
   untertitel: "(ab Oktober online)"
 - titel: Präventivmedizin
   icon: "/uploads/2018/08/06/icon_praeventivmedizin.png"
-  untertitel: "(ab Oktober online)"
+  untertitel: NEU !!
+  link: präventivmedizin.md
 - titel: Ernährungsberatung
   icon: "/uploads/2018/08/06/icon_ernaehrungsberung.png"
   untertitel: "(ab Oktober online)"

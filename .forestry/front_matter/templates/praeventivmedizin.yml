@@ -1,0 +1,25 @@
+---
+label: Praeventivmedizin
+hide_body: true
+is_partial: false
+fields:
+- type: file
+  name: titel_icon
+  label: Titel Icon
+- type: file
+  name: intro_bild
+  label: Intro Bild
+- type: textarea
+  name: intro_text
+  label: Intro Text
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: textarea
+  name: content_links
+  label: Content links
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks

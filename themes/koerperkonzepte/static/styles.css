@@ -108,6 +108,11 @@ footer .footermenu a {
 .subpage.pm .cblock1 ul li {
   margin-left: 1em;
 }
+@media (max-width: 767px) {
+  .subpage.pm .term {
+    min-height: 750px;
+  }
+}
 .subpage.akp .content {
   padding: 2rem;
 }

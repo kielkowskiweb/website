@@ -1,0 +1,15 @@
+---
+label: Ernaehrungsmedizin
+hide_body: true
+is_partial: false
+fields:
+- type: file
+  name: titel_icon
+  label: Titel Icon
+- type: textarea
+  name: intro
+  label: Intro
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks

@@ -68,7 +68,7 @@ daniela_kielkowski:
     kennen und verstehen.</p><p>Wir begleiten Sie gern auf diesem Weg.</p><p>Ihre</p></blockquote>"
   unterschrift: "/uploads/2018/08/06/signatur_Kielkowski.png"
   unterschrift_text: "<p><strong>Daniela Kielkowski</strong><br>Ärztin mit Tätigkeitsschwerpunkt
-    Ernährungsmedizin lt. curriculum ( DGEM)</p>"
+    Ernährungsmedizin lt. curriculum (DGEM)</p>"
 termin:
   titel: Termin vereinbaren
   content: "<p>Vereinbaren Sie Ihren Termin einfach online! Im Jameda Portal können

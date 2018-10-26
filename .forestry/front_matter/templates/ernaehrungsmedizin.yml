@@ -78,3 +78,19 @@ fields:
     - type: file
       name: icon
       label: Icon
+- type: field_group
+  name: termin
+  label: Termin
+  fields:
+  - type: text
+    name: titel
+    label: TItel
+  - type: text
+    name: beschriftung_download
+    label: Beschriftung Download
+  - type: file
+    name: bild_download
+    label: PDF Download
+  - type: file
+    name: icon_download
+    label: Icon Download

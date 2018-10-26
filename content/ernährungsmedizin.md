@@ -12,6 +12,11 @@ hintergrundbild = "/uploads/2018/10/26/bild_Mitte.png"
 [konzept]
 titel = "Unser Konzept für Ihren Erfolg"
 [[konzept.schritte]]
+content = "<ul><li><p>Laden Sie sich entweder einen Zugang zu unserer „Online-Ernährungserfassung“ oder unser „Ernährungsprotokoll“ herunter</p></li><li><p>Füllen Sie eines davon ca. 7 Tage genau aus und bringen Sie alles zu unserem 1. Vermessungs- und Besprechungstermin mit.</p></li></ul>"
+icon = "/uploads/2018/10/26/icon_protokoll.png"
+nummer = 2
+titel = "Ernährungsprotokoll ausfüllen"
+[[konzept.schritte]]
 content = "<p>Individuelle Anamneseerhebung mit Hilfe einer eigens für die Praxis entwickelten Software</p><p>Stoffwechselvermessung nach unterschiedlichen Messmethoden</p>"
 icon = "/uploads/2018/10/26/icon_anamese.png"
 nummer = 3

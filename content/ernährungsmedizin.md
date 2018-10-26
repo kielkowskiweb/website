@@ -10,8 +10,12 @@ title = "Ernährungsmedizin"
 content = "<p>Häufig werden für solche Erkrankungen nicht die Ernährungsweisen in die Therapie miteinbezogen, sondern nur symptomatisch behandelt. Oftmals führt dies allerdings nicht zu langfristigen Therapieerfolgen. Es werden immer neue Interventionen nötig, die den Stoffwechsel zusätzlich schwächen.</p><p>Viele Faktoren führen zu Übergewicht und es ist absolut falsch zu behaupten, dass alle übergewichtigen Menschen zu viel essen oder sich zu wenig bewegen. Leider vertreten diesen Standpunkt immer noch viele ärztliche Kollegen, was dazu führt, dass Patienten durch Verunsicherung  immer weniger essen und noch übergewichtiger werden. Auf den ärztlichen Befundberichten steht dann die Diagnose:</p><p><strong>\"Adipositas aufgrund überhöhter Kalorienzufuhr\"</strong></p><p>Natürlich entsteht Übergewicht zu einem großen Teil immer noch durch zu viel Energieaufnahme und sehr zuckerreichem Essen, aber lange nicht nur deshalb!! </p><p><strong>Lernen Sie bei uns Ihren Stoffwechsel kennen und erfahren Sie, was speziell bei Ihnen die Gründe für Ihre individuellen Probleme sein können.</strong></p>"
 hintergrundbild = "/uploads/2018/10/26/bild_Mitte.png"
 [konzept]
-schritte = []
-titel = ""
+titel = "Unser Konzept für Ihren Erfolg"
+[[konzept.schritte]]
+content = "<ul><li><p>Persönliche Auswertung aller Befunde unter ärztlicher Besprechung und Erstellung eines Therapiekonzeptes</p></li></ul>"
+icon = "/uploads/2018/10/26/icon_auswertung.png"
+nummer = 4
+titel = "Auswertung & Therapie"
 [termin]
 beschriftung_download = ""
 bild_download = ""

@@ -27,3 +27,27 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+- type: textarea
+  name: test_mitte
+  label: Test Mitte
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: bild
+  label: Bild
+- type: field_group
+  name: content_block
+  label: Content Block
+  fields:
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: file
+    name: hintergrundbild
+    label: Hintergrundbild

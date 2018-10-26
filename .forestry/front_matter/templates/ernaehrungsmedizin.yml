@@ -51,3 +51,30 @@ fields:
   - type: file
     name: hintergrundbild
     label: Hintergrundbild
+- type: field_group
+  name: konzept
+  label: Konzept
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+  - type: field_group_list
+    name: schritte
+    label: Schritte
+    fields:
+    - type: text
+      name: nummer
+      label: Nummer
+    - type: text
+      name: titel
+      label: Titel
+    - type: textarea
+      name: content
+      label: Content
+      config:
+        wysiwyg: true
+        schema:
+          format: html-blocks
+    - type: file
+      name: icon
+      label: Icon

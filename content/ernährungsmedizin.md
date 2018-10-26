@@ -18,6 +18,9 @@ bild_download = ""
 icon_download = ""
 titel = ""
 [[bereiche]]
+content = "<h3><strong>Fett</strong> Verbrennung</h3><p>Verbrennt der Stoffwechsel genug Fett? </p><p>Oder spart er?</p><p>(Bei Störungen kann der Körper unabhängig von Ernährung und Bewegung Fett einlagern)</p>"
+icon = "/uploads/2018/10/26/icon_fettverbrennung.png"
+[[bereiche]]
 content = "<h3>Stoffwechsel <strong>Leistung</strong></h3><p>Arbeitet der Stoffwechsel auf der ihm genetisch vorgegebenen Leistung oder ist er verlangsamt?</p>"
 icon = "/uploads/2018/10/26/icon_stoffwechselleistung.png"
 [[bereiche]]

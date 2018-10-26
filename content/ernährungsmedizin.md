@@ -1,5 +1,4 @@
 +++
-bereiche = []
 bild = ""
 date = "2018-10-26T18:46:45+02:00"
 draft = true
@@ -18,5 +17,8 @@ beschriftung_download = ""
 bild_download = ""
 icon_download = ""
 titel = ""
+[[bereiche]]
+content = "<h3>Stoffwechsel <strong>Änderung</strong></h3><p>Lässt sich der Stoffwechsel durch Veränderung des Nahrungs- und Verhaltensmuster günstig beeinflussen?</p>"
+icon = "/uploads/2018/10/26/icon_stoffwechseländerung.png"
 
 +++

@@ -18,35 +18,49 @@
       {{end}}
     </div>
   </div>
-  <div class="cblock1" style="background:url({{partial "imgUrl" (dict "img" .Params.bild_unter_content "params" "" )}}) center bottom no-repeat; background-size:20rem;">
+  <div id="mcontent">
     <div class="ui container">
-      <div class="ui two column stackable grid">
-        <div class="ui column">
-          {{.Params.content_links|safeHTML}}
-        </div>
-        <div class="ui column">
-          {{.Params.content_rechts|safeHTML}}
+      {{.Params.test_mitte|safeHTML}}
+    </div>
+  </div>
+  <div class="ui container imgwrap">
+    <img src="{{partial "imgUrl" (dict "img" .Params.bild "params" "" )}}" />
+  </div>
+  <div class="ui container fluid cblock" style="background:url({{partial "imgUrl" (dict "img" .Params.content_block.hintergrundbild "params" "f_auto" )}}) left center no-repeat; background-size:cover">
+    <div class="decoWrapper">
+      <div class="dleft"></div>
+      <div class="dright"></div>
+    </div>
+    <div class="ui container">
+      <div class="ui grid stackable">
+        <div class="ui six wide column"></div>
+        <div class="ui ten wide column">
+          {{.Params.content_block.content|safeHTML}}
         </div>
       </div>
     </div>
   </div>
-  <div class="cblock2">
-    <div class="ui container">
-      {{.Params.content_unten_1|safeHTML}}
+  <div class="ui container knzpt">
+    <h2>{{.Params.konzept.titel}}</h2>
+    {{range $idx,$elem := .Params.konzept.schritte}}
+    <!-- -->
+    {{ if modBool $idx 2 }}
+    <div class="ct left">
+      <div class="num">{{$elem.nummer}}</div>
+      <div class="txtw">
+        <h4>{{$elem.titel}}</h4>
+        {{$elem.content|safeHTML}}
+      </div>
+      <div class="icn">
+        <img src="{{partial "imgUrl" (dict "img" $elem.icon "params" "" )}}" />
+      </div>
     </div>
-  </div>
-  <div class="decoWrapper">
-    <div class="dleft"></div>
-    <div class="dright"></div>
-  </div>
-  <div class="cblock3">
-    <div class="ui container">
-      {{.Params.content_unten_2|safeHTML}}
-    </div>
-  </div>
-  <div class="decoWrapper">
-    <div class="dleft"></div>
-    <div class="dright"></div>
+    <!-- -->
+    {{else}}
+    <!-- -->
+    {{end}}
+    <!-- -->
+    {{end}}
   </div>
   <div class="ui container fluid term" style="background:url({{partial "imgUrl" (dict "img" .Params.termin_hintergrund "params" "c_scale,f_auto,w_400" )}}) right -50px bottom no-repeat;">
     <div class="ui container">

@@ -65,6 +65,67 @@ footer .footermenu a {
   color: #b2232b;
   letter-spacing: 0;
 }
+.subpage.em .cblock {
+  border-top: 1px solid #b2232b;
+  border-bottom: 1px solid #b2232b;
+}
+.subpage.em .cblock .container {
+  padding: 2rem 0;
+}
+.subpage.em .cblock strong {
+  color: #b2232b;
+}
+.subpage.em .knzpt h2 {
+  text-transform: none;
+  color: #b2232b;
+  letter-spacing: 0;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+.subpage.em .knzpt .ct {
+  display: flex;
+  justify-content: space-between;
+}
+.subpage.em .knzpt .ct .num {
+  color: #5c5c5c;
+  font-size: 3rem;
+  margin-top: 0.5rem;
+}
+.subpage.em .knzpt .ct h4 {
+  color: #b2232b;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.subpage.em .knzpt .ct.left {
+  padding-right: 50%;
+}
+.subpage.em .knzpt .ct.left .num {
+  margin-right: 1rem;
+}
+.subpage.em #mcontent {
+  background: #ededed;
+  border-top: 1px solid #b2232b;
+  border-bottom: 1px solid #b2232b;
+  padding: 2rem 0;
+  text-align: center;
+}
+.subpage.em #mcontent h3 {
+  color: #b2232b;
+}
+.subpage.em .bercol {
+  text-align: center;
+}
+.subpage.em .bercol p {
+  margin: 0;
+}
+.subpage.em .bercol h3 {
+  color: #b2232b;
+  font-weight: 200!important;
+  font-size: 1.8rem;
+}
+.subpage.em .bercol h3 strong {
+  font-weight: bold;
+}
 .subpage.pm #intro {
   margin-top: 1rem;
   border-bottom: 1px solid #b2232b;

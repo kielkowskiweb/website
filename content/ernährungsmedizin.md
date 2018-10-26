@@ -18,6 +18,9 @@ bild_download = ""
 icon_download = ""
 titel = ""
 [[bereiche]]
+content = "<h3>Stoffwechsel <strong>Leistung</strong></h3><p>Arbeitet der Stoffwechsel auf der ihm genetisch vorgegebenen Leistung oder ist er verlangsamt?</p>"
+icon = "/uploads/2018/10/26/icon_stoffwechselleistung.png"
+[[bereiche]]
 content = "<h3>Stoffwechsel <strong>Änderung</strong></h3><p>Lässt sich der Stoffwechsel durch Veränderung des Nahrungs- und Verhaltensmuster günstig beeinflussen?</p>"
 icon = "/uploads/2018/10/26/icon_stoffwechseländerung.png"
 

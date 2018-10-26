@@ -32,10 +32,10 @@ icon = "/uploads/2018/10/26/icon_auswertung.png"
 nummer = 4
 titel = "Auswertung & Therapie"
 [termin]
-beschriftung_download = ""
-bild_download = ""
-icon_download = ""
-titel = ""
+beschriftung_download = "Ernährungsprotokoll downloaden"
+bild_download = "/uploads/2018/10/26/Ernaehrungsprotokoll.pdf"
+icon_download = "/uploads/2018/10/26/icon_download.png"
+titel = "Termin vereinbaren"
 [[bereiche]]
 content = "<h3><strong>Fett</strong> Verbrennung</h3><p>Verbrennt der Stoffwechsel genug Fett? </p><p>Oder spart er?</p><p>(Bei Störungen kann der Körper unabhängig von Ernährung und Bewegung Fett einlagern)</p>"
 icon = "/uploads/2018/10/26/icon_fettverbrennung.png"

@@ -78,6 +78,8 @@ fields:
     - type: file
       name: icon
       label: Icon
+    config:
+      labelField: titel
 - type: field_group
   name: termin
   label: Termin

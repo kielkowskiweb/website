@@ -55,6 +55,16 @@ footer .footermenu a {
   font-weight: normal;
   letter-spacing: 0.2rem;
 }
+.subpage.em #intro {
+  text-align: center;
+  padding: 4rem 0 1rem 0;
+}
+.subpage.em #intro h2 {
+  text-transform: none;
+  font-weight: bold;
+  color: #b2232b;
+  letter-spacing: 0;
+}
 .subpage.pm #intro {
   margin-top: 1rem;
   border-bottom: 1px solid #b2232b;

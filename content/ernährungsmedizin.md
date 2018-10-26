@@ -12,6 +12,11 @@ hintergrundbild = "/uploads/2018/10/26/bild_Mitte.png"
 [konzept]
 titel = "Unser Konzept für Ihren Erfolg"
 [[konzept.schritte]]
+content = "<p>Individuelle Anamneseerhebung mit Hilfe einer eigens für die Praxis entwickelten Software</p><p>Stoffwechselvermessung nach unterschiedlichen Messmethoden</p>"
+icon = "/uploads/2018/10/26/icon_anamese.png"
+nummer = 3
+titel = "Anamese & Vermessung"
+[[konzept.schritte]]
 content = "<ul><li><p>Persönliche Auswertung aller Befunde unter ärztlicher Besprechung und Erstellung eines Therapiekonzeptes</p></li></ul>"
 icon = "/uploads/2018/10/26/icon_auswertung.png"
 nummer = 4

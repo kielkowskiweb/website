@@ -13,3 +13,17 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
+- type: field_group_list
+  name: bereiche
+  label: Bereiche
+  fields:
+  - type: file
+    label: Icon
+    name: icon
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks

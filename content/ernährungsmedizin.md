@@ -12,7 +12,7 @@ hintergrundbild = "/uploads/2018/10/26/bild_Mitte.png"
 [konzept]
 titel = "Unser Konzept für Ihren Erfolg"
 [[konzept.schritte]]
-content = "<p>Vereinbaren Sie unter der Rufnummer 030-88922055 oder über unseren &gt;&gt; Online- Kalender einen Beratungstermin</p>"
+content = "<ul><li><p>Vereinbaren Sie unter der Rufnummer 030-88922055 oder über unseren &gt;&gt; Online- Kalender einen Beratungstermin</p></li></ul>"
 icon = "/uploads/2018/10/26/icon_termin.png"
 nummer = 1
 titel = "Termin vereinbaren"
@@ -22,7 +22,7 @@ icon = "/uploads/2018/10/26/icon_protokoll.png"
 nummer = 2
 titel = "Ernährungsprotokoll ausfüllen"
 [[konzept.schritte]]
-content = "<p>Individuelle Anamneseerhebung mit Hilfe einer eigens für die Praxis entwickelten Software</p><p>Stoffwechselvermessung nach unterschiedlichen Messmethoden</p>"
+content = "<ul><li><p>Individuelle Anamneseerhebung mit Hilfe einer eigens für die Praxis entwickelten Software</p></li><li><p>Stoffwechselvermessung nach unterschiedlichen Messmethoden</p></li></ul>"
 icon = "/uploads/2018/10/26/icon_anamese.png"
 nummer = 3
 titel = "Anamese & Vermessung"

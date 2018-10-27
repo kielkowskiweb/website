@@ -36,7 +36,8 @@ content_oben: "<p>Wir sind eine Arztpraxis mit dem Tätigkeitsschwerpunkt Ernäh
 bereiche:
 - titel: Ernährungsmedizin
   icon: "/uploads/2018/08/06/icon_ernaehrungsmedizin.png"
-  untertitel: "(ab Oktober online)"
+  untertitel: NEU !!
+  link: ernährungsmedizin.md
 - titel: Präventivmedizin
   icon: "/uploads/2018/08/06/icon_praeventivmedizin.png"
   untertitel: NEU !!

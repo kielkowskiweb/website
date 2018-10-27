@@ -9,8 +9,8 @@
   <div class="ui container">
     <div class="ui three column stackable grid">
       {{ range .Params.bereiche }}
-      <div class="ui column">
-        <img src="{{partial "imgUrl" (dict "img" .icon "params" "" )}}" />
+      <div class="ui column bercol">
+        <img class="bercolimg" src="{{partial "imgUrl" (dict "img" .icon "params" "" )}}" />
         <div class="bercol">
           {{.content |safeHTML}}
         </div>
@@ -26,14 +26,14 @@
   <div class="ui container imgwrap">
     <img src="{{partial "imgUrl" (dict "img" .Params.bild "params" "" )}}" />
   </div>
-  <div class="ui container fluid cblock" style="background:url({{partial "imgUrl" (dict "img" .Params.content_block.hintergrundbild "params" "f_auto" )}}) left center no-repeat; background-size:cover">
+  <div class="ui container fluid cblock" style="background:url({{partial "imgUrl" (dict "img" .Params.content_block.hintergrundbild "params" "f_auto" )}}) left center no-repeat; background-size:contain">
     <div class="decoWrapper">
       <div class="dleft"></div>
       <div class="dright"></div>
     </div>
     <div class="ui container">
       <div class="ui grid stackable">
-        <div class="ui six wide column"></div>
+        <div class="ui six wide column tablet computer only"></div>
         <div class="ui ten wide column">
           {{.Params.content_block.content|safeHTML}}
         </div>
@@ -41,35 +41,76 @@
     </div>
   </div>
   <div class="ui container knzpt">
+    <div id="knzptdeco"></div>
     <h2>{{.Params.konzept.titel}}</h2>
     {{range $idx,$elem := .Params.konzept.schritte}}
     <!-- -->
-    {{ if modBool $idx 2 }}
-    <div class="ct left">
-      <div class="num">{{$elem.nummer}}</div>
-      <div class="txtw">
-        <h4>{{$elem.titel}}</h4>
-        {{$elem.content|safeHTML}}
+    <div class="desk">
+      {{ if modBool $idx 2 }}
+      <div class="ct left">
+        <div class="num">{{$elem.nummer}}</div>
+        <div class="txtw">
+          <h4>{{$elem.titel}}</h4>
+          {{$elem.content|safeHTML}}
+        </div>
+        <div class="icn">
+          <img src="{{partial "imgUrl" (dict "img" $elem.icon "params" "" )}}" />
+        </div>
       </div>
-      <div class="icn">
-        <img src="{{partial "imgUrl" (dict "img" $elem.icon "params" "" )}}" />
+      <!-- -->
+      {{else}}
+      <div class="ct right">
+        <div class="icn">
+          <img src="{{partial "imgUrl" (dict "img" $elem.icon "params" "" )}}" />
+        </div>
+        <div class="txtw">
+          <h4>{{$elem.titel}}</h4>
+          {{$elem.content|safeHTML}}
+        </div>
+        <div class="num">{{$elem.nummer}}</div>
+      </div>
+      <!-- -->
+      {{end}}
+    </div>
+    <div class="mobile">
+      <div class="ct left">
+        <div class="num">{{$elem.nummer}}</div>
+        <div class="txtw">
+          <h4>{{$elem.titel}}</h4>
+          {{$elem.content|safeHTML}}
+        </div>
+        <div class="icn">
+          <img src="{{partial "imgUrl" (dict "img" $elem.icon "params" "" )}}" />
+        </div>
       </div>
     </div>
     <!-- -->
-    {{else}}
-    <!-- -->
-    {{end}}
-    <!-- -->
     {{end}}
   </div>
-  <div class="ui container fluid term" style="background:url({{partial "imgUrl" (dict "img" .Params.termin_hintergrund "params" "c_scale,f_auto,w_400" )}}) right -50px bottom no-repeat;">
+  <div class="ui container fluid term">
+    <div class="decoWrapper">
+      <div class="dleft"></div>
+      <div class="dright"></div>
+    </div>
     <div class="ui container">
+      <h2>{{.Params.termin.titel}}</h2>
       <div class="ui grid stackable">
         <div class="ui ten wide column contentcol">
           <script src="https://www.jameda.de/api/otb-widget/?refid=81100194_1" async></script>
           <div id="jam-ota-info_81100194_1">
 
           </div>
+        </div>
+        <div class="ui six wide column download">
+          <a href="{{.Params.termin.bild_download}}" target="_blank">
+            <div class="imgw">
+              <img id="icn" src="{{partial "imgUrl" (dict "img" .Params.termin.icon_download "params" "f_auto,q_100,c_scale,w_20" )}}" />
+              <div id="pdf">
+                <img src="{{partial "imgUrl" (dict "img" .Params.termin.bild_download "params" "f_auto,c_scale,w_200" )}}" />
+              </div>
+            </div>
+            <div class="dlabel">{{.Params.termin.beschriftung_download}}</div>
+          </a>
         </div>
       </div>
     </div>

@@ -70,6 +70,11 @@ footer{
     .cblock{
       border-top:1px solid @red;
       border-bottom:1px solid @red;
+      background-color:@grey_light!important;
+      margin:0!important;
+      @media (max-width: 767px){
+       background-image: none!important;
+      }
       .container{
         padding:2rem 0;
       }
@@ -77,7 +82,88 @@ footer{
         color:@red;
       }
     }
+    .imgwrap{
+      img{
+        max-width:100%;
+      }
+    }
+    .term{
+      background:@grey_light237;
+      border-top:1px solid @red;
+      margin-bottom:-1rem;
+      @media (max-width: 767px){
+        margin:0!important;
+      }
+      h2{
+        font-weight:bold;
+        color:@red;
+        letter-spacing: 0;
+        margin:2rem 0;
+      }
+      .download{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        a{color:@red;}
+      }
+      .imgw{
+        position:relative;
+        #pdf{
+          -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+          -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+          box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+          img{
+            margin:0;
+            padding:0;
+            display:inline;
+            clear:both;
+            float:none;
+          }
+        }
+        #icn{
+          position:absolute;
+          top:50%;
+          left:50%;
+          margin-top:-10px;
+          margin-left:-10px;
+          z-index:9;
+        }
+        margin-bottom:1rem;
+      }
+    }
     .knzpt{
+      .desk{
+        @media (max-width: 767px){
+          display:none;
+        }
+      }
+      .mobile{
+        display:block;
+        @media (min-width: 767px){
+          display:none;
+        }
+        overflow-x:hidden;
+        .ct{
+          margin-bottom:2rem;
+        }
+      }
+      position:relative;
+      overflow-y:hidden;
+      #knzptdeco{
+        width:1px;
+        background:@red;
+        position:absolute;
+        z-index:-1;
+        left:50%;
+        height:100%;
+        top:8rem;
+        margin-left:-1px;
+        @media (max-width: 767px){
+          right:40px;
+          left:auto;
+        }
+      }
       h2{
         text-transform: none;
         color:@red;
@@ -90,18 +176,72 @@ footer{
         justify-content: space-between;
         .num{
           color:@grey;
-          font-size:3rem;
-          margin-top:0.5rem;
+          font-size:6rem;
+          margin-top:1.5rem;
+        }
+        .icn{
+          img{
+            width:80px;
+          }
         }
         h4{
           color:@red;
           font-size:1.5rem;
           line-height:1.5rem;
         }
+        ul{
+          padding:0;
+          margin:0;
+          list-style: none;
+        }
         &.left{
-          padding-right:50%;
+          li{
+            padding-left:1.2em;
+            background:url(/listicon.png) left 0.5em no-repeat;
+          }
+          width:50%;
           .num{
             margin-right:1rem;
+          }
+          .icn{
+            margin-right:-40px;
+          }
+          @media (max-width: 767px){
+            width:100%!important;
+            .icn{
+              margin-right:0px;
+            }
+          }
+        }
+        &.right{
+          li{
+            padding-right:1.2em;
+            background:url(/listicon.png) right 0.5em no-repeat;
+          }
+          h4{
+            text-align:right;
+          }
+          margin-left:50%;
+          .num{
+            margin-left:1rem;
+          }
+          .icn{
+            margin-left:-40px;
+            margin-right:1rem;
+          }
+          .txtw{
+            text-align:right;
+          }
+          @media (max-width: 767px){
+            margin-left:0;
+            .icn{
+              margin-left:0px;
+              margin-right:1rem;
+            }
+            .num{
+              margin-left:0rem;
+              padding-left:1rem;
+            }
           }
         }
       }
@@ -112,9 +252,14 @@ footer{
       border-bottom:1px solid @red;
       padding:2rem 0;
       text-align:center;
+      margin:2rem 0;
       h3{
         color:@red;
       }
+    }
+    .bercolimg{
+      width:70%;
+      max-width:150px;
     }
     .bercol{
       text-align: center;

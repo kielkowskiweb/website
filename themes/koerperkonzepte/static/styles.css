@@ -68,12 +68,108 @@ footer .footermenu a {
 .subpage.em .cblock {
   border-top: 1px solid #b2232b;
   border-bottom: 1px solid #b2232b;
+  background-color: #e7e7e7 !important;
+  margin: 0!important;
+}
+@media (max-width: 767px) {
+  .subpage.em .cblock {
+    background-image: none!important;
+  }
 }
 .subpage.em .cblock .container {
   padding: 2rem 0;
 }
 .subpage.em .cblock strong {
   color: #b2232b;
+}
+.subpage.em .imgwrap img {
+  max-width: 100%;
+}
+.subpage.em .term {
+  background: #ededed;
+  border-top: 1px solid #b2232b;
+  margin-bottom: -1rem;
+}
+@media (max-width: 767px) {
+  .subpage.em .term {
+    margin: 0!important;
+  }
+}
+.subpage.em .term h2 {
+  font-weight: bold;
+  color: #b2232b;
+  letter-spacing: 0;
+  margin: 2rem 0;
+}
+.subpage.em .term .download {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subpage.em .term .download a {
+  color: #b2232b;
+}
+.subpage.em .term .imgw {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.subpage.em .term .imgw #pdf {
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.subpage.em .term .imgw #pdf img {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  clear: both;
+  float: none;
+}
+.subpage.em .term .imgw #icn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+  z-index: 9;
+}
+.subpage.em .knzpt {
+  position: relative;
+  overflow-y: hidden;
+}
+@media (max-width: 767px) {
+  .subpage.em .knzpt .desk {
+    display: none;
+  }
+}
+.subpage.em .knzpt .mobile {
+  display: block;
+  overflow-x: hidden;
+}
+@media (min-width: 767px) {
+  .subpage.em .knzpt .mobile {
+    display: none;
+  }
+}
+.subpage.em .knzpt .mobile .ct {
+  margin-bottom: 2rem;
+}
+.subpage.em .knzpt #knzptdeco {
+  width: 1px;
+  background: #b2232b;
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  height: 100%;
+  top: 8rem;
+  margin-left: -1px;
+}
+@media (max-width: 767px) {
+  .subpage.em .knzpt #knzptdeco {
+    right: 40px;
+    left: auto;
+  }
 }
 .subpage.em .knzpt h2 {
   text-transform: none;
@@ -88,19 +184,75 @@ footer .footermenu a {
 }
 .subpage.em .knzpt .ct .num {
   color: #5c5c5c;
-  font-size: 3rem;
-  margin-top: 0.5rem;
+  font-size: 6rem;
+  margin-top: 1.5rem;
+}
+.subpage.em .knzpt .ct .icn img {
+  width: 80px;
 }
 .subpage.em .knzpt .ct h4 {
   color: #b2232b;
   font-size: 1.5rem;
   line-height: 1.5rem;
 }
+.subpage.em .knzpt .ct ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 .subpage.em .knzpt .ct.left {
-  padding-right: 50%;
+  width: 50%;
+}
+.subpage.em .knzpt .ct.left li {
+  padding-left: 1.2em;
+  background: url(/listicon.png) left 0.5em no-repeat;
 }
 .subpage.em .knzpt .ct.left .num {
   margin-right: 1rem;
+}
+.subpage.em .knzpt .ct.left .icn {
+  margin-right: -40px;
+}
+@media (max-width: 767px) {
+  .subpage.em .knzpt .ct.left {
+    width: 100%!important;
+  }
+  .subpage.em .knzpt .ct.left .icn {
+    margin-right: 0px;
+  }
+}
+.subpage.em .knzpt .ct.right {
+  margin-left: 50%;
+}
+.subpage.em .knzpt .ct.right li {
+  padding-right: 1.2em;
+  background: url(/listicon.png) right 0.5em no-repeat;
+}
+.subpage.em .knzpt .ct.right h4 {
+  text-align: right;
+}
+.subpage.em .knzpt .ct.right .num {
+  margin-left: 1rem;
+}
+.subpage.em .knzpt .ct.right .icn {
+  margin-left: -40px;
+  margin-right: 1rem;
+}
+.subpage.em .knzpt .ct.right .txtw {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .subpage.em .knzpt .ct.right {
+    margin-left: 0;
+  }
+  .subpage.em .knzpt .ct.right .icn {
+    margin-left: 0px;
+    margin-right: 1rem;
+  }
+  .subpage.em .knzpt .ct.right .num {
+    margin-left: 0rem;
+    padding-left: 1rem;
+  }
 }
 .subpage.em #mcontent {
   background: #ededed;
@@ -108,9 +260,14 @@ footer .footermenu a {
   border-bottom: 1px solid #b2232b;
   padding: 2rem 0;
   text-align: center;
+  margin: 2rem 0;
 }
 .subpage.em #mcontent h3 {
   color: #b2232b;
+}
+.subpage.em .bercolimg {
+  width: 70%;
+  max-width: 150px;
 }
 .subpage.em .bercol {
   text-align: center;

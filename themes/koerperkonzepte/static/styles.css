@@ -70,17 +70,40 @@ footer .footermenu a {
   border-bottom: 1px solid #b2232b;
   margin: 0!important;
   padding-bottom: 20em;
-}
-@media (max-width: 767px) {
-  .subpage.eb .cblock {
-    background-image: none!important;
-  }
+  text-align: center;
 }
 .subpage.eb .cblock .container {
   padding: 2rem 0;
 }
 .subpage.eb .cblock strong {
   color: #b2232b;
+}
+.subpage.eb .cblock h2 {
+  font-weight: bold;
+  color: #b2232b;
+  letter-spacing: 0;
+}
+.subpage.eb .cblock h4 {
+  color: #b2232b;
+}
+.subpage.eb .cblock ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  column-count: 2!important;
+  margin-bottom: 4rem;
+}
+@media (max-width: 767px) {
+  .subpage.eb .cblock ul {
+    column-count: 1!important;
+  }
+}
+.subpage.eb .cblock a {
+  padding: 1rem 2rem;
+  background: #b2232b;
+  color: white;
+  font-size: 1.5rem;
 }
 .subpage.eb .imgwrap img {
   max-width: 100%;
@@ -89,6 +112,10 @@ footer .footermenu a {
   background: #ededed;
   border-top: 1px solid #b2232b;
   margin-bottom: -1rem;
+  padding-bottom: 2rem;
+}
+.subpage.eb .term p {
+  text-align: center;
 }
 @media (max-width: 767px) {
   .subpage.eb .term {
@@ -148,6 +175,8 @@ footer .footermenu a {
   letter-spacing: 0;
 }
 .subpage.eb #mcontent .container > ul {
+  margin: 0;
+  padding: 0;
   column-count: 2;
   column-gap: 4rem;
   list-style-type: none;
@@ -173,6 +202,11 @@ footer .footermenu a {
   width: 70%;
   max-width: 110px;
 }
+@media (max-width: 767px) {
+  .subpage.eb .bercolimg {
+    max-width: 70px!important;
+  }
+}
 .subpage.eb .bercol {
   text-align: center;
 }
@@ -184,6 +218,11 @@ footer .footermenu a {
   font-size: 1.8rem;
   font-weight: bold;
   margin-top: 2rem;
+}
+@media (max-width: 767px) {
+  .subpage.eb .bercol h3 {
+    font-size: 1.2rem;
+  }
 }
 .subpage.em #intro {
   text-align: center;

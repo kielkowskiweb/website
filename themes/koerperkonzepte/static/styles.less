@@ -71,9 +71,6 @@ footer{
       border-top:1px solid @red;
       border-bottom:1px solid @red;
       margin:0!important;
-      @media (max-width: 767px){
-       background-image: none!important;
-      }
       .container{
         padding:2rem 0;
       }
@@ -81,6 +78,32 @@ footer{
         color:@red;
       }
       padding-bottom:20em;
+      h2{
+        font-weight:bold;
+        color:@red;
+        letter-spacing: 0;
+      }
+      text-align:center;
+      h4{
+        color:@red;
+      }
+      ul{
+        margin:0;
+        padding:0;
+        list-style-type:none;
+        text-align:left;
+        column-count: 2!important;
+        @media (max-width: 767px){
+          column-count: 1!important;
+         }
+         margin-bottom:4rem;
+      }
+      a{
+        padding:1rem 2rem;
+        background:@red;
+        color:white;
+        font-size:1.5rem;
+      }
     }
     .imgwrap{
       img{
@@ -91,6 +114,10 @@ footer{
       background:@grey_light237;
       border-top:1px solid @red;
       margin-bottom:-1rem;
+      padding-bottom:2rem;
+      p{
+        text-align:center;
+      }
       @media (max-width: 767px){
         margin:0!important;
       }
@@ -145,6 +172,8 @@ footer{
         letter-spacing: 0;
       }
       .container > ul{
+        margin:0;
+        padding:0;
         column-count: 2;
         @media (max-width: 767px){
           column-count: 1;
@@ -168,6 +197,9 @@ footer{
     .bercolimg{
       width:70%;
       max-width:110px;
+      @media (max-width: 767px){
+        max-width:70px!important;
+      }
     }
     .bercol{
       text-align: center;
@@ -179,6 +211,9 @@ footer{
         font-size:1.8rem;
         font-weight:bold;
         margin-top:2rem;
+        @media (max-width: 767px){
+          font-size:1.2rem;
+        }
       }
     }
   }

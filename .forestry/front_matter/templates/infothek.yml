@@ -13,20 +13,9 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
-- type: field_group_list
-  name: bereiche
-  label: Bereiche
-  fields:
-  - type: file
-    label: Icon
-    name: icon
-  - type: textarea
-    name: content
-    label: Content
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
+- type: file
+  name: intro_hintergrund
+  label: Intro Hintergrund
 - type: textarea
   name: text_mitte
   label: Text Mitte
@@ -34,20 +23,6 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
-- type: field_group
-  name: content_block
-  label: Content Block
-  fields:
-  - type: textarea
-    name: content
-    label: Content
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - type: file
-    name: hintergrundbild
-    label: Hintergrundbild
 - type: field_group
   name: termin
   label: Termin
@@ -78,3 +53,5 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+pages:
+- content/infothek.md

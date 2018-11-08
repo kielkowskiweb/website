@@ -58,6 +58,15 @@ footer .footermenu a {
 .subpage.it .container .content {
   padding: 4rem 50% 4rem 0!important;
 }
+.subpage.it .intro ul {
+  margin: 0;
+  padding: 0;
+}
+.subpage.it .intro ul li {
+  padding-left: 1em;
+  margin-left: 1em;
+  list-style-position: outside;
+}
 .subpage.it .tm {
   border-top: 1px solid #b2232b;
   border-bottom: 1px solid #b2232b;

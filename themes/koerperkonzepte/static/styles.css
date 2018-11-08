@@ -55,6 +55,136 @@ footer .footermenu a {
   font-weight: normal;
   letter-spacing: 0.2rem;
 }
+.subpage.eb #intro {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+}
+.subpage.eb #intro h2 {
+  text-transform: none;
+  font-weight: bold;
+  color: #b2232b;
+  letter-spacing: 0;
+}
+.subpage.eb .cblock {
+  border-top: 1px solid #b2232b;
+  border-bottom: 1px solid #b2232b;
+  margin: 0!important;
+  padding-bottom: 20em;
+}
+@media (max-width: 767px) {
+  .subpage.eb .cblock {
+    background-image: none!important;
+  }
+}
+.subpage.eb .cblock .container {
+  padding: 2rem 0;
+}
+.subpage.eb .cblock strong {
+  color: #b2232b;
+}
+.subpage.eb .imgwrap img {
+  max-width: 100%;
+}
+.subpage.eb .term {
+  background: #ededed;
+  border-top: 1px solid #b2232b;
+  margin-bottom: -1rem;
+}
+@media (max-width: 767px) {
+  .subpage.eb .term {
+    margin: 0!important;
+  }
+}
+.subpage.eb .term h2 {
+  font-weight: bold;
+  color: #b2232b;
+  letter-spacing: 0;
+  margin: 2rem 0;
+}
+.subpage.eb .term .download {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subpage.eb .term .download a {
+  color: #b2232b;
+}
+.subpage.eb .term .imgw {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.subpage.eb .term .imgw #pdf {
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.subpage.eb .term .imgw #pdf img {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  clear: both;
+  float: none;
+}
+.subpage.eb .term .imgw #icn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+  z-index: 9;
+}
+.subpage.eb #mcontent {
+  background: #ededed;
+  border-top: 1px solid #b2232b;
+  border-bottom: 1px solid #b2232b;
+  padding: 2rem 0;
+  text-align: left;
+  margin: 2rem 0 0 0;
+}
+.subpage.eb #mcontent h2 {
+  font-weight: bold;
+  color: #b2232b;
+  letter-spacing: 0;
+}
+.subpage.eb #mcontent .container > ul {
+  column-count: 2;
+  column-gap: 4rem;
+  list-style-type: none;
+}
+@media (max-width: 767px) {
+  .subpage.eb #mcontent .container > ul {
+    column-count: 1;
+  }
+}
+.subpage.eb #mcontent .container > ul h3 {
+  font-size: 1.1em;
+}
+.subpage.eb #mcontent .container > ul > li > ul {
+  padding: 0;
+}
+.subpage.eb #mcontent .container > ul > li > ul > li {
+  list-style-type: circle;
+  padding-left: 1em;
+  margin-left: 1em;
+  list-style-position: outside;
+}
+.subpage.eb .bercolimg {
+  width: 70%;
+  max-width: 110px;
+}
+.subpage.eb .bercol {
+  text-align: center;
+}
+.subpage.eb .bercol p {
+  margin: 0;
+}
+.subpage.eb .bercol h3 {
+  color: #b2232b;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
 .subpage.em #intro {
   text-align: center;
   padding: 4rem 0 1rem 0;

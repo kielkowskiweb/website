@@ -36,27 +36,28 @@ content_oben: "<p>Wir sind eine Arztpraxis mit dem Tätigkeitsschwerpunkt Ernäh
 bereiche:
 - titel: Ernährungsmedizin
   icon: "/uploads/2018/08/06/icon_ernaehrungsmedizin.png"
-  untertitel: NEU !!
+  untertitel: ''
   link: ernährungsmedizin.md
 - titel: Präventivmedizin
   icon: "/uploads/2018/08/06/icon_praeventivmedizin.png"
-  untertitel: NEU !!
+  untertitel: ''
   link: präventivmedizin.md
 - titel: Ernährungsberatung
   icon: "/uploads/2018/08/06/icon_ernaehrungsberung.png"
-  untertitel: NEU !!
+  untertitel: ''
   link: ernährungsberatung.md
 - titel: Akupunktur
   icon: "/uploads/2018/08/06/icon_akkupunktur.png"
-  untertitel: NEU !!
+  untertitel: ''
   link: akupunktur.md
 - titel: Infothek
   icon: "/uploads/2018/08/06/icon_infothek.png"
-  untertitel: "(in Kürze)"
+  untertitel: ''
+  link: infothek.md
 - titel: Videosprechstunde
   icon: "/uploads/2018/08/06/icon_videosprechstunde.png"
   link: Videosprechstunde.md
-  untertitel: NEU !!
+  untertitel: ''
 daniela_kielkowski:
   bild_links: "/uploads/2018/08/11/portrait_neu.png"
   content: "<blockquote><p>Diäten, Fastenkuren bei Übergewicht und Kalorienzählen

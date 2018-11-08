@@ -44,14 +44,15 @@ bereiche:
   link: präventivmedizin.md
 - titel: Ernährungsberatung
   icon: "/uploads/2018/08/06/icon_ernaehrungsberung.png"
-  untertitel: "(ab Oktober online)"
+  untertitel: NEU !!
+  link: ernährungsberatung.md
 - titel: Akupunktur
   icon: "/uploads/2018/08/06/icon_akkupunktur.png"
   untertitel: NEU !!
   link: akupunktur.md
 - titel: Infothek
   icon: "/uploads/2018/08/06/icon_infothek.png"
-  untertitel: "(ab Oktober online)"
+  untertitel: "(in Kürze)"
 - titel: Videosprechstunde
   icon: "/uploads/2018/08/06/icon_videosprechstunde.png"
   link: Videosprechstunde.md

@@ -1,13 +1,12 @@
 +++
 date = "2018-11-08T15:12:01+01:00"
-draft = true
 intro = "<p>Die <strong>Ernährungsberatung</strong> vermittelt Informationen über <strong>ernährungsphysiologische, biochemische und allergologische</strong> Zusammenhänge. Die Beratung umfasst Themen wie Essverhalten, Lebensführung, Körperbewusstsein und Sport.</p>"
 text_mitte = "<h2>Zielgruppen</h2><ul><li><h3>Ernährungsberatung für gesunde Menschen:</h3><p>Eine klassische Ernährungsberatung richtet sich im Gegensatz zur Ernährungsmedizinischen oder Diättherapeutischen Beratung immer an gesunde Menschen in besonderen Lebenssituationen, wie z. B. Schwangere oder Sportler. Zusätzlich aber auch an Menschen, die bereits Risikofaktoren, wie z.B. Übergewicht (noch keine Adipositas) vorweisen.</p></li><li><h3>Ernährungsberatung für kranke Menschen:</h3><ul><li><p>Tumorerkrankungen, während einer Chemotherapie</p></li><li><p>Lebensmittel-Unverträglichkeit z.b. Laktose-/ Fructose- Intoleranz</p></li><li><p>Zölliakie </p></li><li><p>Divertikulitis</p></li></ul></li>"
 titel_icon = ""
 title = "Ernährungsberatung"
 [content_block]
-content = ""
-hintergrundbild = ""
+content = "<h2>Ernährungs-App</h2><p>Sie können hier mit Hilfe einer von uns konzipierten Software Ihr Ernährungsverhalten überprüfen und auswerten lassen.</p><p>Wir empfehlen für eine fundierte, realistische Bewertung Ihres Ernährungsverhaltens die Software mindestens 7 Tage während Ihres normalen Alltages zu führen und nicht im Urlaub. </p><p>So das Sie frühestens nach 7 Tagen einen Online-Beratungstermin vereinbaren.</p><p>Folgen Sie dem Download link und registrieren Sie sich einfach - völlig unverbindlich und kostenfrei! </p><p><a href=\"/\" title=\"\">zum download</a></p>"
+hintergrundbild = "/uploads/2018/11/08/ernaehrungsberatung_1.png"
 [termin]
 beschriftung_download = ""
 bild_download = ""

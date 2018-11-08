@@ -79,5 +79,5 @@ fields:
       schema:
         format: html-blocks
 pages:
-- content/ernährungsberatung.md
 - content/ernährungsmedizin.md
+- content/ernährungsberatung.md

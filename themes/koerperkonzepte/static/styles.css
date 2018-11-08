@@ -55,6 +55,85 @@ footer .footermenu a {
   font-weight: normal;
   letter-spacing: 0.2rem;
 }
+.subpage.it .container .content {
+  padding: 4rem 50% 4rem 0!important;
+}
+.subpage.it .tm {
+  border-top: 1px solid #b2232b;
+  border-bottom: 1px solid #b2232b;
+  margin: 0!important;
+}
+@media (max-width: 767px) {
+  .subpage.it .container .content {
+    padding: 1rem 0!important;
+  }
+  .subpage.it .intro {
+    background: none!important;
+  }
+}
+.subpage.it #tm {
+  padding: 4rem 0;
+  text-align: center;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .subpage.it #tm {
+    padding: 2rem 0;
+  }
+}
+.subpage.it .term {
+  background: #ededed;
+  border-top: 1px solid #b2232b;
+  margin-bottom: -1rem;
+  padding-bottom: 2rem;
+}
+.subpage.it .term p {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .subpage.it .term {
+    margin: 0!important;
+  }
+}
+.subpage.it .term h2 {
+  font-weight: bold;
+  color: #b2232b;
+  letter-spacing: 0;
+  margin: 2rem 0;
+}
+.subpage.it .term .download {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subpage.it .term .download a {
+  color: #b2232b;
+}
+.subpage.it .term .imgw {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.subpage.it .term .imgw #pdf {
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.subpage.it .term .imgw #pdf img {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  clear: both;
+  float: none;
+}
+.subpage.it .term .imgw #icn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+  z-index: 9;
+}
 .subpage.eb #intro {
   text-align: center;
   padding: 4rem 0 2rem 0;

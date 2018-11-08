@@ -4,13 +4,14 @@ intro = "<p>Unsere Praxisarbeit beruht immer auf dem neuesten Stand der Medizin.
 intro_hintergrund = "/uploads/2018/11/08/infothek_bild.png"
 text_mitte = "<p>Interessante Neuigkeiten folgen in Kürze - Wiederkommen lohnt sich!</p>"
 titel_icon = ""
+layout="infothek"
 title = "Infothek"
 [termin]
-beschriftung_download = ""
-bild_download = ""
+beschriftung_download = "Ernährungsprotokoll downloaden"
+bild_download = "/uploads/2018/10/26/Ernaehrungsprotokoll.pdf"
 content = ""
-content_unten = ""
-icon_download = ""
-titel = ""
+content_unten = "<p>Unsere Abrechnung orientiert sich an ger Gebührenordnung für Ärzte (GOÄ), unsere Rechnungen können bei den Krankenkassen eingereicht werden, allerdings übernehmen wir für deren Erstattung keine Gewähr.</p>"
+icon_download = "/uploads/2018/10/26/icon_download.png"
+titel = "Termin vereinbaren"
 
 +++

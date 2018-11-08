@@ -71,6 +71,13 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+  - type: textarea
+    name: content_unten
+    label: Content unten
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
 pages:
 - content/ernährungsberatung.md
 - content/ernährungsmedizin.md

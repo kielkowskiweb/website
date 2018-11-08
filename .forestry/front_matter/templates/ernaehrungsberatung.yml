@@ -65,4 +65,5 @@ fields:
     name: icon_download
     label: Icon Download
 pages:
+- content/ernährungsberatung.md
 - content/ernährungsmedizin.md

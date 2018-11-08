@@ -96,5 +96,3 @@ fields:
   - type: file
     name: icon_download
     label: Icon Download
-pages:
-- content/ernährungsmedizin.md

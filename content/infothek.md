@@ -10,7 +10,7 @@ title = "Infothek"
 beschriftung_download = "Ernährungsprotokoll downloaden"
 bild_download = "/uploads/2018/10/26/Ernaehrungsprotokoll.pdf"
 content = ""
-content_unten = "<p>Unsere Abrechnung orientiert sich an der Gebührenordnung für Ärzte (GOÄ).</p>"
+content_unten = "<p></p>"
 icon_download = "/uploads/2018/10/26/icon_download.png"
 titel = "Termin vereinbaren"
 

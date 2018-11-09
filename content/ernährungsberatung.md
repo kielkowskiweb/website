@@ -12,7 +12,7 @@ hintergrundbild = "/uploads/2018/11/08/ernaehrungsberatung_1.png"
 beschriftung_download = "Ernährungsprotokoll downloaden"
 bild_download = "/uploads/2018/10/26/Ernaehrungsprotokoll.pdf"
 content = "<p>Selbstverständlich können Sie auch einen persönlichen Beratungstermin in der Praxis vereinbaren und Ihren Stoffwechsel genau untersuchen lassen.</p>"
-content_unten = "<p>Unsere Abrechnung orientiert sich an ger Gebührenordnung für Ärzte (GOÄ), unsere Rechnungen können bei den Krankenkassen eingereicht werden, allerdings übernehmen wir für deren Erstattung keine Gewähr.</p>"
+content_unten = "<p>Unsere Abrechnung orientiert sich an der Gebührenordnung für Ärzte (GOÄ).</p>"
 icon_download = "/uploads/2018/10/26/icon_download.png"
 titel = "Termin vereinbaren"
 [[bereiche]]

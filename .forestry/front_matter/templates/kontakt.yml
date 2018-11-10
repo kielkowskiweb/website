@@ -1,0 +1,26 @@
+---
+label: Kontakt
+hide_body: true
+is_partial: false
+fields:
+- type: field_group
+  name: kontakt
+  label: Kontakt
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: text
+    name: karte
+    label: Karte
+  - type: file
+    name: karte_bild
+    label: Karte Bild
+---

@@ -3,6 +3,13 @@ label: Kontakt
 hide_body: true
 is_partial: false
 fields:
+- type: textarea
+  name: intro
+  label: Intro
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
 - type: field_group
   name: kontakt
   label: Kontakt
@@ -23,5 +30,26 @@ fields:
   - type: file
     name: karte_bild
     label: Karte Bild
+- type: field_group
+  name: termin
+  label: Termin
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: textarea
+    name: content_unten
+    label: Content unten
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
 pages:
 - content/kontakt.md

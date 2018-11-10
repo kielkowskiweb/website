@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div class="subpage kt">
+  {{ partial "headerSubService.html" . }}
+  <div class="ui container fluid intro" style="background:url({{partial "imgUrl" (dict "img" .Params.intro_hintergrund "params" "f_auto" )}}) right bottom no-repeat; background-size:contain">
+    <div class="ui container">
+      <div class="content">
+        {{.Params.intro | safeHTML}}
+      </div>
+    </div>
+  </div>
+  <div class="ui container fluid kontakt">
+    <div class="ui container">
+      <div class="ui two column stackable grid mobile reversed">
+        <div class="ui column content">
+          <h2>{{.Params.kontakt.titel}}</h2>
+          <div class="kcontent">
+            {{.Params.kontakt.content | safeHTML}}
+          </div>
+        </div>
+        <div class="ui column map">
+          <div class="ui 4:3 embed" data-url="https://www.openstreetmap.org/export/embed.html?bbox=13.28976631164551%2C52.48967943654932%2C13.336114883422853%2C52.51316523643532&amp;layer=mapnik&amp;marker=52.50142390483136%2C13.31294059753418"
+            data-placeholder="{{partial "imgUrl" (dict "img" .Params.kontakt.karte_bild "params" "c_scale,f_auto,w_1000" )}}"
+            data-icon="zoom in">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui container fluid term">
+    <div class="decoWrapper">
+      <div class="dleft"></div>
+      <div class="dright"></div>
+    </div>
+    <div class="ui container">
+      <div class="ui grid two column stackable">
+        <div class="ui column">
+          <script src="https://www.jameda.de/api/otb-widget/?refid=81100194_1" async></script>
+          <div id="jam-ota-info_81100194_1">
+
+          </div>
+        </div>
+        <div class="ui column contentcol">
+          <h2>{{.Params.termin.titel}}</h2>
+          <div class="content">
+            {{.Params.termin.content | safeHTML}}
+          </div>
+        </div>
+      </div>
+      <div class="cb">
+        {{.Params.termin.content_unten|safeHTML}}
+      </div>
+    </div>
+  </div>
+</div>
+{{end}}

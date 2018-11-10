@@ -1,5 +1,5 @@
 +++
-bild = "/uploads/2018/10/26/stoffwechsel_grafik.png"
+bild = "/uploads/2018/11/09/stoffwechsel_grafik_091118.png"
 date = "2018-10-26T18:46:45+02:00"
 intro = "<p><strong>Was ist der Unterschied zwischen Ernährungsberatung und Ernährungsmedizin?</strong></p><p>Die Ernährungsberatung umfasst die alltägliche, individuelle Beratung der Ernährung, inklusive aller Ernährungsformen und Lebensmittel. (siehe zur näheren Beschreibung unter \"Ernährungsberatung\")</p><h2>Die Ernährungsmedizin:</h2><p>befasst sich hingegen neben der Ernährung hauptsächlich mit der Funktionsweise des Stoffwechsels und dessen Erkrankungen:</p>"
 layout = "ernaehrungsmedizin"

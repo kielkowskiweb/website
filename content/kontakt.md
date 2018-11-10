@@ -12,7 +12,7 @@ titel = "Besuchen Sie uns!"
 weight = 7
 [termin]
 content = "<p>Mit unserem online Terminkalender können Sie sich genau Ihren Wunschtermin aussuchen und das auch ausserhalb unserer Sprechzeiten - Probieren Sie es einfach aus!</p>"
-content_unten = "<p>Unsere Abrechnung orientiert sich an der Gebührenordnung für Ärzte (GOÄ), unsere Rechnungen können bei den Krankenkassen eingereicht werden, allerdings übernehmen wir für deren Erstattung keine Gewähr.</p>"
+content_unten = "<p></p>"
 titel = "Vereinbaren Sie Ihren Termin online"
 
 +++

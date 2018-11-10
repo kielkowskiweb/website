@@ -23,4 +23,3 @@ fields:
   - type: file
     name: karte_bild
     label: Karte Bild
----

@@ -12,7 +12,7 @@ termin_hintergrund = "/uploads/2018/08/06/termin_bild.png"
 titel_icon = "/uploads/2018/10/13/icon_praeventivmedizin-white.png"
 title = "Präventivmedizin"
 [menu.main]
-name = "Präventiv-medizin"
+name = "Präventiv medizin"
 weight = 2
 
 +++

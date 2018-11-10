@@ -33,7 +33,7 @@ icon = "/uploads/2018/10/26/icon_auswertung.png"
 nummer = 4
 titel = "Auswertung & Therapie"
 [menu.main]
-name = "Ernährungs-medizin"
+name = "Ernährungs medizin"
 weight = 1
 [termin]
 beschriftung_download = "Ernährungsprotokoll downloaden"

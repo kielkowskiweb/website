@@ -10,7 +10,7 @@ titel_unten = "Und so funktioniert`s ..."
 title = "Videosprechstunde"
 url = "videosprechstunde"
 [menu.main]
-name = "Videosprech-stunde"
+name = "Videosprech stunde"
 weight = 6
 [[schritte]]
 content = "<p>Sie erhalten entweder von mir einen Termin, oder suchen sich Ihren Wunschtermin aus.</p>"

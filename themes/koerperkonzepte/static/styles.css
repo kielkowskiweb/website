@@ -159,6 +159,9 @@ footer .footermenu a {
   padding: 3rem 0;
   text-align: center;
 }
+.subpage.kt > .container {
+  margin: 0!important;
+}
 .subpage.kt .kontakt {
   border-bottom: 1px solid #b2232b;
 }
@@ -171,6 +174,11 @@ footer .footermenu a {
 }
 .subpage.kt .kontakt .content {
   padding: 2rem 0;
+}
+@media (max-width: 767px) {
+  .subpage.kt .kontakt .content .kcontent {
+    padding-bottom: 2rem;
+  }
 }
 .subpage.kt .term {
   background: #ededed;

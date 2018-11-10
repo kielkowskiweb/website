@@ -147,6 +147,9 @@ footer{
       padding:3rem 0;
       text-align: center;
     }
+    > .container{
+      margin:0!important;
+    }
     .kontakt{
       h2{
         color:@red;
@@ -158,6 +161,12 @@ footer{
       border-bottom:1px solid @red;
       .content{
         padding:2rem 0;
+        @media (max-width: 767px){
+          .kcontent{
+            padding-bottom:2rem;
+          }
+        }
+        
       }
     }
     .term{

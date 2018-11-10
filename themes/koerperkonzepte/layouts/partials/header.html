@@ -1,15 +1,23 @@
 {{ $t := .Site.GetPage "header.md" }} {{ $currentPage := . }}
 <header>
-  <div class="ui container">
-    <a href="/" id="logolink">
-      <img class="logo" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "c_scale,h_200,f_auto" )}}" />
-    </a>
+  <div class="ui container ">
+    <div class="logow">
+      <a href="/" id="logolink">
+        <img class="logo" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "c_scale,h_200,f_auto" )}}" />
+      </a>
+    </div>
+    <div id="headermenuw">
+      <div id="headermenu" class="mobinit">
+        {{ range .Site.Menus.main }}
+        <a class="headermenuitem {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}"
+          href="{{ .URL }}" title="{{ .Title }}">{{ (replace .Name " " "<br />")|safeHTML }}</a>
+        {{ end }}
+      </div>
+    </div>
+    <div id="mnt">
+      <button class="ui basic icon button" id="mntbt">
+        <i class="bars icon"></i>
+      </button>
+    </div>
   </div>
-  <!-- <div id="headermenu">
-  {{ range .Site.Menus.main }}
-  <a class="headermenuitem {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}"
-    href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-  {{ end }}
-  </div>
--->
 </header>

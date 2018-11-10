@@ -21,12 +21,110 @@ blockquote {
   font-size: 1.8rem;
 }
 header {
-  height: 15vh;
   padding: 2vh 0;
   border-bottom: 1px solid #5c5c5c;
 }
 header .logo {
   max-height: 11vh;
+}
+header .container {
+  display: flex!important;
+  justify-content: space-between;
+}
+@media (max-width: 990px) {
+  header .container {
+    flex-wrap: wrap;
+  }
+}
+header .logow {
+  display: inline-block;
+  flex-shrink: 1;
+}
+@media (max-width: 1200px) {
+  header {
+    padding: 1vh 0;
+  }
+  header .logo {
+    height: 80px;
+  }
+}
+header #headermenuw {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+header #mnt {
+  display: none;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+@media (max-width: 720px) {
+  header #mnt {
+    display: block;
+  }
+}
+header #headermenu {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 4rem;
+}
+@media (max-width: 1280px) {
+  header #headermenu {
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 720px) {
+  header #headermenu {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0!important;
+    max-height: 0px;
+    overflow: hidden;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+  }
+  header #headermenu.mobvis {
+    max-height: 1000px;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+    opacity: 1;
+  }
+}
+header #headermenu .headermenuitem {
+  color: #5c5c5c;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  padding: 0 1rem;
+  border-right: 1px solid #5c5c5c;
+}
+header #headermenu .headermenuitem.active {
+  color: #b2232b;
+  text-decoration: underline;
+}
+header #headermenu .headermenuitem:last-child {
+  border: none;
+}
+@media (max-width: 1280px) {
+  header #headermenu .headermenuitem {
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 720px) {
+  header #headermenu .headermenuitem {
+    border: none;
+    text-transform: none;
+    text-align: left;
+    width: 25%;
+  }
 }
 footer {
   display: block;

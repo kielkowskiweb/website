@@ -47,6 +47,14 @@
         autoDirection: 'next'
       });
       $('.ui.embed').embed();
+      $('#mntbt').click(function () {
+        if ($('#headermenu').hasClass('mobvis')) {
+          $('#headermenu').removeClass('mobvis');
+        } else {
+          $('#headermenu').addClass('mobvis');
+        }
+
+      });
     });
   </script>
 </body>

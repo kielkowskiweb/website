@@ -23,3 +23,5 @@ fields:
   - type: file
     name: karte_bild
     label: Karte Bild
+pages:
+- content/kontakt.md

@@ -4,5 +4,7 @@ date = "2018-10-13T08:13:51+02:00"
 layout = "akupunktur"
 slider_rechts = ["/uploads/2018/10/13/Akkupuntkur3.jpg", "/uploads/2018/10/13/Akkupunktur1.jpg", "/uploads/2018/10/13/Akkupunktur2.jpg"]
 title = "Akupunktur"
+[menu.main]
+weight = 4
 
 +++

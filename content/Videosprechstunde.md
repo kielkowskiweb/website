@@ -4,11 +4,14 @@ content_rechts = "<p>Sparen Sie sich Zeit und Wege, indem Sie bequem online mit 
 date = "2018-09-21T20:00:30+02:00"
 erlaeuterung_nach_schritten = "<p><strong>FERTIG</strong></p><p>Und schon können Sie mich online in der Videosprechstunde besuchen — fast genauso wie in der Praxis!</p>"
 layout = "videosprechstunde"
-url="videosprechstunde"
 patientus_snippet = "<script type=\"text/javascript\" src=\"https://secure.patientus.de/public/scripts/calendar-snippet2.js.php\"></script>\n<script id=\"patientus-snippet\" type=\"text/javascript\">\nPATIENTUS_SNIPPET.init(535, 600);\nPATIENTUS_SNIPPET.addCounselor(\"64e42a17\");\nPATIENTUS_SNIPPET.render();\n</script>"
 titel_icon = "/uploads/2018/09/21/icon_videosprechstunde_header.png"
 titel_unten = "Und so funktioniert`s ..."
 title = "Videosprechstunde"
+url = "videosprechstunde"
+[menu.main]
+name = "Videosprech-stunde"
+weight = 6
 [[schritte]]
 content = "<p>Sie erhalten entweder von mir einen Termin, oder suchen sich Ihren Wunschtermin aus.</p>"
 icon = "/uploads/2018/09/21/icon_termine.png"

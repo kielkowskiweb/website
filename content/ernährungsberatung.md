@@ -8,6 +8,9 @@ title = "Ernährungsberatung"
 [content_block]
 content = "<h1><strong>Ernährungs-App</strong></h1><h4>Sie können hier mit Hilfe einer von uns konzipierten Software Ihr Ernährungsverhalten überprüfen und auswerten lassen.</h4><ul><li><p>Wir empfehlen für eine fundierte, realistische Bewertung Ihres Ernährungsverhaltens die Software mindestens 7 Tage während Ihres normalen Alltages zu führen und nicht im Urlaub.<br>So das Sie frühestens nach 7 Tagen einen Online-Beratungstermin vereinbaren.</p></li><li><p>Folgen Sie dem Download link und registrieren Sie sich einfach - völlig unverbindlich und kostenfrei!</p></li></ul><p><a href=\"/\" title=\"\">in Kürze online</a></p>"
 hintergrundbild = "/uploads/2018/11/08/ernaehrungsberatung_1.png"
+[menu.main]
+name = "Ernährungs-beratung"
+weight = 3
 [termin]
 beschriftung_download = "Ernährungsprotokoll downloaden"
 bild_download = "/uploads/2018/10/26/Ernaehrungsprotokoll.pdf"

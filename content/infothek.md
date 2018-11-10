@@ -6,6 +6,8 @@ layout = "infothek"
 text_mitte = "<p>Interessante Neuigkeiten folgen in Kürze - Wiederkommen lohnt sich!</p>"
 titel_icon = ""
 title = "Infothek"
+[menu.main]
+weight = 5
 [termin]
 beschriftung_download = "Ernährungsprotokoll downloaden"
 bild_download = "/uploads/2018/10/26/Ernaehrungsprotokoll.pdf"

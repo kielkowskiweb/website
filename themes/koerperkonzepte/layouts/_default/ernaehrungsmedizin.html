@@ -1,5 +1,6 @@
 {{ define "main" }}
-<div class="subpage em">
+{{ $eb:=.Site.GetPage "/ernaehrungsberatung.md"}}
+<div class="subpage em eb">
   {{ partial "headerSubService.html" . }}
   <div class="ui container">
     <div id="intro">
@@ -86,6 +87,11 @@
     </div>
     <!-- -->
     {{end}}
+  </div>
+  <div class="ui container fluid cblockapp" style="background:url({{partial "imgUrl" (dict "img" $eb.Params.content_block.hintergrundbild "params" "q_100" )}}) center bottom no-repeat; background-size:cover">
+    <div class="ui container">
+      {{$eb.Params.content_block.content|safeHTML}}
+    </div>
   </div>
   <div class="ui container fluid term">
     <div class="decoWrapper">

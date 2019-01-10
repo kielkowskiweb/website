@@ -146,6 +146,46 @@ footer .footermenu a {
     padding: 1rem 0.5rem;
   }
 }
+.cblockapp {
+  border-top: 1px solid #b2232b;
+  border-bottom: 1px solid #b2232b;
+  margin: 0!important;
+  padding-bottom: 20em;
+  text-align: center;
+}
+.cblockapp .container {
+  padding: 2rem 0;
+}
+.cblockapp strong {
+  color: #b2232b;
+}
+.cblockapp h2 {
+  font-weight: bold;
+  color: #b2232b;
+  letter-spacing: 0;
+}
+.cblockapp h4 {
+  color: #b2232b;
+}
+.cblockapp ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  column-count: 2!important;
+  margin-bottom: 4rem;
+}
+@media (max-width: 767px) {
+  .cblockapp ul {
+    column-count: 1!important;
+  }
+}
+.cblockapp a {
+  padding: 1rem 2rem;
+  background: #b2232b;
+  color: white;
+  font-size: 1.5rem;
+}
 .subpage h2 {
   text-align: center;
   text-transform: uppercase;
@@ -296,46 +336,6 @@ footer .footermenu a {
   font-weight: bold;
   color: #b2232b;
   letter-spacing: 0;
-}
-.subpage.eb .cblock {
-  border-top: 1px solid #b2232b;
-  border-bottom: 1px solid #b2232b;
-  margin: 0!important;
-  padding-bottom: 20em;
-  text-align: center;
-}
-.subpage.eb .cblock .container {
-  padding: 2rem 0;
-}
-.subpage.eb .cblock strong {
-  color: #b2232b;
-}
-.subpage.eb .cblock h2 {
-  font-weight: bold;
-  color: #b2232b;
-  letter-spacing: 0;
-}
-.subpage.eb .cblock h4 {
-  color: #b2232b;
-}
-.subpage.eb .cblock ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: left;
-  column-count: 2!important;
-  margin-bottom: 4rem;
-}
-@media (max-width: 767px) {
-  .subpage.eb .cblock ul {
-    column-count: 1!important;
-  }
-}
-.subpage.eb .cblock a {
-  padding: 1rem 2rem;
-  background: #b2232b;
-  color: white;
-  font-size: 1.5rem;
 }
 .subpage.eb .imgwrap img {
   max-width: 100%;

@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ $eb:=.Site.GetPage "/ernaehrungsberatung.md"}}
 <div id="home">
   <ul id="slider">
     {{ range $x,$img := .Params.slider }}
@@ -58,6 +59,11 @@
       </div>
     </div>
     <div class="deco"></div>
+  </div>
+  <div class="ui container fluid cblockapp" style="background:url({{partial "imgUrl" (dict "img" $eb.Params.content_block.hintergrundbild "params" "q_100" )}}) center bottom no-repeat; background-size:cover">
+    <div class="ui container">
+      {{$eb.Params.content_block.content|safeHTML}}
+    </div>
   </div>
   <div class="ui container fluid term" style="background:url({{partial "imgUrl" (dict "img" .Params.termin.hintergrundbild "params" "c_scale,f_auto,w_400" )}}) right -50px bottom no-repeat;">
     <div class="ui container">

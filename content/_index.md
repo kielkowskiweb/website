@@ -45,7 +45,7 @@ bereiche:
 - titel: Ernährungsberatung
   icon: "/uploads/2018/08/06/icon_ernaehrungsberung.png"
   untertitel: ''
-  link: ernährungsberatung.md
+  link: ernaehrungsberatung.md
 - titel: Akupunktur
   icon: "/uploads/2018/08/06/icon_akkupunktur.png"
   untertitel: ''

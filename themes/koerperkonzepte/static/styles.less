@@ -139,10 +139,20 @@ footer{
   .container{
     padding:2rem 0;
   }
+  img{
+    max-width:100%;
+    width:50vw;
+    @media (min-width: 1200px){
+      width:30vw;
+    }
+    @media (max-width: 767px){
+      width:80vw;
+    }
+
+  }
   strong{
     color:@red;
   }
-  padding-bottom:20em;
   h2{
     font-weight:bold;
     color:@red;
@@ -161,7 +171,6 @@ footer{
     @media (max-width: 767px){
       column-count: 1!important;
      }
-     margin-bottom:4rem;
   }
   a{
     padding:1rem 2rem;

@@ -150,11 +150,24 @@ footer .footermenu a {
   border-top: 1px solid #b2232b;
   border-bottom: 1px solid #b2232b;
   margin: 0!important;
-  padding-bottom: 20em;
   text-align: center;
 }
 .cblockapp .container {
   padding: 2rem 0;
+}
+.cblockapp img {
+  max-width: 100%;
+  width: 50vw;
+}
+@media (min-width: 1200px) {
+  .cblockapp img {
+    width: 30vw;
+  }
+}
+@media (max-width: 767px) {
+  .cblockapp img {
+    width: 80vw;
+  }
 }
 .cblockapp strong {
   color: #b2232b;
@@ -173,7 +186,6 @@ footer .footermenu a {
   list-style-type: none;
   text-align: left;
   column-count: 2!important;
-  margin-bottom: 4rem;
 }
 @media (max-width: 767px) {
   .cblockapp ul {

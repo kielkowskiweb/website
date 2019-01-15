@@ -11,7 +11,7 @@ titel = "Besuchen Sie uns!"
 [menu.main]
 weight = 7
 [termin]
-content = "<p>Mit unserem online Terminkalender können Sie sich genau Ihren Wunschtermin aussuchen und das auch ausserhalb unserer Sprechzeiten - Probieren Sie es einfach aus!</p><p>ACHTUNG: Vom 04.02 bis 08.02 und vom 27.02 bis 11.03 werden die Beratungsgespräche von Frau Gesa Bergstein (Ökotrophologin, Körperkonzepte | Praxis für Ernährungsmedizin) durchgeführt.</p>"
+content = "<p>Mit unserem online Terminkalender können Sie sich genau Ihren Wunschtermin aussuchen und das auch ausserhalb unserer Sprechzeiten - Probieren Sie es einfach aus!</p><p><strong>ACHTUNG: Vom 04.02 bis 08.02 und vom 27.02 bis 11.03 werden die Beratungsgespräche von Frau Gesa Bergstein (Ökotrophologin, Körperkonzepte | Praxis für Ernährungsmedizin) durchgeführt.</strong></p>"
 content_unten = "<p></p>"
 hinweistext_ = "<p></p>"
 titel = "Vereinbaren Sie Ihren Termin online"

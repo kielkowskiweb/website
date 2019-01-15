@@ -40,6 +40,7 @@ beschriftung_download = "Ernährungsprotokoll downloaden"
 bild_download = "/uploads/2018/10/26/Ernaehrungsprotokoll.pdf"
 content = ""
 content_unten = ""
+hinweistext = "<p>ACHTUNG: Vom 04.02 bis 08.02 und vom 27.02 bis 11.03 werden die Beratungsgespräche von Frau Gesa Bergstein (Ökotrophologin, Körperkonzepte | Praxis für Ernährungsmedizin) durchgeführt.</p>"
 icon_download = "/uploads/2018/10/26/icon_download.png"
 titel = "Termin vereinbaren"
 [[bereiche]]

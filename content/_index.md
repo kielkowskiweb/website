@@ -81,6 +81,9 @@ termin:
   buttonbeschriftung: In Kürze für SIE!
   link: ''
   hintergrundbild: "/uploads/2018/08/06/termin_bild.png"
+  hinweistext_: "<p><strong>ACHTUNG: Vom 04.02 bis 08.02 und vom 27.02 bis 11.03 werden
+    die Beratungsgespräche von Frau Gesa Bergstein (Ökotrophologin, Körperkonzepte
+    | Praxis für Ernährungsmedizin) durchgeführt.</strong></p>"
 intro: "<p>Sie essen zu viel oder zu wenig? Sie haben zu viele und zu lange Diäten
   gemacht? Sie bewegen sich zu wenig oder zu viel? Sie haben zu viel Stress? Sie leiden
   unter Schlafstörungen? Seelischer Kummer? Sie sind krank? All diese Gründe können

@@ -86,3 +86,5 @@ fields:
       schema:
         format: html-blocks
   - type: textarea
+pages:
+- content/ernaehrungsberatung.md

@@ -14,10 +14,12 @@ weight = 3
 [termin]
 beschriftung_download = "Ernährungsprotokoll downloaden"
 bild_download = "/uploads/2018/10/26/Ernaehrungsprotokoll.pdf"
-content = "Selbstverständlich können Sie auch einen persönlichen Beratungstermin in der Praxis vereinbaren und Ihren Stoffwechsel genau untersuchen lassen.\n\nACHTUNG: Vom 04.02 bis 08.02 und vom 27.02 bis 11.03 werden die Beratungsgespräche von Frau Gesa Bergstein (Ökotrophologin, Körperkonzepte | Praxis für Ernährungsmedizin) durchgeführt."
+content = "<p>Selbstverständlich können Sie auch einen persönlichen Beratungstermin in der Praxis vereinbaren und Ihren Stoffwechsel genau untersuchen lassen. </p><p><strong>ACHTUNG: Vom 04.02 bis 08.02 und vom 27.02 bis 11.03 werden die Beratungsgespräche von Frau Gesa Bergstein (Ökotrophologin, Körperkonzepte | Praxis für Ernährungsmedizin) durchgeführt.</strong></p>"
 content_unten = "<p></p>"
+hinweistext_ = ""
 icon_download = "/uploads/2018/10/26/icon_download.png"
 titel = "Termin vereinbaren"
+undefined = ""
 [[bereiche]]
 content = "<h3>Essverhalten</h3>"
 icon = "/uploads/2018/11/08/essverhalten.png"

@@ -73,6 +73,7 @@
       <div class="ui grid stackable">
         <div class="ui ten wide column contentcol">
           <h2>{{.Params.termin.titel}}</h2>
+          {{.Params.termin.hinweistext_ | safeHTML}}
           <!--
           <div class="content">
             {{.Params.termin.content | safeHTML}}

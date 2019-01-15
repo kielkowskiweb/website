@@ -251,6 +251,9 @@ footer .footermenu a {
   text-transform: none;
   text-align: left;
 }
+.subpage.kt .term strong {
+  color: #b2232b;
+}
 .subpage.it .container .content {
   padding: 4rem 50% 4rem 0!important;
 }
@@ -305,6 +308,9 @@ footer .footermenu a {
   color: #b2232b;
   letter-spacing: 0;
   margin: 2rem 0;
+}
+.subpage.it .term strong {
+  color: #b2232b;
 }
 .subpage.it .term .download {
   display: flex;
@@ -371,6 +377,9 @@ footer .footermenu a {
   color: #b2232b;
   letter-spacing: 0;
   margin: 2rem 0;
+}
+.subpage.eb .term strong {
+  color: #b2232b;
 }
 .subpage.eb .term .download {
   display: flex;
@@ -521,6 +530,9 @@ footer .footermenu a {
   align-items: center;
 }
 .subpage.em .term .download a {
+  color: #b2232b;
+}
+.subpage.em .term strong {
   color: #b2232b;
 }
 .subpage.em .term .imgw {
@@ -754,6 +766,9 @@ footer .footermenu a {
     min-height: 750px;
   }
 }
+.subpage.pm .term strong {
+  color: #b2232b;
+}
 .subpage.akp .content {
   padding: 2rem;
 }
@@ -946,6 +961,9 @@ footer .footermenu a {
   #home .term {
     background: none!important;
   }
+}
+#home .term strong {
+  color: #b2232b;
 }
 #home .term .contentcol {
   min-height: 400px;

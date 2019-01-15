@@ -47,6 +47,13 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
+- type: textarea
+  name: hinweistext_
+  label: 'Hinweistext '
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
 - type: file
   name: termin_hintergrund
   label: Termin Hintergrund

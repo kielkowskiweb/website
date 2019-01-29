@@ -6,7 +6,7 @@ text_mitte = "<h2>Zielgruppen</h2><ul><li><h3>Ernährungsberatung für gesunde M
 titel_icon = ""
 title = "Ernährungsberatung"
 [content_block]
-content = "<ul><li><p>Bitte füllen Sie im ersten Schritt den Anamnese-Bogen unter „Anamnese\" aus.</p><p>Im zweiten Schritt tragen Sie alle Lebensmittel unter „Lebensmittel erfassen“ ein.</p></li><li><p>Wir empfehlen für eine fundierte, realistische Bewertung Ihres Ernährungsverhaltens die Software mindestens 7 Tage während Ihres normalen Alltages zu führen und nicht im Urlaub. So dass Sie frühestens nach 7 Tagen einen Beratungstermin vereinbaren.</p><p>Folgen Sie dem Download link und registrieren Sie sich einfach - völlig unverbindlich und kostenfrei!</p></li></ul><p></p><ul><li><p><a href=\"https://eat-and-move.com\" title=\"\">zur EAMO Software</a></p></li></ul>"
+content = "<ul><li><p>Bitte füllen Sie im ersten Schritt den Anamnese-Bogen unter „Anamnese\" aus.</p><p>Im zweiten Schritt tragen Sie alle Lebensmittel unter „Lebensmittel erfassen“ ein.</p></li><li><p>Wir empfehlen für eine fundierte, realistische Bewertung Ihres Ernährungsverhaltens die Software mindestens 7 Tage während Ihres normalen Alltages zu führen und nicht im Urlaub. So dass Sie frühestens nach 7 Tagen einen Beratungstermin vereinbaren.</p><p>Folgen Sie dem Download link und registrieren Sie sich einfach - völlig unverbindlich und kostenfrei!</p></li></ul><p> </p><p><a href=\"https://eat-and-move.com\" title=\"\">zur EAMO Software</a></p>"
 hintergrundbild = "/uploads/2019/01/12/eamo_neu.jpg"
 titel = "<h1><strong>EAT-AND-MOVE Ernährungs-SOFTWARE</strong></h1><h4>Sie können hier mit Hilfe einer von uns konzipierten Software Ihr Ernährungsverhalten überprüfen und auswerten lassen.</h4>"
 [menu.main]

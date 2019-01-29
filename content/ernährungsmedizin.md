@@ -37,7 +37,9 @@ name = "Ernährungs medizin"
 weight = 1
 [termin]
 beschriftung_download = "Ernährungsprotokoll downloaden"
+beschriftung_eamo = "<p>Ernährung + Anamnese online erfassen</p>"
 bild_download = "/uploads/2018/10/26/Ernaehrungsprotokoll.pdf"
+bild_eamo = "/uploads/2019/01/21/eamo_mockup.png"
 content = ""
 content_unten = ""
 hinweistext = "<p><strong>ACHTUNG: Vom 04.02 bis 08.02 und vom 27.02 bis 11.03 werden die Beratungsgespräche von Frau Gesa Bergstein (Ökotrophologin, Körperkonzepte | Praxis für Ernährungsmedizin) durchgeführt.</strong></p>"

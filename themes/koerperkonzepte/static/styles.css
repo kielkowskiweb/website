@@ -157,17 +157,6 @@ footer .footermenu a {
 }
 .cblockapp img {
   max-width: 100%;
-  width: 50vw;
-}
-@media (min-width: 1200px) {
-  .cblockapp img {
-    width: 30vw;
-  }
-}
-@media (max-width: 767px) {
-  .cblockapp img {
-    width: 80vw;
-  }
 }
 .cblockapp strong {
   color: #b2232b;
@@ -176,23 +165,23 @@ footer .footermenu a {
   font-weight: bold;
   color: #b2232b;
   letter-spacing: 0;
+  margin-top: 2rem;
+}
+.cblockapp h1 {
+  margin-top: 2rem;
 }
 .cblockapp h4 {
   color: #b2232b;
+  margin-bottom: 2rem!important;
 }
 .cblockapp ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: left;
-  column-count: 2!important;
-}
-@media (max-width: 767px) {
-  .cblockapp ul {
-    column-count: 1!important;
-  }
 }
 .cblockapp a {
+  margin: 2rem 0;
   padding: 1rem 2rem;
   background: #b2232b;
   color: white;
@@ -325,6 +314,9 @@ footer .footermenu a {
   position: relative;
   margin-bottom: 1rem;
 }
+.subpage.it .term .imgw img {
+  max-width: 100%;
+}
 .subpage.it .term .imgw #pdf {
   -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
@@ -393,6 +385,9 @@ footer .footermenu a {
 .subpage.eb .term .imgw {
   position: relative;
   margin-bottom: 1rem;
+}
+.subpage.eb .term .imgw img {
+  max-width: 100%;
 }
 .subpage.eb .term .imgw #pdf {
   -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
@@ -538,6 +533,9 @@ footer .footermenu a {
 .subpage.em .term .imgw {
   position: relative;
   margin-bottom: 1rem;
+}
+.subpage.em .term .imgw img {
+  max-width: 100%;
 }
 .subpage.em .term .imgw #pdf {
   -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);

@@ -43,7 +43,7 @@
 
           </div>
         </div>
-        <div class="ui six wide column download">
+        <div class="ui three wide column download">
           <a href="{{.Params.termin.bild_download}}" target="_blank">
             <div class="imgw">
               <img id="icn" src="{{partial "imgUrl" (dict "img" .Params.termin.icon_download "params" "f_auto,q_100,c_scale,w_20" )}}" />
@@ -52,6 +52,14 @@
               </div>
             </div>
             <div class="dlabel">{{.Params.termin.beschriftung_download}}</div>
+          </a>
+        </div>
+        <div class="ui three wide column download">
+          <a href="https://eat-and-move.com" target="_blank">
+            <div class="imgw">
+              <img src="{{partial "imgUrl" (dict "img" .Params.termin.bild_eamo "params" "" )}}" />
+            </div>
+            <div class="dlabel">{{.Params.termin.beschriftung_eamo|safeHTML}}</div>
           </a>
         </div>
       </div>

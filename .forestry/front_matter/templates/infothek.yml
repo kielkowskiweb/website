@@ -60,5 +60,15 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+  - type: file
+    name: bild_eamo
+    label: Bild EaMo
+  - type: textarea
+    name: beschriftung_eamo
+    label: Beschriftung EaMo
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
 pages:
 - content/infothek.md

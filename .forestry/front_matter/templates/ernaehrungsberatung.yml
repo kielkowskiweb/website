@@ -39,6 +39,13 @@ fields:
   label: Content Block
   fields:
   - type: textarea
+    name: titel
+    label: Titel
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: textarea
     name: content
     label: Content
     config:

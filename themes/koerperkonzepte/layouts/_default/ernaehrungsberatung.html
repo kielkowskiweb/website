@@ -23,18 +23,20 @@
       {{.Params.text_mitte|safeHTML}}
     </div>
   </div>
-  <div class="ui container cblockapp">
-    <div>
-        {{.Params.content_block.titel|safeHTML}}
-    </div>
+  <div class=" cblockapp"  style="padding-Bottom:2rem; background:url({{partial "imgUrl" (dict "img"  .Params.content_block.hintergrundbild "params" "" )}}) center center no-repeat; background-size:cover;">
+    <div class="container">
+      <div>
+          {{.Params.content_block.titel|safeHTML}}
+      </div>
       <div class="ui grid stackable">
           <div class="ui eight wide column">
-              <img src="{{partial "imgUrl" (dict "img" .Params.content_block.hintergrundbild "params" "q_100" )}}"/>
+              
           </div>
           <div class="ui eight wide column">
               {{.Params.content_block.content|safeHTML}}
           </div>
       </div>
+    </div>
   </div>
   <div class="ui container fluid term">
     <div class="decoWrapper">

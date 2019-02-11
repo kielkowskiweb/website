@@ -1,0 +1,39 @@
+
+<div class="ui container fluid term">
+  <div class="decoWrapper">
+    <div class="dleft"></div>
+    <div class="dright"></div>
+  </div>
+  <div class="ui container">
+    <h2>{{.Params.termin.titel}}</h2>
+    <p>{{.Params.termin.content|safeHTML}}</p>
+    <div class="ui grid stackable">
+      <div class="ui ten wide column contentcol">
+        <script src="https://www.jameda.de/api/otb-widget/?refid=81100194_1" async></script>
+        <div id="jam-ota-info_81100194_1">
+
+        </div>
+      </div>
+      <div class="ui three wide column download">
+        <a href="{{.Params.termin.bild_download}}" target="_blank">
+          <div class="imgw">
+            <img id="icn" src="{{partial "imgUrl" (dict "img" .Params.termin.icon_download "params" "f_auto,q_100,c_scale,w_20" )}}" />
+            <div id="pdf">
+              <img src="{{partial "imgUrl" (dict "img" .Params.termin.bild_download "params" "f_auto,c_scale,w_200" )}}" />
+            </div>
+          </div>
+          <div class="dlabel">{{.Params.termin.beschriftung_download}}</div>
+        </a>
+      </div>
+      <div class="ui three wide column download">
+        <a href="https://eat-and-move.com" target="_blank">
+          <div class="imgw">
+            <img src="{{partial "imgUrl" (dict "img" .Params.termin.bild_eamo "params" "" )}}" />
+          </div>
+          <div class="dlabel">{{.Params.termin.beschriftung_eamo|safeHTML}}</div>
+        </a>
+      </div>
+    </div>
+    <p>{{.Params.termin.content_unten|safeHTML}}</p>
+  </div>
+</div>

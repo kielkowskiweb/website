@@ -26,30 +26,7 @@
       </div>
     </div>
   </div>
-  <div class="ui container fluid term">
-    <div class="decoWrapper">
-      <div class="dleft"></div>
-      <div class="dright"></div>
-    </div>
-    <div class="ui container">
-      <div class="ui grid two column stackable mobile reversed">
-        <div class="ui column">
-          <script src="https://www.jameda.de/api/otb-widget/?refid=81100194_1" async></script>
-          <div id="jam-ota-info_81100194_1">
-
-          </div>
-        </div>
-        <div class="ui column contentcol">
-          <h2>{{.Params.termin.titel}}</h2>
-          <div class="content">
-            {{.Params.termin.content | safeHTML}}
-          </div>
-        </div>
-      </div>
-      <div class="cb">
-        {{.Params.termin.content_unten|safeHTML}}
-      </div>
-    </div>
-  </div>
+  {{ $p := .Site.GetPage "ernaehrungsberatung.md" }}
+  {{partial "termin" $p}}
 </div>
 {{end}}

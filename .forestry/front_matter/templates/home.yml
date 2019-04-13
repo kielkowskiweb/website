@@ -1,7 +1,6 @@
 ---
 label: Home
 hide_body: true
-is_partial: false
 fields:
 - type: field_group_list
   name: slider

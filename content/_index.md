@@ -88,5 +88,16 @@ intro: "<p>Sie essen zu viel oder zu wenig? Sie haben zu viele und zu lange Diä
   einzeln und in Kombination Übergewicht und Stoffwechselprobleme auslösen.</p><p><strong>Wir
   helfen Ihnen bei der Ursachenforschung und suchen gemeinsam mit Ihnen alltagstaugliche
   Therapiekonzepte.</strong></p>"
+optionaler_contentblock:
+  aktiv: true
+  titel: Ökotrophologe/-in gesucht
+  content: |-
+    Wir sind eine  Arztpraxis mit ernährungsmedizinischem Tätigkeitsschwerpunkt in Berlin und möchten der Digitalisierung aufgeschlossen entgegentreten.
+
+    Für ein perfektes Team suchen wir  Ökotrophologen, die sich eine „ direkte“ Online-Beratung  ebenso zutrauen, sowie den direkten Patientenkontakt.
+
+    Interesse an kreativer Weiterentwicklung moderner Ernährungskonzepte, mittels Praxiseigener Software? Diese soll neben Behandlungserfolgen auch zur seriösen, wissenschaftlichen Datenerhebungen dienen.
+
+    Bei Interesse freuen wir uns über Ihre Bewerbung an die Praxis: Daniela Kielkowski, Leibnizstrasse 56, Berlin-10629 oder unter www.info@koerperkonzepte.com
 
 ---

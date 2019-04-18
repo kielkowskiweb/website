@@ -146,6 +146,18 @@ footer .footermenu a {
     padding: 1rem 0.5rem;
   }
 }
+.optcblock {
+  background: #b2232b;
+  color: white;
+  margin: 2rem 0 0 0;
+  padding: 2rem 0;
+}
+.optcblock h2 {
+  font-weight: normal;
+}
+.optcblock a {
+  color: white!important;
+}
 .term {
   background: #ededed;
   border-top: 1px solid #b2232b;

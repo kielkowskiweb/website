@@ -39,6 +39,18 @@
 
     </div>
   </div>
+  {{if .Params.optionaler_contentblock.aktiv}}
+  <div class="ui container optcblock fluid">
+    <div class="ui container">
+      <h2>
+        {{.Params.optionaler_contentblock.titel}}
+      </h2>
+      <div>
+{{.Params.optionaler_contentblock.content|safeHTML}}
+      </div>
+    </div>
+  </div>
+  {{end}}
   <div class="ui container kki fluid">
     <div class="ui container kk">
       <div class="ui grid stackable">

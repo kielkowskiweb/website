@@ -98,6 +98,6 @@ optionaler_contentblock:
 
     Interesse an kreativer Weiterentwicklung moderner Ernährungskonzepte, mittels Praxiseigener Software? Diese soll neben Behandlungserfolgen auch zur seriösen, wissenschaftlichen Datenerhebungen dienen.
 
-    Bei Interesse freuen wir uns über Ihre Bewerbung an die Praxis: Daniela Kielkowski, Leibnizstrasse 56, Berlin-10629 oder unter www.info@koerperkonzepte.com
+    Bei Interesse freuen wir uns über Ihre Bewerbung an die Praxis: Daniela Kielkowski, Leibnizstrasse 56, Berlin-10629 oder unter [info@koerperkonzepte.com](mailto:info@koerperkonzepte.com?subject=Bewerbung).
 
 ---

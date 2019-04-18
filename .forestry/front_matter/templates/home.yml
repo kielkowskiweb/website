@@ -57,6 +57,23 @@ fields:
     name: untertitel
     label: Untertitel
 - type: field_group
+  name: optionaler_contentblock
+  label: Optionaler Contentblock
+  fields:
+  - type: boolean
+    name: aktiv
+    label: Aktiv?
+  - type: text
+    name: titel
+    label: Titel
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+- type: field_group
   name: daniela_kielkowski
   label: Daniela Kielkowski
   fields:

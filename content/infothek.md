@@ -1,6 +1,6 @@
 +++
 date = "2018-11-08T16:53:42+01:00"
-intro = "<p>Unsere Praxisarbeit beruht immer auf dem neuesten Stand der Medizin. </p><p>Auf dieser Seite möchten wir Sie gerne über neue Erkenntnisse und wissenschaftliche Daten informieren. </p><p>Unter anderem finden Sie hier: </p><ul><li><p>Zusammenfassungen neuer wissenschaftlicher Erkenntnisse </p></li><li><p>Erfahrungsberichte von Menschen, denen es gelungen ist, dem Teufelskreis von starkem Übergewicht zu entrinnen</p></li><li><p>Informationen zu unserer Praxis</p></li></ul>"
+intro = "<blockquote><blockquote><blockquote><pre><code>Unsere Praxisarbeit beruht immer auf dem neuesten Stand der Medizn </code></pre></blockquote></blockquote></blockquote><pre><code><code>Auf dieser Seite möchten wir Sie gerne über neue Erkenntnisse und wissenschaftliche Daten informieren.</code></code></pre><pre><code><code>Unter anderem finden Sie hier:</code></code></pre><ul><li><p>Zusammenfassungen neuer wissenschaftlicher Erkenntnisse</p></li><li><p>Die wichtigsten Fragen unserer Patienten zu unserer Therapie</p></li><li><p>Informationen zu unserer Praxis</p></li></ul>"
 intro_hintergrund = "/uploads/2018/11/08/infothek_bild.png"
 layout = "infothek"
 text_mitte = "<p>Interessante Neuigkeiten folgen in Kürze - Wiederkommen lohnt sich!</p>"
@@ -15,7 +15,7 @@ bild_download = "/uploads/2018/10/26/Ernaehrungsprotokoll.pdf"
 bild_eamo = "/uploads/2019/01/21/eamo_mockup.png"
 content = ""
 content_unten = "<p></p>"
-hinweistext_ = "<p><strong>ACHTUNG: Vom 04.02 bis 08.02 und vom 27.02 bis 11.03 werden die Beratungsgespräche von Frau Gesa Bergstein (Ökotrophologin, Körperkonzepte | Praxis für Ernährungsmedizin) durchgeführt.</strong></p>"
+hinweistext_ = "<p><strong>ACHTUNG: in der Zeit vom 15.07. bis zum 02.08.19 werden die Erstberatungsgespräche ausschliesslich von unseren Ernährungswissenschaftlerinnen Frau Gesa Bergstein und Frau Manon Andrä durchgeführt. Beide Mitarbeiterinnen sind erfahrene Ökotrophologinnen und mit unserem Therapiekonzept sehr gut vertraut.</strong></p>"
 icon_download = "/uploads/2018/10/26/icon_download.png"
 titel = "Termin vereinbaren"
 

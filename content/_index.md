@@ -86,7 +86,7 @@ termin:
   buttonbeschriftung: In Kürze für SIE!
   link: ''
   hintergrundbild: "/uploads/2018/08/06/termin_bild.png"
-  hinweistext_: "<p></p>"
+  hinweistext_: "<p>123</p>"
 intro: "<p>Sie essen zu viel oder zu wenig? Sie haben zu viele und zu lange Diäten
   gemacht? Sie bewegen sich zu wenig oder zu viel? Sie haben zu viel Stress? Sie leiden
   unter Schlafstörungen? Seelischer Kummer? Sie sind krank? All diese Gründe können

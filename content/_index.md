@@ -95,7 +95,10 @@ intro: "<p>Sie essen zu viel oder zu wenig? Sie haben zu viele und zu lange Diä
   Therapiekonzepte.</strong></p>"
 optionaler_contentblock:
   aktiv: true
-  titel: ''
-  content: "<p></p>"
+  titel: Information
+  content: "<p>in der Zeit vom 15.07.-02.08. werden die Erstberatungsgespräche ausschliesslich
+    von unseren Ernährungswissenschaftlerinnen                        Frau Gesa Bergstein
+    und Frau Manon Andrä durchgeführt. Beide Mitarbeiterinnen sind erfahrene Ökotrophologinnen
+    und mit unserem Therapiekonzept sehr gut vertraut.</p>"
 
 ---

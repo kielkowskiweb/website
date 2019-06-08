@@ -1,5 +1,6 @@
 +++
 date = "2018-11-08T16:53:42+01:00"
+draft = true
 intro = "<blockquote><blockquote><blockquote><pre><code>Unsere Praxisarbeit beruht immer auf dem neuesten Stand der Medizn </code></pre></blockquote></blockquote></blockquote><pre><code><code>Auf dieser Seite möchten wir Sie gerne über neue Erkenntnisse und wissenschaftliche Daten informieren.</code></code></pre><pre><code><code>Unter anderem finden Sie hier:</code></code></pre><ul><li><p>Zusammenfassungen neuer wissenschaftlicher Erkenntnisse</p></li><li><p>Die wichtigsten Fragen unserer Patienten zu unserer Therapie</p></li><li><p>Informationen zu unserer Praxis</p></li></ul>"
 intro_hintergrund = "/uploads/2018/11/08/infothek_bild.png"
 layout = "infothek"

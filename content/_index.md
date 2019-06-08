@@ -105,5 +105,6 @@ optionaler_contentblock:
     Interesse freuen wir uns über Ihre Bewerbung an die Praxis: Daniela Kielkowski,
     Leibnizstrasse 56, Berlin-10629 oder unter <a href="mailto:info@koerperkonzepte.com?subject=Bewerbung"
     title="">info@koerperkonzepte.com</a>.</p>'
+draft: true
 
 ---

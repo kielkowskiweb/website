@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2018-07-06 18:19:54 +0000
+date: '2018-07-06T18:19:54.000+00:00'
 type: page
 seo_description: ''
 kontakt:
@@ -12,10 +12,15 @@ kontakt:
   karte_bild: "/uploads/2018/08/09/map.png"
 slider:
 - bild: "/uploads/2018/10/12/slide_kk_6.jpg"
+  titel: ''
 - bild: "/uploads/2018/08/11/slide_kk_1.jpg"
+  titel: ''
 - bild: "/uploads/2018/08/11/slide_kk_5.jpg"
+  titel: ''
 - bild: "/uploads/2018/08/11/slide_kk_4.jpg"
+  titel: ''
 - bild: "/uploads/2018/08/11/slide_kk_2.jpg"
+  titel: ''
 - bild: "/uploads/2018/08/11/slide_kk_3.jpg"
   titel: "<p>Mit Leichtigkeit </p><p>die SCHWERE los</p>"
 titel_content_oben: Körperkonzepte
@@ -89,7 +94,7 @@ intro: "<p>Sie essen zu viel oder zu wenig? Sie haben zu viele und zu lange Diä
   helfen Ihnen bei der Ursachenforschung und suchen gemeinsam mit Ihnen alltagstaugliche
   Therapiekonzepte.</strong></p>"
 optionaler_contentblock:
-  aktiv: true
+  aktiv: false
   titel: Ökotrophologe/-in gesucht
   content: '<p>Wir sind eine  Arztpraxis mit ernährungsmedizinischem Tätigkeitsschwerpunkt
     in Berlin und möchten der Digitalisierung aufgeschlossen entgegentreten.</p><p>Für

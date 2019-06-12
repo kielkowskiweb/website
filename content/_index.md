@@ -94,7 +94,7 @@ intro: "<p>Sie essen zu viel oder zu wenig? Sie haben zu viele und zu lange Diä
   helfen Ihnen bei der Ursachenforschung und suchen gemeinsam mit Ihnen alltagstaugliche
   Therapiekonzepte.</strong></p>"
 optionaler_contentblock:
-  aktiv: true
+  aktiv: false
   titel: ''
   content: "<p></p>"
 

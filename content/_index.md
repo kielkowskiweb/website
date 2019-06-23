@@ -101,6 +101,5 @@ optionaler_contentblock:
   aktiv: false
   titel: ''
   content: "<p></p>"
-draft: true
 
 ---

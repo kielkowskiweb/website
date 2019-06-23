@@ -42,7 +42,7 @@ bild_download = "/uploads/2018/10/26/Ernaehrungsprotokoll.pdf"
 bild_eamo = "/uploads/2019/01/21/eamo_mockup.png"
 content = ""
 content_unten = ""
-hinweistext = "<p><strong>ACHTUNG: Vom 04.02 bis 08.02 und vom 27.02 bis 11.03 werden die Beratungsgespräche von Frau Gesa Bergstein (Ökotrophologin, Körperkonzepte | Praxis für Ernährungsmedizin) durchgeführt.</strong></p>"
+hinweistext = "<p>In der Zeit vom 15.07.- 02.08.19 werden die Beratungsgespräche und Stoffwechseluntersuchungen von meinen Mitarbeiterinnen Frau Gesa Bergstein und Frau Manon Andrä durchgeführt. Beide Ernährungswissenschaftlerinnen arbeiten nach meinem Praxiskonzept und sind sehr erfahrene Ökotrophologinnen.</p>"
 icon_download = "/uploads/2018/10/26/icon_download.png"
 titel = "Termin vereinbaren"
 [[bereiche]]

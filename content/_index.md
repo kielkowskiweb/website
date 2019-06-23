@@ -80,9 +80,13 @@ daniela_kielkowski:
 termin:
   titel: Termin vereinbaren
   content: "<p>Vereinbaren Sie Ihren Termin einfach online! Im Jameda Portal können
-    Sie bequem und einfach einen Termin vereinbaren. </p><p>Und so funktionierts:
-    Folgen sie dem Link &gt;&gt; Suchen Sie sich einen passenden Termin &gt;&gt; Anfrage
-    senden &gt;&gt; Terminbestätigung abwarten - FERTIG!</p>"
+    Sie bequem und einfach einen Termin vereinbaren.</p><p>In der Zeit vom 15.07.-
+    02.08.19 werden die Beratungsgespräche und Stoffwechseluntersuchungen von meinen
+    Mitarbeiterinnen Frau Gesa Bergstein und Frau Manon Andrä durchgeführt. Beide
+    Ernährungswissenschaftlerinnen arbeiten nach meinem Praxiskonzept und sind sehr
+    erfahrene Ökotrophologinnen.</p><p>Und so funktionierts: Folgen sie dem Link &gt;&gt;
+    Suchen Sie sich einen passenden Termin &gt;&gt; Anfrage senden &gt;&gt; Terminbestätigung
+    abwarten - FERTIG!</p>"
   buttonbeschriftung: In Kürze für SIE!
   link: ''
   hintergrundbild: "/uploads/2018/08/06/termin_bild.png"

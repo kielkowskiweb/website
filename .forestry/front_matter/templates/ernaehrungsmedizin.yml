@@ -79,38 +79,5 @@ fields:
       label: Icon
     config:
       labelField: titel
-- type: field_group
-  name: termin
-  label: Termin
-  fields:
-  - type: text
-    name: titel
-    label: TItel
-  - type: text
-    name: beschriftung_download
-    label: Beschriftung Download
-  - type: file
-    name: bild_download
-    label: PDF Download
-  - type: file
-    name: icon_download
-    label: Icon Download
-  - type: textarea
-    name: hinweistext
-    label: hinweistext
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - type: file
-    name: bild_eamo
-    label: Bild EaMo
-  - type: textarea
-    name: beschriftung_eamo
-    label: Beschriftung EaMo
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
 pages:
 - content/ernährungsmedizin.md

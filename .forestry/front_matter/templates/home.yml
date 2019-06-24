@@ -98,36 +98,6 @@ fields:
       schema:
         format: html-blocks
 - type: field_group
-  name: termin
-  label: Termin
-  fields:
-  - type: text
-    name: titel
-    label: Titel
-  - type: textarea
-    name: content
-    label: Content
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - type: text
-    name: buttonbeschriftung
-    label: Buttonbeschriftung
-  - type: text
-    name: link
-    label: Link
-  - type: file
-    name: hintergrundbild
-    label: Hintergrundbild
-  - type: textarea
-    name: hinweistext_
-    label: Hinweistext
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-- type: field_group
   name: kontakt
   label: Kontakt
   fields:

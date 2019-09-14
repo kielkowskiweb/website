@@ -1,5 +1,4 @@
 +++
-draft = true
 intro = "<p>Sie möchten etwas für Ihre Gesundheit tun, Sie leben nicht in Berlin, haben aber vielleicht schon von uns gehört oder gelesen und möchten von uns beraten werden? Dann sind Sie auf dieser Seite richtig.<br><strong>Alltagstaugliche Lösungen sind unser Ziel.</strong></p>"
 titel_themen = "Unsere Themen für SIE"
 title = "Online-Ernährungsberatung"
@@ -7,8 +6,8 @@ title = "Online-Ernährungsberatung"
 bild = "/uploads/2019/09/14/Manon_Andrae.png"
 content = "<p>MANON ANDRÄ<br>Ernährungswissenschaftlerin</p><p>Nach meinem Studium der Ernährungswissenschaften habe ich mich auf Adipositastherapie und deren Begleiterkrankungen spezialisiert. In den letzten Jahren war ich als Ökotrophologin in einer Spezialpraxis für bariatrisch operierte Patienten tätig.<br>Dort betreute ich Patienten nach Magenbypassoperationen, Schlauchmagenoperationen unter Einbeziehung sämtlicher Grunderkrankungen.</p><p>Seit 2019 arbeite ich in der ernährungsmedizinischen Praxis „Körperkonzepte“ und berate und betreue Patienten mit folgenden Stoffwechselstörungen und Erkrankungen:</p>"
 [content_unten]
-bild = ""
-content = ""
+bild = "/uploads/2019/09/14/termin_neu.png"
+content = "<h3>So einfach ...</h3><p>Mit Hilfe unserer eigenen Software analysieren wir vor Ihrem Online- Beratungstermin Ihre eingepflegten Daten, werten diese unter ärztlicher Anleitung aus und können damit schon verschiedene Therapiemöglichkeiten planen. <br>Somit steht Ihnen die Online-Sprechstunde als reine Beratungszeit zur Verfügung, da wir uns gut auf Ihr Thema vorbereiten.</p><p>Unsere Therapieempfehlungen, z.B. Ernährungspläne u.ä., bekommen Sie nach Ihrem Termin auch als Online- Dokumente über unsere Software zur Verfügung gestellt.</p><p>Sollten Sie mit digitalen Geräten oder digitalen Anwendungen nicht ausreichend vertraut sein, stellen wir Ihnen natürlich auch alle Unterlagen als PDF zur Verfügung.</p>"
 [konzept]
 schritte = []
 titel = ""

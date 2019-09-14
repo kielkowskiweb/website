@@ -35,3 +35,49 @@ fields:
       maxSize: 250
     label: Bild
   label: Content oben
+- name: titel_themen
+  type: text
+  config:
+    required: false
+  label: Titel Themen
+- name: themen
+  type: field_group_list
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Themen
+- name: content_unten
+  type: field_group
+  config: {}
+  fields:
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  label: Content unten

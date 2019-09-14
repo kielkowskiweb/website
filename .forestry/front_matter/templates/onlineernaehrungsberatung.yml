@@ -1,4 +1,37 @@
 ---
 label: OnlineErnaehrungsberatung
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: intro
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Intro
+- name: content_oben
+  type: field_group
+  config: {}
+  fields:
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  label: Content oben

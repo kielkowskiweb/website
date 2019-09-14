@@ -110,3 +110,5 @@ fields:
       label: Icon
     config:
       labelField: titel
+pages:
+- content/online-ernährungsberatung.md

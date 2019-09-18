@@ -7,6 +7,7 @@ text_mitte = "<p><strong>Praxisneuigkeiten</strong>: neben einer Onlinesprechstu
 titel_icon = ""
 title = "Infothek"
 [menu.main]
+name = "Info"
 weight = 5
 [termin]
 beschriftung_download = "Ernährungsprotokoll downloaden"

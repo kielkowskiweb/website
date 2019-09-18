@@ -33,12 +33,11 @@
     <div class="dleft"></div>
     <div class="dright"></div>
   </div>
-  <div class="cblock3">
+  <div class="cblock3" style="margin-bottom:2rem;">
     <div class="ui container">
       {{.Params.content_unten_2|safeHTML}}
     </div>
   </div>
-  {{ $p := .Site.GetPage "ernaehrungsberatung.md" }}
-  {{partial "termin" $p}}
+  {{partial "terminvb"}}
 </div>
 {{end}}

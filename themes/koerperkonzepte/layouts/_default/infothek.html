@@ -9,6 +9,7 @@
       </div>
     </div>
   </div>
+  <div style="margin-bottom:2rem;">
   <div class="ui container fluid tm">
     <div class="decoWrapper">
       <div class="dleft"></div>
@@ -18,7 +19,7 @@
       {{.Params.text_mitte|safeHTML}}
     </div>
   </div>
-  {{ $p := .Site.GetPage "ernaehrungsberatung.md" }}
-  {{partial "termin" $p}}
+</div>
+  {{partial "terminvb"}}
 </div>
 {{end}}

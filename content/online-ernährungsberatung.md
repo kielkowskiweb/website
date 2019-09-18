@@ -2,15 +2,38 @@
 intro = "<p>Sie möchten etwas für Ihre Gesundheit tun, Sie leben nicht in Berlin, haben aber vielleicht schon von uns gehört oder gelesen und möchten von uns beraten werden? Dann sind Sie auf dieser Seite richtig.<br><strong>Alltagstaugliche Lösungen sind unser Ziel.</strong></p>"
 titel_themen = "Unsere Themen für SIE"
 title = "Online-Ernährungsberatung"
+layout="onlineernaehungsberatung"
+[menu.main]
+name = "Online beratung"
+weight = 2
 [content_oben]
 bild = "/uploads/2019/09/14/Manon_Andrae.png"
-content = "<p>MANON ANDRÄ<br>Ernährungswissenschaftlerin</p><p>Nach meinem Studium der Ernährungswissenschaften habe ich mich auf Adipositastherapie und deren Begleiterkrankungen spezialisiert. In den letzten Jahren war ich als Ökotrophologin in einer Spezialpraxis für bariatrisch operierte Patienten tätig.<br>Dort betreute ich Patienten nach Magenbypassoperationen, Schlauchmagenoperationen unter Einbeziehung sämtlicher Grunderkrankungen.</p><p>Seit 2019 arbeite ich in der ernährungsmedizinischen Praxis „Körperkonzepte“ und berate und betreue Patienten mit folgenden Stoffwechselstörungen und Erkrankungen:</p>"
+content = "<h3>MANON ANDRÄ</h3><p>Ernährungswissenschaftlerin</p><p>Nach meinem Studium der Ernährungswissenschaften habe ich mich auf Adipositastherapie und deren Begleiterkrankungen spezialisiert. In den letzten Jahren war ich als Ökotrophologin in einer Spezialpraxis für bariatrisch operierte Patienten tätig.<br>Dort betreute ich Patienten nach Magenbypassoperationen, Schlauchmagenoperationen unter Einbeziehung sämtlicher Grunderkrankungen.</p><p>Seit 2019 arbeite ich in der ernährungsmedizinischen Praxis „Körperkonzepte“ und berate und betreue Patienten mit folgenden Stoffwechselstörungen und Erkrankungen:</p>"
 [content_unten]
 bild = "/uploads/2019/09/14/termin_neu.png"
 content = "<h3>So einfach ...</h3><p>Mit Hilfe unserer eigenen Software analysieren wir vor Ihrem Online- Beratungstermin Ihre eingepflegten Daten, werten diese unter ärztlicher Anleitung aus und können damit schon verschiedene Therapiemöglichkeiten planen. <br>Somit steht Ihnen die Online-Sprechstunde als reine Beratungszeit zur Verfügung, da wir uns gut auf Ihr Thema vorbereiten.</p><p>Unsere Therapieempfehlungen, z.B. Ernährungspläne u.ä., bekommen Sie nach Ihrem Termin auch als Online- Dokumente über unsere Software zur Verfügung gestellt.</p><p>Sollten Sie mit digitalen Geräten oder digitalen Anwendungen nicht ausreichend vertraut sein, stellen wir Ihnen natürlich auch alle Unterlagen als PDF zur Verfügung.</p>"
 [konzept]
-schritte = []
-titel = ""
+titel = "Unser Konzept für Ihren Erfolg"
+[[konzept.schritte]]
+content = "<ul><li><p>Vereinbaren Sie unter der Rufnummer 030-88922055 oder über unseren &gt;&gt; Online- Kalender einen Beratungstermin</p></li></ul>"
+icon = "/uploads/2018/10/26/icon_termin.png"
+nummer = 1
+titel = "Termin vereinbaren"
+[[konzept.schritte]]
+content = "<ul><li><p>Laden Sie sich entweder einen Zugang zu unserer „Online-Ernährungserfassung“ oder unser „Ernährungsprotokoll“ herunter</p></li><li><p>Füllen Sie eines davon ca. 7 Tage genau aus und bringen Sie alles zu unserem 1. Vermessungs- und Besprechungstermin mit.</p></li></ul>"
+icon = "/uploads/2018/10/26/icon_protokoll.png"
+nummer = 2
+titel = "Ernährungsprotokoll ausfüllen"
+[[konzept.schritte]]
+content = "<ul><li><p>Individuelle Anamneseerhebung mit Hilfe einer eigens für die Praxis entwickelten Software</p></li><li><p>Stoffwechselvermessung nach unterschiedlichen Messmethoden</p></li></ul>"
+icon = "/uploads/2018/10/26/icon_anamese.png"
+nummer = 3
+titel = "Anamese & Vermessung"
+[[konzept.schritte]]
+content = "<ul><li><p>Persönliche Auswertung aller Befunde unter ärztlicher Besprechung und Erstellung eines Therapiekonzeptes</p></li></ul>"
+icon = "/uploads/2018/10/26/icon_auswertung.png"
+nummer = 4
+titel = "Auswertung & Therapie"
 [[themen]]
 content = "<p>Hier begeben wir uns als erstes auf die Ursachenerforschung Ihres Gewichtsproblems, denn das ist der größte Anteil der Lösung. Nicht jeder übergewichtige Mensch isst zu viel oder bewegt sich zu wenig! Auch Krankheiten, Medikamente, Alltagsprobleme, Lebenswandel können zu Übergewicht führen. Viele essen auch zu wenig oder schlichtweg falsch.</p><p>Gewichtsprobleme hängen immer mit einem nicht gut funktionierenden Stoffwechsel zusammen. Die Fettverbrennung arbeitet nicht mehr ausreichend, um die Energiedefizite flexibel auszugleichen. Der Gesamtstoffwechsel ist wie ein komplexes Uhrenwerk zu verstehen, welches nur richtig funktionieren kann, wenn alle Zahnräder perfekt in einander greifen. Somit kann man sich leicht vorstellen, dass auch der Defekt eines anderen Zahnrades (Organe, Immunsystem, Hormonhaushalt) zu einer Fettverbrennungsstörung führen kann. Gleichzeitig kann ein Defekt der Fettverbrennung andere Erkrankungen hervorrufen. Zum Beispiel Muskelerkrankungen, Depressionen, Bandscheibenvorfälle u.v.m! </p><p>Nach Analyse der Anamnese und des Essverhaltens erhalten Sie von uns genaue Empfehlungen, wie Sie essen und sich verhalten sollten, um Ihren Stoffwechsel wieder zu aktivieren und jedes Gewicht in Zukunft gut halten zu können. Das ist nämlich die größte Herausforderung. Deshalb ist dies unsere Priorität, die Gewichtserhaltung als erstes zu vermitteln. Erst dann kann man ein erfolgreiches Abnehmkonzept planen und durchführen.</p>"
 titel = "Gewichtsprobleme"

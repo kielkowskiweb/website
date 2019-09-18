@@ -159,13 +159,18 @@ footer .footermenu a {
   color: white!important;
 }
 .term {
-  background: #ededed;
-  border-top: 1px solid #b2232b;
   margin-bottom: -1rem;
   padding-bottom: 2rem;
 }
 .term p {
-  text-align: center;
+  text-align: left;
+}
+.term .dlabel {
+  color: #b2232b;
+  font-weight: bold;
+}
+.term ol {
+  padding-left: 1em;
 }
 @media (max-width: 767px) {
   .term {
@@ -216,6 +221,17 @@ footer .footermenu a {
   margin-top: -10px;
   margin-left: -10px;
   z-index: 9;
+}
+.tvb {
+  text-align: center;
+  padding: 2rem 0 4rem 0;
+}
+.tvb a {
+  color: white;
+  font-size: 2rem;
+  background: #b2232b;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
 }
 .cblockapp {
   border-top: 1px solid #b2232b;
@@ -271,11 +287,57 @@ footer .footermenu a {
   padding: 3rem 0;
   text-align: center;
 }
-.subpage.kt > .container {
-  margin: 0!important;
+.subpage.kt .thitem {
+  border: 1px solid #b2232b;
+  margin: 0 0 2rem;
+}
+.subpage.kt .thitem.open i.down {
+  display: none;
+}
+.subpage.kt .thitem.closed i.up {
+  display: none;
+}
+.subpage.kt .thitem.closed .content {
+  display: none;
+}
+.subpage.kt .thitem .header {
+  cursor: pointer;
+  background: #b2232b;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.subpage.kt .thitem .header h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin: 0;
+}
+.subpage.kt .thitem .header i {
+  color: white;
+  line-height: 1em;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+.subpage.kt .thitem .content {
+  padding: 1rem;
+}
+.subpage.kt .thitem .content ul {
+  padding: 0 0 0 1rem;
+}
+.subpage.kt .thitem .content .txt {
+  margin: 2rem 0;
+}
+.subpage.kt h2 {
+  text-transform: none;
+  color: #b2232b;
+  font-weight: bold;
+  margin: 3rem 0;
 }
 .subpage.kt .kontakt {
-  border-bottom: 1px solid #b2232b;
+  border-top: 1px solid #b2232b;
 }
 .subpage.kt .kontakt h2 {
   color: #b2232b;
@@ -283,6 +345,13 @@ footer .footermenu a {
   letter-spacing: 0;
   text-transform: none;
   text-align: left;
+}
+.subpage.kt .kontakt a > em {
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  background: #b2232b;
 }
 .subpage.kt .kontakt .content {
   padding: 2rem 0;
@@ -403,6 +472,91 @@ footer .footermenu a {
     font-size: 1.2rem;
   }
 }
+.subpage.oeb #intro {
+  padding: 2rem 0!important;
+}
+.subpage.oeb #intro strong {
+  color: #b2232b;
+}
+.subpage.oeb .co {
+  background: #e7e7e7;
+}
+.subpage.oeb .cu {
+  margin: 4rem 0 0rem 0;
+  border-top: 1px solid #b2232b;
+  border-bottom: 1px solid #b2232b;
+}
+.subpage.oeb .cu h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem!important;
+}
+.subpage.oeb .cu .contentcol {
+  padding: 3rem 0 3rem 1.5rem!important;
+}
+.subpage.oeb h3 {
+  color: #b2232b;
+  margin: 0!important;
+}
+.subpage.oeb .contentcol {
+  padding: 2rem 0!important;
+}
+.subpage.oeb .th {
+  margin-top: 1rem;
+}
+.subpage.oeb .th h2 {
+  color: #b2232b;
+  font-weight: bold!important;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.subpage.oeb .th .thlist {
+  columns: 2;
+  column-gap: 3rem;
+  column-fill: auto;
+}
+.subpage.oeb .th .thlist .thitem {
+  border: 1px solid #b2232b;
+  margin: 0 0 2rem;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+.subpage.oeb .th .thlist .thitem.open i.down {
+  display: none;
+}
+.subpage.oeb .th .thlist .thitem.closed i.up {
+  display: none;
+}
+.subpage.oeb .th .thlist .thitem.closed .content {
+  display: none;
+}
+.subpage.oeb .th .thlist .thitem .header {
+  cursor: pointer;
+  background: #b2232b;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.subpage.oeb .th .thlist .thitem .header h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin: 0;
+}
+.subpage.oeb .th .thlist .thitem .header i {
+  color: white;
+  line-height: 1em;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+.subpage.oeb .th .thlist .thitem .content {
+  padding: 1rem;
+}
+.subpage.oeb .th .thlist .thitem .content ul {
+  padding: 0 0 0 1rem;
+}
 .subpage.em #intro {
   text-align: center;
   padding: 4rem 0 1rem 0;
@@ -502,10 +656,6 @@ footer .footermenu a {
 .subpage.em .knzpt .ct.left {
   width: 50%;
 }
-.subpage.em .knzpt .ct.left li {
-  padding-left: 1.2em;
-  background: url(/listicon.png) left 0.5em no-repeat;
-}
 .subpage.em .knzpt .ct.left .num {
   margin-right: 1rem;
 }
@@ -522,10 +672,6 @@ footer .footermenu a {
 }
 .subpage.em .knzpt .ct.right {
   margin-left: 50%;
-}
-.subpage.em .knzpt .ct.right li {
-  padding-right: 1.2em;
-  background: url(/listicon.png) right 0.5em no-repeat;
 }
 .subpage.em .knzpt .ct.right h4 {
   text-align: right;

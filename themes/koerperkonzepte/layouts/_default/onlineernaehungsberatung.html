@@ -1,46 +1,60 @@
 {{ define "main" }}
-{{ $eb:=.Site.GetPage "/ernaehrungsberatung.md"}}
-<div class="subpage em eb">
+<div class="subpage em eb oeb">
   {{ partial "headerSubService.html" . }}
   <div class="ui container">
     <div id="intro">
       {{.Params.intro | safeHTML}}
     </div>
   </div>
+  {{with .Params.content_oben}}
+  <div class="co">
   <div class="ui container">
-    <div class="ui three column stackable grid">
-      {{ range .Params.bereiche }}
-      <div class="ui column bercol">
-        <img class="bercolimg" src="{{partial "imgUrl" (dict "img" .icon "params" "" )}}" />
-        <div class="bercol">
+    <div class="ui two column stackable mobile reversed grid">
+      <div class="ui column" style="min-height:400px; background:url({{partial "imgUrl" (dict "img" .bild "params" "f_auto" )}}) center top no-repeat; background-size:cover">
+&nbsp;
+      </div>
+      <div class="ui column contentcol">
           {{.content |safeHTML}}
         </div>
-      </div>
-      {{end}}
     </div>
   </div>
-  <div id="mcontent">
-    <div class="ui container">
-      {{.Params.test_mitte|safeHTML}}
-    </div>
+</div>
+  {{end}}
+<div class="ui container th">
+  <div class="decoWrapper">
+    <div class="dleft"></div>
+    <div class="dright"></div>
   </div>
-  <div class="ui container imgwrap">
-    <img src="{{partial "imgUrl" (dict "img" .Params.bild "params" "" )}}" />
-  </div>
-  <div class="ui container fluid cblock" style="background:url({{partial "imgUrl" (dict "img" .Params.content_block.hintergrundbild "params" "f_auto" )}}) left center no-repeat; background-size:contain">
-    <div class="decoWrapper">
-      <div class="dleft"></div>
-      <div class="dright"></div>
-    </div>
-    <div class="ui container">
-      <div class="ui grid stackable">
-        <div class="ui six wide column tablet computer only"></div>
-        <div class="ui ten wide column">
-          {{.Params.content_block.content|safeHTML}}
+  <h2>{{.Params.titel_themen}}</h2>
+  <div class="thlist">
+    {{range .Params.themen}}
+      <div class="thitem closed">
+        <div class="header">
+          <i class="icon chevron circle down"></i>
+          <i class="icon chevron circle up"></i>
+          <h3>{{.titel}}</h3>
+        </div>
+        <div class="content">
+            {{.content |safeHTML}}
         </div>
       </div>
+    {{end}}
+  </div>
+</div>
+{{with .Params.content_unten}}
+<div class="co cu">
+    <div class="ui container">
+      <div class="ui two column stackable mobile reversed grid">
+        <div class="ui column" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "f_auto" )}}) center center no-repeat; background-size:auto 70%">
+  &nbsp;
+        </div>
+        <div class="ui column contentcol">
+            {{.content |safeHTML}}
+          </div>
+      </div>
     </div>
   </div>
+  {{end}}
   <div class="ui container knzpt">
     <div id="knzptdeco"></div>
     <h2>{{.Params.konzept.titel}}</h2>
@@ -87,6 +101,7 @@
     </div>
     <!-- -->
     {{end}}
-  </div>{{partial "terminv"}}
+  </div>
+  {{partial "terminv"}}
 </div>
 {{end}}

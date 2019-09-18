@@ -11,9 +11,14 @@ titel = "Besuchen Sie uns!"
 [menu.main]
 weight = 7
 [termin]
-content = "<p>Mit unserem online Terminkalender können Sie sich genau Ihren Wunschtermin aussuchen und das auch ausserhalb unserer Sprechzeiten - Probieren Sie es einfach aus!</p><p><strong>ACHTUNG: Vom 04.02 bis 08.02 und vom 27.02 bis 11.03 werden die Beratungsgespräche von Frau Gesa Bergstein (Ökotrophologin, Körperkonzepte | Praxis für Ernährungsmedizin) durchgeführt.</strong></p>"
+beschriftung_download = "Ernährungsprotokoll downloaden"
+beschriftung_eamo = "<p>Ernährung + Anamnese online erfassen</p>"
+bild_download = "/uploads/2018/10/26/Ernaehrungsprotokoll.pdf"
+bild_eamo = "/uploads/2019/01/21/eamo_mockup.png"
+content = "<p>Das Gespräch findet bei der Ärztin, Frau Kielkowski, unter Berücksichtigung der vor Ort erfolgten Stoffwechselmessungen und Untersuchungen statt. Zusätzlich empfehlen wir ein Ernährungsprotokoll zu führen und zum Termin mitzubringen</p><ol><li><p>Untersuchung des Stoffwechsels mit Hilfe spezieller Messverfahren zur Überprüfung Ihrer Stoffwechselleistung</p></li><li><p>Ernährungsmedizinisches Gespräch mit der Ärztin</p></li><li><p>Therapieplanung zur Lösung des gesundheitlichen Problems</p></li><li><p>Therapie (z.B. Gewichtsreduktion)</p></li></ol><p>Vereinbaren Sie Ihren Beratungstermin unter der Rufnummer 030-88922055 oder über unseren Praxis-Kalender</p>"
 content_unten = "<p></p>"
-hinweistext_ = "<p></p>"
-titel = "Vereinbaren Sie Ihren Termin online"
+hinweistext_ = ""
+icon_download = "/uploads/2018/10/26/icon_download.png"
+titel = "Termin vereinbaren"
 
 +++

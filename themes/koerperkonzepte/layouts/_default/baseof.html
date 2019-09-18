@@ -61,6 +61,8 @@
           $(this).addClass('closed');
         } else {
           $(this).addClass('open');
+          let src = $(this).find('iframe').attr('data-src');
+          $(this).find('iframe').attr('src',src);
           $(this).removeClass('closed');
         }
         

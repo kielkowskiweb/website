@@ -35,34 +35,6 @@ fields:
   fields:
   - type: text
     name: titel
-    label: Titel
-  - type: textarea
-    name: content
-    label: Content
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - type: textarea
-    name: content_unten
-    label: Content unten
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - type: textarea
-    name: hinweistext_
-    label: Hinweistext
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-- type: field_group
-  name: termin
-  label: Termin
-  fields:
-  - type: text
-    name: titel
     label: TItel
   - type: textarea
     name: hinweistext_

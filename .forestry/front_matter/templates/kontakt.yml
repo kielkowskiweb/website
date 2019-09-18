@@ -76,5 +76,34 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+- name: untertitel
+  type: text
+  config:
+    required: false
+  label: Untertitel
+- name: titel_block_termin
+  type: text
+  config:
+    required: false
+  label: Titel Block Termin
+- name: titel_beratung
+  type: text
+  config:
+    required: false
+  label: Titel Beratung
+- name: beratung_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Beratung Content
+- name: url_iframe_beratung
+  type: text
+  config:
+    required: false
+  label: URL iFrame Beratung
 pages:
 - content/kontakt.md

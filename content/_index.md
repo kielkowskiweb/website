@@ -11,10 +11,10 @@ kontakt:
   titel: Kontakt
   karte_bild: "/uploads/2018/08/09/map.png"
 slider:
-- bild: "/uploads/2018/08/11/slide_kk_1.jpg"
-  titel: "<p>essen</p>"
 - bild: "/uploads/2019/09/19/slide_kk_ernaehrungsberatung_low.jpg"
   titel: "<p>online-beratung</p>"
+- bild: "/uploads/2018/08/11/slide_kk_1.jpg"
+  titel: "<p>essen</p>"
 - bild: "/uploads/2018/08/11/slide_kk_2.jpg"
   titel: "<p>Bewegung </p>"
 - bild: "/uploads/2018/10/12/slide_kk_6.jpg"

@@ -514,6 +514,11 @@ footer .footermenu a {
   column-gap: 3rem;
   column-fill: auto;
 }
+@media (max-width: 767px) {
+  .subpage.oeb .th .thlist {
+    columns: 1;
+  }
+}
 .subpage.oeb .th .thlist .thitem {
   border: 1px solid #b2232b;
   margin: 0 0 2rem;
@@ -550,6 +555,14 @@ footer .footermenu a {
   line-height: 1em;
   font-size: 2rem;
   margin-right: 1rem;
+}
+@media (max-width: 767px) {
+  .subpage.oeb .th .thlist .thitem .header h3 {
+    font-size: 1.1rem;
+  }
+  .subpage.oeb .th .thlist .thitem .header i {
+    font-size: 1.6rem;
+  }
 }
 .subpage.oeb .th .thlist .thitem .content {
   padding: 1rem;

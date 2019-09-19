@@ -504,6 +504,9 @@ footer{
         columns:2;
         column-gap: 3rem;
         column-fill:auto;
+        @media (max-width: 767px){
+          columns:1;
+         }
         .thitem{
           border:1px solid @red;
           margin: 0 0 2rem;
@@ -534,6 +537,7 @@ footer{
               line-height:2rem;
               margin:0;
             }
+            
             display:flex;
             justify-content: left;
             align-items: center;
@@ -543,6 +547,14 @@ footer{
               font-size:2rem;
               margin-right:1rem;
             }
+            @media (max-width: 767px){
+              h3{
+                font-size:1.1rem;
+              }
+              i{
+                font-size:1.6rem
+              }
+             }
           }
           .content{
             padding:1rem;

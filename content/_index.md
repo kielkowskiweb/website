@@ -47,7 +47,7 @@ bereiche:
   icon: "/uploads/2018/08/06/icon_praeventivmedizin.png"
   untertitel: ''
   link: präventivmedizin.md
-- titel: Ernährungsberatung
+- titel: Onlineberatung
   icon: "/uploads/2018/08/06/icon_ernaehrungsberung.png"
   untertitel: ''
   link: ernaehrungsberatung.md

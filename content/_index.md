@@ -13,7 +13,7 @@ kontakt:
 slider:
 - bild: "/uploads/2018/08/11/slide_kk_1.jpg"
   titel: "<p>essen</p>"
-- bild: "/uploads/2019/09/19/slide_kk_ernährungsberatung-ow.png"
+- bild: "/uploads/2019/09/19/slide_kk_ernährungsberatung_low.jpg"
   titel: "<p>online-beratung</p>"
 - bild: "/uploads/2018/08/11/slide_kk_2.jpg"
   titel: "<p>Bewegung </p>"

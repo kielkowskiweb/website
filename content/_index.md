@@ -24,7 +24,7 @@ slider:
 - bild: "/uploads/2018/08/11/slide_kk_4.jpg"
   titel: "<p>krank</p>"
 - bild: "/uploads/2018/08/11/slide_kk_3.jpg"
-  titel: "<p>Mit Leichtigkeit </p><p>die SCHWERE los</p>"
+  titel: "<p>Diäten</p>"
 titel_content_oben: Körperkonzepte
 content_oben: "<p>Wir sind eine Arztpraxis mit dem Tätigkeitsschwerpunkt Ernährungs-
   und Präventivmedizin. Seit vielen Jahren behandeln wir Menschen mit Gewichtsproblemen,

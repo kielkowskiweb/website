@@ -59,10 +59,6 @@ bereiche:
   icon: "/uploads/2018/08/06/icon_infothek.png"
   untertitel: ''
   link: infothek.md
-- titel: Videosprechstunde
-  icon: "/uploads/2018/08/06/icon_videosprechstunde.png"
-  link: Videosprechstunde.md
-  untertitel: ''
 daniela_kielkowski:
   bild_links: "/uploads/2018/08/11/portrait_neu.png"
   content: "<blockquote><p>Diäten, Fastenkuren bei Übergewicht und Kalorienzählen

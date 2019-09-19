@@ -43,14 +43,14 @@ bereiche:
   icon: "/uploads/2018/08/06/icon_ernaehrungsmedizin.png"
   untertitel: ''
   link: ernährungsmedizin.md
+- titel: Onlineberatung
+  icon: "/uploads/2018/08/06/icon_ernaehrungsberung.png"
+  untertitel: ''
+  link: online-ernährungsberatung.md
 - titel: Präventivmedizin
   icon: "/uploads/2018/08/06/icon_praeventivmedizin.png"
   untertitel: ''
   link: präventivmedizin.md
-- titel: Onlineberatung
-  icon: "/uploads/2018/08/06/icon_ernaehrungsberung.png"
-  untertitel: ''
-  link: ernaehrungsberatung.md
 - titel: Akupunktur
   icon: "/uploads/2018/08/06/icon_akkupunktur.png"
   untertitel: ''

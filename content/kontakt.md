@@ -7,7 +7,7 @@ titel_beratung = "Online Beratung überregional"
 titel_block_termin = "Erstgespräch in der Praxis"
 title = "Kontakt"
 untertitel = "Termine vereinbaren"
-url_iframe_beratung = "https://puc.doc-cirrus.com/inti- me?prac=3167&tab=login&redirectTo=%252Fintime%252Fpatient%253Ftab%253Dpractices%2526prac%253D3167"
+url_iframe_beratung = "https://puc.doc-cirrus.com/intime?prac=3167&tab=login&redirectTo=%252Fintime%252Fpatient%253Ftab%253Dpractices%2526prac%253D3167"
 [kontakt]
 content = "<p><strong>Körperkonzepte | Praxis für Ernährungsmedizin<br></strong>Leibnizstraße 56<br>10629 Berlin</p><p>Tel 030 - 88 92 20 - 55<br>Fax 030 - 88 92 20 - 65</p><p><a href=\"mailto:info@koerperkonzepte.com\" title=\"\">info@koerperkonzepte.com</a><br><a href=\"https://www.koerperkonzepte.com\" title=\"\">www.koerperkonzepte.com</a></p><p>Sprechzeiten:<br>Mo/Fr 8.00-15.00<br>Di/Do 11.00-18.00<br>Mi nach Vereinbarung</p><p>Haben Sie Fragen? Gern können Sie uns eine E-Mail schreiben.</p><p><a href=\"mailto:info@koerperkonzepte.com\" title=\"\"><em>E-Mail senden</em></a></p>"
 karte = "https://www.openstreetmap.org/export/embed.html?bbox=13.28976631164551%2C52.48967943654932%2C13.336114883422853%2C52.51316523643532&amp;layer=mapnik&amp;marker=52.50142390483136%2C13.31294059753418"

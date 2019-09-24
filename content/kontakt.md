@@ -1,5 +1,5 @@
 +++
-beratung_content = "<p>Das Beratungsgespräch findet bei unserer Ernährungswissenschaftlerin statt, dabei vertritt Frau Andrä dasselbe Beratungs- und Therapiekonzept von Frau Kielkowski. Es finden wöchentliche Weiterbildungsseminare in der Praxis statt.</p><p>Um Ihre persönlichen Daten zu schützen, wie gesetzlich vorgegeben für eine online Beratung, ist eine Anmeldung im Gesundheitsportal notwendig. Erst dann ist die Terminbuchung möglich.</p>"
+beratung_content = "<p>Das Beratungsgespräch findet bei unserer Ernährungswissenschaftlerin statt, dabei vertritt Frau Andrä dasselbe Beratungs- und Therapiekonzept von Frau Kielkowski. Es finden wöchentliche Weiterbildungsseminare in der Praxis statt.</p><p>Um Ihre persönlichen Daten, wie gesetzlich vorgegeben, zu schützen, ist eine Anmeldung im Gesundheitsportal notwendig. Erst dann ist die Terminbuchung möglich. Der Vorteil des Gesundheitsportals besteht darin, dass Sie flexibel Termine buchen können und mit uns jederzeit sicher und unkompliziert Dokumente austauschen können. </p>"
 date = "2018-11-10T07:04:04+01:00"
 intro = "<p>Wir freuen uns auf SIE - Wählen Sie jetzt ganz nach Ihren Bedürfnissen, wie Sie mit uns in Kontakt treten möchten.</p>"
 layout = "kontakt"

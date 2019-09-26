@@ -232,6 +232,12 @@ footer .footermenu a {
   background: #b2232b;
   padding: 1rem 2rem;
   margin: 2rem 0;
+  line-height: 1.3em;
+}
+@media (max-width: 767px) {
+  .tvb a {
+    font-size: 1.2rem;
+  }
 }
 .cblockapp {
   border-top: 1px solid #b2232b;

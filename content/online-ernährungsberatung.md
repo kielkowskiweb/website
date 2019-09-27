@@ -25,12 +25,12 @@ titel = "Ernährungsprotokoll ausfüllen"
 content = "<ul><li><p>Persönliche Auswertung via Videosprechstunde und Erstellung eines individuellen Therapiekonzeptes anhand Ihrer Daten und Eingaben.</p></li></ul>"
 icon = "/uploads/2018/10/26/icon_anamese.png"
 nummer = 3
-titel = "Anamese"
+titel = "Auswertung & Vorbereitung"
 [[konzept.schritte]]
-content = "<ul><li><p>Persönliche Auswertung aller Befunde unter ärztlicher Besprechung und Erstellung eines Therapiekonzeptes</p></li></ul>"
+content = "<ul><li><p>Bereitstellung der Therapiepläne und Dokumente nach der Online-Sprechstunde</p></li></ul>"
 icon = "/uploads/2018/10/26/icon_auswertung.png"
 nummer = 4
-titel = "Auswertung & Therapie"
+titel = "Therapie & Planung"
 [menu.main]
 name = "Online beratung"
 weight = 2

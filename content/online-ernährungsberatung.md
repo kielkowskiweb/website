@@ -27,7 +27,7 @@ icon = "/uploads/2018/10/26/icon_anamese.png"
 nummer = 3
 titel = "Anamnese & Auswertung"
 [[konzept.schritte]]
-content = "<ul><li><p>Bereitstellung der Therapiepläne und Dokumente nach der Online-Sprechstunde</p></li></ul>"
+content = "<ul><li><p>Persönliche Auswertung und Besprechung der Ergebnisse in der Videosprechstunde.</p></li><li><p>Bereitstellung der Therapiepläne und Dokumente nach der Online-Sprechstunde.</p></li></ul>"
 icon = "/uploads/2018/10/26/icon_auswertung.png"
 nummer = 4
 titel = "Therapie & Planung"

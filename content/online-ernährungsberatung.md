@@ -12,7 +12,7 @@ content = "<h3>So einfach ...</h3><p>Mit Hilfe unserer eigenen Software analysie
 [konzept]
 titel = "Unser Konzept für Ihren Erfolg"
 [[konzept.schritte]]
-content = "<ul><li><p>Vereinbaren Sie unter der Rufnummer 030-88922055 oder über unseren &gt;&gt; Online- Kalender einen Beratungstermin</p></li></ul>"
+content = "<ul><li><p>Vereinbaren Sie über das Gesundheitsportal einen Termin zur Online-Beratung. Danach erhalten Sie automatisch Ihre Dokumente</p></li></ul>"
 icon = "/uploads/2018/10/26/icon_termin.png"
 nummer = 1
 titel = "Termin vereinbaren"

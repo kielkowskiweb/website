@@ -22,7 +22,7 @@ icon = "/uploads/2018/10/26/icon_protokoll.png"
 nummer = 2
 titel = "Ernährungsprotokoll ausfüllen"
 [[konzept.schritte]]
-content = "<ul><li><p>Individuelle Anamneseerhebung mit Hilfe einer eigens für die Praxis entwickelten Software</p></li></ul>"
+content = "<ul><li><p>Persönliche Auswertung via Videosprechstunde und Erstellung eines individuellen Therapiekonzeptes anhand Ihrer Daten und Eingaben.</p></li></ul>"
 icon = "/uploads/2018/10/26/icon_anamese.png"
 nummer = 3
 titel = "Anamese"

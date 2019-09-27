@@ -8,7 +8,7 @@ bild = "/uploads/2019/09/14/Manon_Andrae.png"
 content = "<h3>MANON ANDRÄ</h3><p>Ernährungswissenschaftlerin</p><p>Nach meinem Studium der Ernährungswissenschaften habe ich mich auf Adipositastherapie und deren Begleiterkrankungen spezialisiert. In den letzten Jahren war ich als Ökotrophologin in einer Spezialpraxis für bariatrisch operierte Patienten tätig.<br>Dort betreute ich Patienten nach Magenbypassoperationen, Schlauchmagenoperationen unter Einbeziehung sämtlicher Grunderkrankungen.</p><p>Seit 2019 arbeite ich in der ernährungsmedizinischen Praxis „Körperkonzepte“ und vertrete dasselbe Beratungs- und Therapiekonzept wie Frau Kielkowski. Wöchentlich finden Weiterbildungsseminare in der Praxis statt, sodass ich Patienten zu folgenden Stoffwechselstörungen und Erkrankungen betreuen und beraten kann:</p>"
 [content_unten]
 bild = "/uploads/2019/09/14/termin_neu.png"
-content = "<h3>So einfach ...</h3><p>Mit Hilfe unserer eigenen Software analysieren wir vor Ihrem Online- Beratungstermin Ihre eingepflegten Daten, werten diese unter ärztlicher Anleitung aus und können damit schon verschiedene Therapiemöglichkeiten planen. <br>Somit steht Ihnen die Online-Sprechstunde als reine Beratungszeit zur Verfügung, da wir uns gut auf Ihr Thema vorbereiten.</p><p>Unsere Therapieempfehlungen, z.B. Ernährungspläne u.ä., bekommen Sie nach Ihrem Termin auch als Online- Dokumente über unsere Software zur Verfügung gestellt.</p><p><strong>Wir sind gesetzlich verpflichtet nach GOÄ (Gebührenordnung für Ärzte) abzurechnen, daher entstehen für die Vor-und Nachbereitung, individuell erstellte Therapiepläne, sowie dem Beratungsgespräch Kosten in Höhe von 72 €.</strong></p>"
+content = "<h3>So einfach funktioniert unsere Online-Beratung ...</h3><p>Mit Hilfe unserer eigenen Software analysieren wir vor Ihrem Online- Beratungstermin Ihre eingepflegten Daten, werten diese unter ärztlicher Anleitung aus und können damit schon verschiedene Therapiemöglichkeiten planen. <br>Somit steht Ihnen die Online-Sprechstunde als reine Beratungszeit zur Verfügung, da wir uns gut auf Ihr Thema vorbereiten.</p><p>Unsere Therapieempfehlungen, z.B. Ernährungspläne u.ä., bekommen Sie nach Ihrem Termin auch als Online- Dokumente über unsere Software zur Verfügung gestellt.</p><p><strong>Wir sind gesetzlich verpflichtet nach GOÄ (Gebührenordnung für Ärzte) abzurechnen, daher entstehen für die Vor-und Nachbereitung, individuell erstellte Therapiepläne, sowie dem Beratungsgespräch Kosten in Höhe von 72 €.</strong></p>"
 [konzept]
 titel = "Unser Konzept für Ihren Erfolg"
 [[konzept.schritte]]
@@ -22,7 +22,7 @@ icon = "/uploads/2018/10/26/icon_protokoll.png"
 nummer = 2
 titel = "Ernährungsprotokoll ausfüllen"
 [[konzept.schritte]]
-content = "<ul><li><p>Persönliche Auswertung via Videosprechstunde und Erstellung eines individuellen Therapiekonzeptes anhand Ihrer Daten und Eingaben.</p></li></ul>"
+content = "<ul><li><p>Medizinische Auswertung Ihrer Dokumente vor der Sprechstunde.</p></li><li><p>Erstellung eines individuellen Therapiekonzeptes anhand Ihrer Daten und Eingaben.</p></li></ul>"
 icon = "/uploads/2018/10/26/icon_anamese.png"
 nummer = 3
 titel = "Anamnese & Auswertung"

@@ -25,7 +25,7 @@ titel = "Ernährungsprotokoll ausfüllen"
 content = "<ul><li><p>Individuelle Anamneseerhebung mit Hilfe einer eigens für die Praxis entwickelten Software</p></li><li><p>Stoffwechselvermessung nach unterschiedlichen Messmethoden</p></li></ul>"
 icon = "/uploads/2018/10/26/icon_anamese.png"
 nummer = 3
-titel = "Anamese & Vermessung"
+titel = "Anamese"
 [[konzept.schritte]]
 content = "<ul><li><p>Persönliche Auswertung aller Befunde unter ärztlicher Besprechung und Erstellung eines Therapiekonzeptes</p></li></ul>"
 icon = "/uploads/2018/10/26/icon_auswertung.png"

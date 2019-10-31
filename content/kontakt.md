@@ -6,7 +6,7 @@ layout = "kontakt"
 titel_beratung = "Anmeldung Gesundheitsportal"
 titel_block_termin = "Termine vereinbaren"
 title = "Kontakt"
-untertitel = "Termine vereinbaren"
+untertitel = ""
 url_iframe_beratung = "https://puc.doc-cirrus.com/intime?prac=3167&tab=login&redirectTo=%252Fintime%252Fpatient%253Ftab%253Dpractices%2526prac%253D3167"
 [kontakt]
 content = "<p><strong>Körperkonzepte | Praxis für Ernährungsmedizin<br></strong>Leibnizstraße 56<br>10629 Berlin</p><p>Tel 030 - 88 92 20 - 55<br>Fax 030 - 88 92 20 - 65</p><p><a href=\"mailto:info@koerperkonzepte.com\" title=\"\">info@koerperkonzepte.com</a><br><a href=\"https://www.koerperkonzepte.com\" title=\"\">www.koerperkonzepte.com</a></p><p>Sprechzeiten:<br>Mo/Fr 8.00-15.00<br>Di/Do 11.00-18.00<br>Mi nach Vereinbarung</p><p>Haben Sie Fragen? Gern können Sie uns eine E-Mail schreiben.</p><p><a href=\"mailto:info@koerperkonzepte.com\" title=\"\"><em>E-Mail senden</em></a></p>"
